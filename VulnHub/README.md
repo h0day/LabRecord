@@ -1,7 +1,5 @@
 # Index
 
----
-
 ## Easy
 
 ### DriftingBlues: 1
@@ -28,7 +26,9 @@
 
 2024-4-13 https://www.vulnhub.com/entry/tr0ll-2,107/
 
----
+### Stapler: 1
+
+2024-4-14 https://www.vulnhub.com/entry/stapler-1,150/
 
 ## Medium
 
