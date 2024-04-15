@@ -52,4 +52,6 @@
 
 2024-4-13 https://www.vulnhub.com/entry/imf-1,162/
 
----
+### SkyTower: 1
+
+2024-4-15 https://www.vulnhub.com/entry/skytower-1,96/
