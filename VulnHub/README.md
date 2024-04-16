@@ -30,6 +30,10 @@
 
 2024-4-14 https://www.vulnhub.com/entry/stapler-1,150/
 
+### SickOs: 1.1
+
+2024-4-16 https://www.vulnhub.com/entry/sickos-11,132/
+
 ## Medium
 
 ### GoldenEye: 1
