@@ -34,6 +34,14 @@
 
 2024-4-16 https://www.vulnhub.com/entry/sickos-11,132/
 
+### SickOs: 1.2
+
+2024-4-17 https://www.vulnhub.com/entry/sickos-12,144/
+
+### VulnOS: 2
+
+2024-4-17 https://www.vulnhub.com/entry/vulnos-2,147/
+
 ## Medium
 
 ### GoldenEye: 1

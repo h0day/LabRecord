@@ -1,4 +1,4 @@
-# Lampião: 1
+# Lampiao: 1
 
 https://www.vulnhub.com/entry/lampiao-1,249/#release
 
