@@ -42,6 +42,18 @@
 
 2024-4-17 https://www.vulnhub.com/entry/vulnos-2,147/
 
+### FristiLeaks: 1.3
+
+2024-4-18 https://www.vulnhub.com/entry/fristileaks-13,133/
+
+### Brainpan: 1 <-- not finish
+
+2024-4-19 https://www.vulnhub.com/entry/brainpan-1,51/
+
+### PwnLab: init
+
+https://www.vulnhub.com/entry/pwnlab-init,158/
+
 ## Medium
 
 ### GoldenEye: 1
