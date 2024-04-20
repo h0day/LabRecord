@@ -52,7 +52,15 @@
 
 ### PwnLab: init
 
-https://www.vulnhub.com/entry/pwnlab-init,158/
+2024-4-19 https://www.vulnhub.com/entry/pwnlab-init,158/
+
+### HackLAB: Vulnix <-- not finish
+
+2024-4-20 https://www.vulnhub.com/entry/hacklab-vulnix,48/
+
+### Mr-Robot: 1
+
+2024-4-20 https://www.vulnhub.com/entry/mr-robot-1,151/
 
 ## Medium
 

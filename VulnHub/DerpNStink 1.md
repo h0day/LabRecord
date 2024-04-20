@@ -1,10 +1,8 @@
 # DerpNStink: 1
 
-https://www.vulnhub.com/entry/derpnstink-1,221/
+2024-4-12 https://www.vulnhub.com/entry/derpnstink-1,221/
 
 difficulty: Beginner
-
-Finish Date：2024-4-12
 
 ## IP
 
