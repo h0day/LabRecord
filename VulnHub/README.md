@@ -46,7 +46,7 @@
 
 2024-4-18 https://www.vulnhub.com/entry/fristileaks-13,133/
 
-### Brainpan: 1 <-- not finish
+### Brainpan: 1 <-- pwn not finish
 
 2024-4-19 https://www.vulnhub.com/entry/brainpan-1,51/
 
@@ -54,13 +54,25 @@
 
 2024-4-19 https://www.vulnhub.com/entry/pwnlab-init,158/
 
-### HackLAB: Vulnix <-- not finish
+### HackLAB: Vulnix
 
 2024-4-20 https://www.vulnhub.com/entry/hacklab-vulnix,48/
 
 ### Mr-Robot: 1
 
 2024-4-20 https://www.vulnhub.com/entry/mr-robot-1,151/
+
+### Lin.Security: 1
+
+2024-4-22 https://www.vulnhub.com/entry/linsecurity-1,244/
+
+### MinU: 1 <-- 网络有问题，not finish
+
+2024-4-22 https://www.vulnhub.com/entry/minu-1,235/
+
+### pWnOS: 2.0 (Pre-Release)
+
+2024-4-22 https://www.vulnhub.com/entry/pwnos-20-pre-release,34/
 
 ## Medium
 
@@ -87,3 +99,7 @@
 ### SkyTower: 1
 
 2024-4-15 https://www.vulnhub.com/entry/skytower-1,96/
+
+### Wakanda: 1
+
+2024-4-20 https://www.vulnhub.com/entry/wakanda-1,251/
