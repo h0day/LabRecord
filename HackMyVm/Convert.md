@@ -6,7 +6,7 @@ difficulty: Easy
 
 ## ip
 
-192.168.5.14
+192.168.5.21
 
 ## scan
 
@@ -24,3 +24,15 @@ PORT   STATE SERVICE VERSION
 ```
 
 22 端口上不允许匿名登陆，看看 80 web 上有什么信息：http://192.168.5.11/ 显示了一个网页转化为 pdf 的网站，根据经验，可能存在 SSRF 漏洞。
+
+重点来看这个 html to pdf 的功能，把自己转换出来的 pdf 保存在 kali 上，然后查看 pdf 详细信息：
+
+```
+pdfinfo 1111.pdf
+
+Producer:        dompdf 1.2.0 + CPDF
+CreationDate:    Sun Apr 28 11:03:52 2024 CST
+ModDate:         Sun Apr 28 11:03:52 2024 CST
+```
+
+看到是 dompdf 1.2.0 转换生成的，经过搜索，这个 pdf 转换库，存在 RCE 漏洞 51270.py

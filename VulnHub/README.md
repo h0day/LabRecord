@@ -111,3 +111,15 @@
 ### MinU: 1
 
 2024-4-27 https://www.vulnhub.com/entry/minu-1,235/
+
+# zico2: 1
+
+2024-4-28 https://www.vulnhub.com/entry/zico2-1,210/
+
+# Pinky's Palace: v1 <-- pwn not finish
+
+2024-4-29 https://www.vulnhub.com/entry/pinkys-palace-v1,225/
+
+# Pinky's Palace: v2 <-- pwn not finish
+
+2024-4-29 https://www.vulnhub.com/entry/pinkys-palace-v2,229/
