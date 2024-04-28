@@ -66,10 +66,6 @@
 
 2024-4-22 https://www.vulnhub.com/entry/linsecurity-1,244/
 
-### MinU: 1 <-- 网络有问题，not finish
-
-2024-4-22 https://www.vulnhub.com/entry/minu-1,235/
-
 ### pWnOS: 2.0 (Pre-Release)
 
 2024-4-22 https://www.vulnhub.com/entry/pwnos-20-pre-release,34/
@@ -103,3 +99,15 @@
 ### Wakanda: 1
 
 2024-4-20 https://www.vulnhub.com/entry/wakanda-1,251/
+
+### pWnOS: 1.0
+
+2024-4-24 https://www.vulnhub.com/entry/pwnos-10,33/
+
+### Temple of Doom: 1
+
+2024-4-27 https://www.vulnhub.com/entry/temple-of-doom-1,243/
+
+### MinU: 1
+
+2024-4-27 https://www.vulnhub.com/entry/minu-1,235/
