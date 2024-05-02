@@ -1,6 +1,6 @@
 # Pinky's Palace: v1
 
-2024-4-29 https://www.vulnhub.com/entry/pinkys-palace-v1,225/
+2024-5-x https://www.vulnhub.com/entry/pinkys-palace-v1,225/
 
 difficulty: Easy/Intermediate
 

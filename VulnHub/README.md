@@ -70,6 +70,14 @@
 
 2024-4-22 https://www.vulnhub.com/entry/pwnos-20-pre-release,34/
 
+### Jarbas: 1
+
+2024-5-1 https://www.vulnhub.com/entry/jarbas-1,232/
+
+### Web Developer: 1
+
+2024-5-1 https://www.vulnhub.com/entry/web-developer-1,288/
+
 ## Medium
 
 ### GoldenEye: 1
@@ -112,14 +120,18 @@
 
 2024-4-27 https://www.vulnhub.com/entry/minu-1,235/
 
-# zico2: 1
+### zico2: 1
 
 2024-4-28 https://www.vulnhub.com/entry/zico2-1,210/
 
-# Pinky's Palace: v1 <-- pwn not finish
+### Node: 1
 
-2024-4-29 https://www.vulnhub.com/entry/pinkys-palace-v1,225/
+2024-5-2 https://www.vulnhub.com/entry/node-1,252/
 
-# Pinky's Palace: v2 <-- pwn not finish
+### Pinky's Palace: v1 <-- not finish
 
-2024-4-29 https://www.vulnhub.com/entry/pinkys-palace-v2,229/
+2024-5-x https://www.vulnhub.com/entry/pinkys-palace-v1,225/
+
+### Pinky's Palace: v2 <-- not finish
+
+2024-5-x https://www.vulnhub.com/entry/pinkys-palace-v2,229/
