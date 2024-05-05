@@ -66,7 +66,7 @@
 
 2024-4-22 https://www.vulnhub.com/entry/linsecurity-1,244/
 
-### pWnOS: 2.0 (Pre-Release)
+### pWnOS: 2.0
 
 2024-4-22 https://www.vulnhub.com/entry/pwnos-20-pre-release,34/
 
@@ -132,10 +132,10 @@
 
 2024-5-5 https://www.vulnhub.com/entry/pinkys-palace-v2,229/
 
+### SpyderSec: Challenge
+
+2024-5-5 https://www.vulnhub.com/entry/spydersec-challenge,128/
+
 ### Pinky's Palace: v1 <-- not finish
 
 2024-5-x https://www.vulnhub.com/entry/pinkys-palace-v1,225/
-
-### SpyderSec: Challenge
-
-2024-5-x https://www.vulnhub.com/entry/spydersec-challenge,128/
