@@ -128,10 +128,14 @@
 
 2024-5-2 https://www.vulnhub.com/entry/node-1,252/
 
+### Pinky's Palace: v2
+
+2024-5-5 https://www.vulnhub.com/entry/pinkys-palace-v2,229/
+
 ### Pinky's Palace: v1 <-- not finish
 
 2024-5-x https://www.vulnhub.com/entry/pinkys-palace-v1,225/
 
-### Pinky's Palace: v2 <-- not finish
+### SpyderSec: Challenge
 
-2024-5-x https://www.vulnhub.com/entry/pinkys-palace-v2,229/
+2024-5-x https://www.vulnhub.com/entry/spydersec-challenge,128/

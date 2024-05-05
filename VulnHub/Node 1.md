@@ -1,6 +1,6 @@
 # Node: 1
 
-2024-5-1 https://www.vulnhub.com/entry/node-1,252/
+2024-5-2 https://www.vulnhub.com/entry/node-1,252/
 
 difficulty: medium
 
