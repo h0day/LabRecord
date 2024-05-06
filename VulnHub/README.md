@@ -138,4 +138,4 @@
 
 ### Pinky's Palace: v1 <-- not finish
 
-2024-5-x https://www.vulnhub.com/entry/pinkys-palace-v1,225/
+2024-5-6 https://www.vulnhub.com/entry/pinkys-palace-v1,225/
