@@ -136,6 +136,18 @@
 
 2024-5-5 https://www.vulnhub.com/entry/spydersec-challenge,128/
 
-### Pinky's Palace: v1 <-- not finish
+### Pinky's Palace: v1
 
 2024-5-6 https://www.vulnhub.com/entry/pinkys-palace-v1,225/
+
+### DC: 6
+
+2024-5-17 https://vulnhub.com/entry/dc-6,315/
+
+### BSides Vancouver: 2018 (Workshop)
+
+2024-5-17 https://vulnhub.com/entry/bsides-vancouver-2018-workshop,231/
+
+### MoneyHeist: Catch Us If You Can
+
+2024-5-17 https://vulnhub.com/entry/moneyheist-catch-us-if-you-can,605/
