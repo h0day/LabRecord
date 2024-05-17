@@ -78,6 +78,10 @@
 
 2024-5-1 https://www.vulnhub.com/entry/web-developer-1,288/
 
+### Funbox: Rookie
+
+2024-5-17 https://www.vulnhub.com/entry/funbox-2-rockie,520/
+
 ## Medium
 
 ### GoldenEye: 1
