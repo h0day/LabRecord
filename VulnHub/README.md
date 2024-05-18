@@ -86,6 +86,14 @@
 
 2024-5-17 https://www.vulnhub.com/entry/funbox-3,526/
 
+### Potato: 1
+
+2024-5-18 https://www.vulnhub.com/entry/potato-1,529/
+
+### Funbox: EasyEnum
+
+2024-5-18 https://www.vulnhub.com/entry/funbox-easyenum,565/
+
 ## Medium
 
 ### GoldenEye: 1
