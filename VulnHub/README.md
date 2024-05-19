@@ -110,6 +110,14 @@
 
 2024-5-19 https://www.vulnhub.com/entry/ha-natraj,489/
 
+### sunset: noontide
+
+2024-5-19 https://www.vulnhub.com/entry/sunset-noontide,531/
+
+### Monitoring: 1
+
+2024-5-19 https://www.vulnhub.com/entry/monitoring-1,555/
+
 ## Medium
 
 ### GoldenEye: 1
@@ -187,3 +195,7 @@
 ### BBS (cute): 1.0.2
 
 2024-5-19 https://www.vulnhub.com/entry/bbs-cute-101,567/
+
+### Katana: 1
+
+2024-5-19 https://www.vulnhub.com/entry/katana-1,482/
