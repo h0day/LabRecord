@@ -94,6 +94,22 @@
 
 2024-5-18 https://www.vulnhub.com/entry/funbox-easyenum,565/
 
+### Sumo: 1
+
+2024-5-18 https://www.vulnhub.com/entry/sumo-1,480/
+
+### CyberSploit: 1
+
+2024-5-18 https://www.vulnhub.com/entry/cybersploit-1,506/
+
+### InfoSec Prep: OSCP
+
+2024-5-18 https://www.vulnhub.com/entry/infosec-prep-oscp,508/
+
+### HA: Natraj
+
+2024-5-19 https://www.vulnhub.com/entry/ha-natraj,489/
+
 ## Medium
 
 ### GoldenEye: 1
@@ -167,3 +183,7 @@
 ### MoneyHeist: Catch Us If You Can
 
 2024-5-17 https://vulnhub.com/entry/moneyheist-catch-us-if-you-can,605/
+
+### BBS (cute): 1.0.2
+
+2024-5-19 https://www.vulnhub.com/entry/bbs-cute-101,567/
