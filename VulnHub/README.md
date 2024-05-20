@@ -118,6 +118,14 @@
 
 2024-5-19 https://www.vulnhub.com/entry/monitoring-1,555/
 
+### sunset: dawn
+
+2024-5-20 https://www.vulnhub.com/entry/sunset-dawn,341/
+
+### inclusiveness: 1
+
+2024-5-20 https://www.vulnhub.com/entry/inclusiveness-1,422/
+
 ## Medium
 
 ### GoldenEye: 1
@@ -199,3 +207,7 @@
 ### Katana: 1
 
 2024-5-19 https://www.vulnhub.com/entry/katana-1,482/
+
+### So Simple: 1
+
+2024-5-20 https://www.vulnhub.com/entry/so-simple-1,515/
