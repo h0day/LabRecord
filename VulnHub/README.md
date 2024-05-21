@@ -130,6 +130,14 @@
 
 2024-5-20 https://www.vulnhub.com/entry/sar-1,425/
 
+### Gaara: 1
+
+2024-5-21 https://www.vulnhub.com/entry/gaara-1,629/
+
+### Vegeta: 1
+
+2024-5-21 https://www.vulnhub.com/entry/vegeta-1,501/
+
 ## Medium
 
 ### GoldenEye: 1
@@ -215,3 +223,7 @@
 ### So Simple: 1
 
 2024-5-20 https://www.vulnhub.com/entry/so-simple-1,515/
+
+### sunset: solstice
+
+2024-5-21 https://www.vulnhub.com/entry/sunset-solstice,499/
