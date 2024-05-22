@@ -235,3 +235,7 @@
 ### BTRSys: v2.1
 
 2024-5-22 https://www.vulnhub.com/entry/btrsys-v21,196/
+
+### Photographer: 1
+
+2024-5-22 https://www.vulnhub.com/entry/photographer-1,519/
