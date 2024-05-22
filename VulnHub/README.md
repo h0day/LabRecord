@@ -138,6 +138,10 @@
 
 2024-5-21 https://www.vulnhub.com/entry/vegeta-1,501/
 
+### Loly: 1
+
+2024-5-22 https://www.vulnhub.com/entry/loly-1,538/
+
 ## Medium
 
 ### GoldenEye: 1
@@ -227,3 +231,7 @@
 ### sunset: solstice
 
 2024-5-21 https://www.vulnhub.com/entry/sunset-solstice,499/
+
+### BTRSys: v2.1
+
+2024-5-22 https://www.vulnhub.com/entry/btrsys-v21,196/
