@@ -239,3 +239,7 @@
 ### Photographer: 1
 
 2024-5-22 https://www.vulnhub.com/entry/photographer-1,519/
+
+### sunset: decoy
+
+2024-5-22 https://www.vulnhub.com/entry/sunset-decoy,505/
