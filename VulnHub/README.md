@@ -142,6 +142,10 @@
 
 2024-5-22 https://www.vulnhub.com/entry/loly-1,538/
 
+### pyexp: 1
+
+2024-5-22 https://www.vulnhub.com/entry/pyexp-1,534/
+
 ## Medium
 
 ### GoldenEye: 1
@@ -243,3 +247,7 @@
 ### sunset: decoy
 
 2024-5-22 https://www.vulnhub.com/entry/sunset-decoy,505/
+
+### Seppuku: 1
+
+2024-5-22 https://www.vulnhub.com/entry/seppuku-1,484/
