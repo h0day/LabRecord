@@ -150,6 +150,10 @@
 
 2024-5-23 https://www.vulnhub.com/entry/funbox-1,518/
 
+### Pwned: 1
+
+2024-5-23 https://www.vulnhub.com/entry/pwnlab-1,507/
+
 ## Medium
 
 ### GoldenEye: 1
