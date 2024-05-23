@@ -146,6 +146,10 @@
 
 2024-5-22 https://www.vulnhub.com/entry/pyexp-1,534/
 
+### Funbox: 1
+
+2024-5-23 https://www.vulnhub.com/entry/funbox-1,518/
+
 ## Medium
 
 ### GoldenEye: 1
