@@ -154,6 +154,30 @@
 
 2024-5-23 https://www.vulnhub.com/entry/pwnlab-1,507/
 
+### DriftingBlues: 6
+
+2024-5-24 https://www.vulnhub.com/entry/driftingblues-6,672/
+
+### EvilBox: One
+
+2024-5-24 https://www.vulnhub.com/entry/evilbox-one,736/
+
+### MoneyBox: 1
+
+2024-5-24 https://www.vulnhub.com/entry/moneybox-1,653/
+
+### ICMP: 1
+
+2024-5-24 https://www.vulnhub.com/entry/icmp-1,633/
+
+### Empire: Breakout
+
+2024-5-24 https://www.vulnhub.com/entry/empire-breakout,751/
+
+### blogger: 1
+
+2024-5-25 https://www.vulnhub.com/entry/blogger-1,675/
+
 ## Medium
 
 ### GoldenEye: 1
@@ -259,3 +283,11 @@
 ### Seppuku: 1
 
 2024-5-22 https://www.vulnhub.com/entry/seppuku-1,484/
+
+### Assertion: 1.0.1
+
+2024-5-25 https://www.vulnhub.com/entry/assertion-1,495/
+
+### eLection: 1
+
+2024-5-25 https://www.vulnhub.com/entry/election-1,503/
