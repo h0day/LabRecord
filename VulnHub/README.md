@@ -178,6 +178,10 @@
 
 2024-5-25 https://www.vulnhub.com/entry/blogger-1,675/
 
+### DC: 1
+
+2024-5-27 https://www.vulnhub.com/entry/dc-1,292/
+
 ## Medium
 
 ### GoldenEye: 1
