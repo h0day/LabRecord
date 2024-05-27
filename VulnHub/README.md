@@ -291,3 +291,19 @@
 ### eLection: 1
 
 2024-5-25 https://www.vulnhub.com/entry/election-1,503/
+
+### Tre: 1
+
+2024-5-25 https://www.vulnhub.com/entry/tre-1,483/
+
+### sunset: midnight
+
+2024-5-27 https://www.vulnhub.com/entry/sunset-midnight,517/
+
+### My CMSMS: 1
+
+2024-5-27 https://www.vulnhub.com/entry/my-cmsms-1,498/
+
+### haclabs: no_name
+
+2024-5-27 https://www.vulnhub.com/entry/haclabs-no_name,429/
