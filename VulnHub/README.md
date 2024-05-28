@@ -182,6 +182,14 @@
 
 2024-5-27 https://www.vulnhub.com/entry/dc-1,292/
 
+### DC: 2
+
+2024-5-28 https://www.vulnhub.com/entry/dc-2,311/
+
+### DC: 9
+
+2024-5-28 https://www.vulnhub.com/entry/dc-9,412/
+
 ## Medium
 
 ### GoldenEye: 1
@@ -311,3 +319,7 @@
 ### haclabs: no_name
 
 2024-5-27 https://www.vulnhub.com/entry/haclabs-no_name,429/
+
+### DC: 4
+
+2024-5-28 https://www.vulnhub.com/entry/dc-4,313/
