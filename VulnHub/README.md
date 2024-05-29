@@ -190,6 +190,18 @@
 
 2024-5-28 https://www.vulnhub.com/entry/dc-9,412/
 
+### OnSystemShellDredd
+
+2024-5-28 https://www.vulnhub.com/entry/onsystem-shelldredd-1-hannah,545/
+
+### Shakabrah
+
+2024-5-28 https://portal.offsec.com/labs/play
+
+### Amaterasu
+
+2024-5-29 https://portal.offsec.com/labs/play
+
 ## Medium
 
 ### GoldenEye: 1
@@ -323,3 +335,17 @@
 ### DC: 4
 
 2024-5-28 https://www.vulnhub.com/entry/dc-4,313/
+
+## Hard
+
+### Insanity: 1 <-- pwn not finish
+
+2024-5-x https://www.vulnhub.com/entry/insanity-1,536/
+
+### djinn: 3 <-- pwn not finish
+
+2024-5-x https://www.vulnhub.com/entry/djinn-3,492/
+
+### Glasgow Smile: 1.1 <-- pwn not finish
+
+2024-5-x https://www.vulnhub.com/entry/glasgow-smile-11,491/
