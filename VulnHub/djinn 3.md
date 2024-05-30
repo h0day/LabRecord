@@ -14,17 +14,18 @@ Open Port -> 22,80,5000,31337
 
 ```
 PORT      STATE SERVICE VERSION
+PORT      STATE SERVICE VERSION
 22/tcp    open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
 | ssh-hostkey:
 |   2048 e64423acb2d982e79058155e4023ed65 (RSA)
 |   256 ae04856ecb104f554aad969ef2ce184f (ECDSA)
 |_  256 f708561997b5031018667e7d2e0a4742 (ED25519)
 80/tcp    open  http    lighttpd 1.4.45
-|_http-title: Custom-ers
 |_http-server-header: lighttpd/1.4.45
+|_http-title: Custom-ers
 5000/tcp  open  http    Werkzeug httpd 1.0.1 (Python 3.6.9)
-|_http-title: Site doesn't have a title (text/html; charset=utf-8).
 |_http-server-header: Werkzeug/1.0.1 Python/3.6.9
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
 31337/tcp open  Elite?
 | fingerprint-strings:
 |   DNSStatusRequestTCP, DNSVersionBindReqTCP, NULL:
@@ -70,7 +71,7 @@ gobuster -t 64 dir -u http://192.168.5.29/ -k -w /usr/share/wordlists/dirbuster/
 
 什么都没扫出来，80 是个 html 静态页面。
 
-看看 5000 端口的服务，显示了一个数据列表，显示了一些系统修复的信息。打开那几个连接，得到了一些提示信息：
+看看 5000 端口的服务，是一个 python 搭建的服务 Werkzeug/1.0.1，显示了一个数据列表，显示了一些系统修复的信息。打开那几个连接，得到了一些提示信息：
 
 ```
 可能存在用户名 jason、david、freddy、umang、jack
@@ -86,4 +87,10 @@ RLUI 团队
 用户可通过密码以及通过 API 密钥或令牌进行授权
 ```
 
-31337 是一个 tcp 服务，应该就是 5000 端口中说的票务系统，可以用 nc 进行连接，但是需要用户名和密码。
+http://192.168.5.29:5000/?id=8345 遍历一下这个 id 的值，看看会不会有其他重要信息泄露，从 1-20000 没发现什么信息，就只有那 6 个 id 对应的信息。
+
+http://192.168.5.29:5000/?id=8345 发现这个 id 的值会显示在页面中，有没有可能存在模板注入，尝试寻找。
+
+31337 是一个 tcp 服务，应该就是 5000 端口中说的票务系统，可以用 nc 进行连接，但是需要用户名和密码。经过探测使用的是 python 搭建的。
+
+前面发现了肯能存在的几个用户名: jason、david、freddy、umang、jack
