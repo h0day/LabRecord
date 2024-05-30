@@ -336,6 +336,10 @@
 
 2024-5-28 https://www.vulnhub.com/entry/dc-4,313/
 
+### Glasgow Smile: 1.1
+
+2024-5-30 https://www.vulnhub.com/entry/glasgow-smile-11,491/
+
 ## Hard
 
 ### Insanity: 1 <-- pwn not finish
@@ -345,7 +349,3 @@
 ### djinn: 3 <-- pwn not finish
 
 2024-5-x https://www.vulnhub.com/entry/djinn-3,492/
-
-### Glasgow Smile: 1.1 <-- pwn not finish
-
-2024-5-x https://www.vulnhub.com/entry/glasgow-smile-11,491/
