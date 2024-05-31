@@ -348,4 +348,4 @@
 
 ### Insanity: 1 <-- pwn not finish
 
-2024-5-x https://www.vulnhub.com/entry/insanity-1,536/
+2024-5-31 https://www.vulnhub.com/entry/insanity-1,536/
