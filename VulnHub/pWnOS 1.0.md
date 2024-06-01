@@ -186,7 +186,7 @@ uid=0(root) gid=0(root) groups=4(adm),20(dialout),24(cdrom),25(floppy),29(audio)
 
 最后看下，为什么文件包含那里不能直接包含.pl 的脚本，查看 webmin 的配置文件 /etc/webmin/miniserv.conf ，看到其中有一行 denyfile=\.pl$ ，估计是这里导致包含.pl 文件时，出现了：Error - Access denied to，那能否包含其他后缀的文件，如.txt ，进行尝试，发现.txt 的文件直接是显示的文件内容，没有对 pl 代码进行解析。所以只能把 shell 文件的后缀名改为.cgi。
 
-目标靶机的 base 版本较低，小于 4.3 的可能存在 ShellShock 漏洞，让我们进行测试看是否存在：
+目标靶机的 base 版本较低，小于 `4.3` 的可能存在 ShellShock 漏洞，让我们进行测试看是否存在：
 
 ```
 vmware@ubuntuvm:~$ env x='() { :; }; echo "VULNERABLE TO SHELLSHOCK"' bash -c date
