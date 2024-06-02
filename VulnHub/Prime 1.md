@@ -411,3 +411,11 @@ system("/bin/cp /root/key.txt /home/saket/key.txt");
 return 0;
 }
 ```
+
+看看 undefeated_victor 的内容：
+
+```
+rootbash-4.3# strings undefeated_victor
+echo  "if you can defeat me then challenge me in front of you";
+/tmp/challenge
+```
