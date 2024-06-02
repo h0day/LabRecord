@@ -336,6 +336,10 @@
 
 2024-5-28 https://www.vulnhub.com/entry/dc-4,313/
 
+### Prime: 1
+
+2024-6-2 https://www.vulnhub.com/entry/prime-1,358/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
