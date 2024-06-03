@@ -202,6 +202,10 @@
 
 2024-5-29 https://portal.offsec.com/labs/play
 
+### LAMPSecurity：CTF5
+
+2024-6-3 https://www.vulnhub.com/entry/lampsecurity-ctf5,84/
+
 ## Medium
 
 ### GoldenEye: 1
