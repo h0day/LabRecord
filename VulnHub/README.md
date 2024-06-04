@@ -210,6 +210,10 @@
 
 2024-6-4 https://www.vulnhub.com/entry/lampsecurity-ctf4,83/
 
+### Hackademic: RTB1
+
+2024-6-4 https://www.vulnhub.com/entry/hackademic-rtb1,17/
+
 ## Medium
 
 ### GoldenEye: 1

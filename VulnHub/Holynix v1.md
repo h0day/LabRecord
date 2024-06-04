@@ -1,12 +1,12 @@
-# Holynix：v1
+# LAMPSecurity: CTF7
 
-2024-6-4 https://www.vulnhub.com/entry/holynix-v1,20/
+2024-6-4 https://www.vulnhub.com/entry/lampsecurity-ctf7,86/
 
 difficulty: easy
 
 ## IP
 
-192.168.10.190
+192.168.10.200
 
 ## Scan
 
