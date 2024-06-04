@@ -206,6 +206,10 @@
 
 2024-6-3 https://www.vulnhub.com/entry/lampsecurity-ctf5,84/
 
+### LAMPSecurity: CTF4
+
+2024-6-4 https://www.vulnhub.com/entry/lampsecurity-ctf4,83/
+
 ## Medium
 
 ### GoldenEye: 1
