@@ -60,7 +60,7 @@ create table comment (comment_id int not null auto_increment primary key, commen
 
 http://192.168.10.191/admin/ 发现登陆页面，需要输入用户凭据。底部看到的是 webmaster 的 cms,经过查询找到了 2 个 Password Disclosure 但是都没有利用成功，估计是把 passwd txt 文件删除了。
 
-在仔细看看 80 对应的首页内容，看到 http://192.168.10.191/index.html?page=blog&title=Blog&id=2 这里可能存在 sql 注入，尝试用 sqlmap 进行测试，发现存在：
+在仔细看看 80 对应的首页内容，看到 http://192.168.10.191/index.html?page=blog&title=Blog&id=2' 出现报错， 这里可能存在 sql 注入，尝试用 sqlmap 进行测试，发现存在：
 
 ```
 sqlmap -u 'http://192.168.10.191/index.html?page=blog&title=Blog&id=2' --level 3 -dbs --batch
