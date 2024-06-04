@@ -1,6 +1,6 @@
-# LAMPSecurity: CTF7
+# Holynix：v1
 
-2024-6-4 https://www.vulnhub.com/entry/lampsecurity-ctf7,86/
+2024-6-4 https://www.vulnhub.com/entry/holynix-v1,20/
 
 difficulty: easy
 
