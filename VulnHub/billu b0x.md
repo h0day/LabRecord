@@ -1,6 +1,6 @@
 # billu: b0x
 
-2024-6-5 https://www.vulnhub.com/entry/billu-b0x,188/
+2024-6-6 https://www.vulnhub.com/entry/billu-b0x,188/
 
 difficulty: medium
 
