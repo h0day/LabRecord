@@ -360,6 +360,10 @@
 
 2024-6-2 https://www.vulnhub.com/entry/prime-1,358/
 
+### billu: b0x
+
+2024-6-6 https://www.vulnhub.com/entry/billu-b0x,188/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
