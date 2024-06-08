@@ -364,6 +364,10 @@
 
 2024-6-6 https://www.vulnhub.com/entry/billu-b0x,188/
 
+### Kioptrix: Level 1.2 (#3)
+
+2024-6-8 https://www.vulnhub.com/entry/kioptrix-level-12-3,24/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
