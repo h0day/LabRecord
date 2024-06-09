@@ -226,6 +226,10 @@
 
 2024-6-9 https://www.vulnhub.com/entry/sectalks-bne0x03-simple,141/
 
+### FourAndSix: 2.01
+
+2024-6-9 https://www.vulnhub.com/entry/fourandsix-201,266/
+
 ## Medium
 
 ### GoldenEye: 1
