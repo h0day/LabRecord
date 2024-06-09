@@ -222,6 +222,10 @@
 
 2024-6-5 https://www.vulnhub.com/entry/holynix-v1,20/
 
+### SecTalks: BNE0x03 - Simple
+
+2024-6-9 https://www.vulnhub.com/entry/sectalks-bne0x03-simple,141/
+
 ## Medium
 
 ### GoldenEye: 1
