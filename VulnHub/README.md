@@ -372,6 +372,10 @@
 
 2024-6-8 https://www.vulnhub.com/entry/kioptrix-level-12-3,24/
 
+### NullByte: 1
+
+2024-6-9 https://www.vulnhub.com/entry/nullbyte-1,126/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
