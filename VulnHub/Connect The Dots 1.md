@@ -172,6 +172,8 @@ norris@sirrom:/tmp/root$ cat root.txt
 
 其他提权到 root 的路径都没有找到，使用 linpeas 发现 /usr/lib/policykit-1/polkit-agent-helper-1，尝试用这个看看能不能提权到 root:
 
+https://learn.redhat.com/t5/Platform-Linux/Another-interesting-local-privilege-escalation-vulnerability/td-p/2872
+
 ```
 systemd-run --shell
 输入密码
