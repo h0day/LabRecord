@@ -380,6 +380,10 @@
 
 2024-6-9 https://www.vulnhub.com/entry/nullbyte-1,126/
 
+### HA：Narak
+
+2024-6-11 https://www.vulnhub.com/entry/ha-narak,569/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
