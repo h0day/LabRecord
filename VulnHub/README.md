@@ -230,6 +230,10 @@
 
 2024-6-9 https://www.vulnhub.com/entry/fourandsix-201,266/
 
+### Me and My Girlfriend: 1
+
+2024-6-11 https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/
+
 ## Medium
 
 ### GoldenEye: 1
