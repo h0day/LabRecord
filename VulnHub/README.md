@@ -234,6 +234,10 @@
 
 2024-6-11 https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/
 
+### Fowsniff: 1
+
+2024-6-11 https://www.vulnhub.com/entry/fowsniff-1,262/
+
 ## Medium
 
 ### GoldenEye: 1
