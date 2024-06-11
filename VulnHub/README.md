@@ -384,6 +384,10 @@
 
 2024-6-11 https://www.vulnhub.com/entry/ha-narak,569/
 
+### Connect The Dots: 1
+
+2024-6-11 https://www.vulnhub.com/entry/connect-the-dots-1,384/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
