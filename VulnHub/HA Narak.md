@@ -2,7 +2,7 @@
 
 2024-6-11 https://www.vulnhub.com/entry/ha-narak,569/
 
-difficulty: medius
+difficulty: medium
 
 ## IP
 
