@@ -246,6 +246,10 @@
 
 2024-6-12 https://www.vulnhub.com/entry/nyx-1,535/
 
+### Misdirection: 1
+
+2024-6-12 https://www.vulnhub.com/entry/misdirection-1,371/
+
 ## Medium
 
 ### GoldenEye: 1
