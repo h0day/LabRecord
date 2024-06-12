@@ -250,6 +250,10 @@
 
 2024-6-12 https://www.vulnhub.com/entry/misdirection-1,371/
 
+### dpwwn: 1
+
+2024-6-12 https://www.vulnhub.com/entry/dpwwn-1,342/
+
 ## Medium
 
 ### GoldenEye: 1
