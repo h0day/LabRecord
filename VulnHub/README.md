@@ -242,6 +242,10 @@
 
 2024-6-12 https://www.vulnhub.com/entry/the-planets-mercury,544/
 
+### Nyx: 1
+
+2024-6-12 https://www.vulnhub.com/entry/nyx-1,535/
+
 ## Medium
 
 ### GoldenEye: 1
