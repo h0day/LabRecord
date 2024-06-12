@@ -412,6 +412,10 @@
 
 2024-6-11 https://www.vulnhub.com/entry/connect-the-dots-1,384/
 
+### LazySysAdmin: 1
+
+2024-6-12 https://www.vulnhub.com/entry/lazysysadmin-1,205/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
