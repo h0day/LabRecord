@@ -238,6 +238,10 @@
 
 2024-6-11 https://www.vulnhub.com/entry/fowsniff-1,262/
 
+### The Planets: Mercury
+
+2024-6-12 https://www.vulnhub.com/entry/the-planets-mercury,544/
+
 ## Medium
 
 ### GoldenEye: 1
