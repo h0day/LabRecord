@@ -258,6 +258,10 @@
 
 2024-6-13 https://www.vulnhub.com/entry/mhz_cxf-c1f,471/
 
+### bossplayersCTF: 1
+
+2024-6-13 https://www.vulnhub.com/entry/bossplayersctf-1,375/
+
 ## Medium
 
 ### GoldenEye: 1
