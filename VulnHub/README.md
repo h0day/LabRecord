@@ -424,6 +424,10 @@
 
 2024-6-12 https://www.vulnhub.com/entry/lazysysadmin-1,205/
 
+### WestWild: 1.1
+
+2024-6-13 https://www.vulnhub.com/entry/westwild-11,338/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
