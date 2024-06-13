@@ -262,6 +262,10 @@
 
 2024-6-13 https://www.vulnhub.com/entry/bossplayersctf-1,375/
 
+### Broken: Gallery
+
+2024-6-13 https://www.vulnhub.com/entry/broken-gallery,344/
+
 ## Medium
 
 ### GoldenEye: 1
