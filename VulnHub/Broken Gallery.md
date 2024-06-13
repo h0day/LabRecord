@@ -53,7 +53,7 @@ avrahamcohen.ac@gmail.com
 
 gobuster 目录爆破也没什么信息，只有看看那 4 个图片有没有隐写信息了，结果没有隐写。
 
-试试 ssh 的暴力破解吧，没有其他的攻击面了，使用 rockyou 字典进行破解，用户名使用前面得到的 bob 和 avrahamcohen，还有几个图片的命名也比较奇怪，5terre forest lights mountains gallery BROKEN broken 能得到的字符全部加进去。
+试试 ssh 的暴力破解吧，没有其他的攻击面了，先使用用户名和密码是同样的字典，如果学在使用 rockyou 字典进行破解，用户名使用前面得到的 bob 和 avrahamcohen，还有几个图片的命名也比较奇怪，5terre forest lights mountains gallery BROKEN broken 能得到的字符全部加进去(broken 一直在强调)。
 
 最后爆破得到 broken:broken 这个 ssh 凭据，进行登陆。
 
