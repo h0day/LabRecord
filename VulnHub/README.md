@@ -432,6 +432,10 @@
 
 2024-6-13 https://www.vulnhub.com/entry/westwild-11,338/
 
+### CK: 03
+
+2024-6-13 https://www.vulnhub.com/entry/ck-03,464/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
