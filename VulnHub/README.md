@@ -254,6 +254,10 @@
 
 2024-6-12 https://www.vulnhub.com/entry/dpwwn-1,342/
 
+### mhz_cxf: c1f
+
+2024-6-13 https://www.vulnhub.com/entry/mhz_cxf-c1f,471/
+
 ## Medium
 
 ### GoldenEye: 1
