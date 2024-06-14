@@ -266,6 +266,10 @@
 
 2024-6-13 https://www.vulnhub.com/entry/broken-gallery,344/
 
+### Dr4g0n b4ll: 1
+
+2024-6-14 https://www.vulnhub.com/entry/dr4g0n-b4ll-1,646/
+
 ## Medium
 
 ### GoldenEye: 1
