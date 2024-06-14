@@ -432,7 +432,7 @@
 
 2024-6-13 https://www.vulnhub.com/entry/westwild-11,338/
 
-### CK: 03
+### CK: 03 (MyFileServer_3)
 
 2024-6-13 https://www.vulnhub.com/entry/ck-03,464/
 
