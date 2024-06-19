@@ -11,3 +11,5 @@
 ## TryHackMe
 
 ## HackTheBox
+
+## Wargames
