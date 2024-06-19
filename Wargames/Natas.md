@@ -325,7 +325,7 @@ for i in range(1, 33):
 print(final)
 ```
 
-要稍微等待一段时间爆破密码
+要稍微等待一段时间爆破密码.
 
 Username: natas16 Password: hPkjKYviLQctEW33QmuXL6eDVfMW4sGo
 
@@ -336,6 +336,10 @@ URL: http://natas16.natas.labs.overthewire.org
 ```
 
 ```
+
+Username: natas17 Password: hPkjKYviLQctEW33QmuXL6eDVfMW4sGo
+
+URL: http://natas17.natas.labs.overthewire.org
 
 ## Level 17
 
