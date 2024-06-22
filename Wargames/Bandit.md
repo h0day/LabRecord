@@ -1,4 +1,4 @@
-# Bandit
+# Bandit 2024.06.18
 
 ## Level 0
 
