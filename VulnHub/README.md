@@ -440,6 +440,10 @@
 
 2024-6-13 https://www.vulnhub.com/entry/ck-03,464/
 
+### Pinky's Palace: v3 <-- pwn not finish
+
+2024-7-10 https://www.vulnhub.com/entry/pinkys-palace-v3,237/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
