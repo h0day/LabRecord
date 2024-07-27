@@ -1,6 +1,6 @@
 # SolidState: 1
 
-2024-6-20 https://www.vulnhub.com/entry/solidstate-1,261/
+2024-7-x https://www.vulnhub.com/entry/solidstate-1,261/
 
 difficulty: begginer-intermediate
 
@@ -10,7 +10,7 @@ difficulty: begginer-intermediate
 
 ## Scan
 
-Open Port -> 22,80,4555
+Open Port -> 22,25,80,110,119,4555
 
 ```
 PORT     STATE SERVICE VERSION

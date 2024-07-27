@@ -1,6 +1,6 @@
 # Wallaby's: Nightmare (v1.0.2)
 
-2024-6-20 https://www.vulnhub.com/entry/wallabys-nightmare-v102,176/
+2024-7-x https://www.vulnhub.com/entry/wallabys-nightmare-v102,176/
 
 difficulty: begginer-intermediate
 
