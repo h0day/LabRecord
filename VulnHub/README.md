@@ -270,7 +270,7 @@
 
 2024-6-14 https://www.vulnhub.com/entry/dr4g0n-b4ll-1,646/
 
-# ESCALATE_LINUX: 1
+### ESCALATE_LINUX: 1
 
 2024-7-27 https://www.vulnhub.com/entry/escalate_linux-1,323/
 
