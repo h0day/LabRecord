@@ -448,6 +448,10 @@
 
 2024-7-10 https://www.vulnhub.com/entry/pinkys-palace-v3,237/
 
+### BILLY MADISON: 1.1
+
+2024-7-30 https://www.vulnhub.com/entry/billy-madison-11,161/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
