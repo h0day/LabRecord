@@ -1,6 +1,6 @@
 # SolidState: 1
 
-2024-7-x https://www.vulnhub.com/entry/solidstate-1,261/
+2024-8-x https://www.vulnhub.com/entry/solidstate-1,261/
 
 difficulty: begginer-intermediate
 

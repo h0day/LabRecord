@@ -1,6 +1,6 @@
 # Vulnerable Docker: 1
 
-2024-7-x https://www.vulnhub.com/entry/vulnerable-docker-1,208/
+2024-8-x https://www.vulnhub.com/entry/vulnerable-docker-1,208/
 
 difficulty: begginer-intermediate
 
