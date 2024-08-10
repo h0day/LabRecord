@@ -460,6 +460,10 @@
 
 2024-7-31 https://www.vulnhub.com/entry/vulnerable-docker-1,208/
 
+### SolidState: 1
+
+2024-8-10 https://www.vulnhub.com/entry/solidstate-1,261/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
