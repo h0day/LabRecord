@@ -464,6 +464,10 @@
 
 2024-8-10 https://www.vulnhub.com/entry/solidstate-1,261/
 
+### Wallaby's: Nightmare (v1.0.2)
+
+2024-8-10 https://www.vulnhub.com/entry/wallabys-nightmare-v102,176/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
