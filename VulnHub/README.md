@@ -472,6 +472,10 @@
 
 2024-8-10 https://www.vulnhub.com/entry/wallabys-nightmare-v102,176/
 
+### Moria: 1.1
+
+2024-8-11 https://www.vulnhub.com/entry/moria-11,187/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
