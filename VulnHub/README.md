@@ -274,6 +274,10 @@
 
 2024-7-27 https://www.vulnhub.com/entry/escalate_linux-1,323/
 
+### DEFCON Toronto: Galahad
+
+2024-8-11 https://www.vulnhub.com/entry/defcon-toronto-galahad,194/
+
 ## Medium
 
 ### GoldenEye: 1
