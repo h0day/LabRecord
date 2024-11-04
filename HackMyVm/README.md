@@ -20,6 +20,8 @@
 
 (9) 2024-11-04 https://hackmyvm.eu/machines/machine.php?vm=Hommie
 
+(10) 2024-11-04 https://hackmyvm.eu/machines/machine.php?vm=Alzheimer
+
 ## Medium
 
 ## Hard
