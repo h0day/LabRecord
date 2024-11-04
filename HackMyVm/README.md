@@ -12,6 +12,8 @@
 
 (5) 2024-11-04 https://hackmyvm.eu/machines/machine.php?vm=Gift
 
+(6) 2024-11-04 https://hackmyvm.eu/machines/machine.php?vm=Art
+
 ## Medium
 
 ## Hard
