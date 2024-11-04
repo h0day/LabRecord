@@ -2,13 +2,11 @@
 
 https://hackmyvm.eu/machines/machine.php?vm=Convert
 
-difficulty: Easy
-
-## ip
+## Ip
 
 192.168.5.21
 
-## scan
+## Scan
 
 Open Port -> 22,80
 

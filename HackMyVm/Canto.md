@@ -2,8 +2,6 @@
 
 2024-11-02 https://hackmyvm.eu/machines/machine.php?vm=Canto
 
-difficulty: Easy
-
 ## IP
 
 192.168.5.40

@@ -2,8 +2,6 @@
 
 2024-11-03 https://hackmyvm.eu/machines/machine.php?vm=Icecream
 
-difficulty: Easy
-
 ## IP
 
 192.168.5.40
