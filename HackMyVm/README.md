@@ -16,6 +16,8 @@
 
 (7) 2024-11-04 https://hackmyvm.eu/machines/machine.php?vm=Connection
 
+(8) 2024-11-04 https://hackmyvm.eu/machines/machine.php?vm=BaseME
+
 ## Medium
 
 ## Hard
