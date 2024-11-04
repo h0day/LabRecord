@@ -95,3 +95,16 @@ www-data@quick:/home/andrew$ cat user.txt
   MMMMMM                            MMMMMM
   `MMMM'                            `MMMM'
 ```
+
+最后看看 index.php 中的 LFI 漏洞是怎么形成的：
+
+```
+<?php
+    if (isset($_GET['page'])) {
+        $page = $_GET['page'];
+    } else {
+        $page = 'home';
+    }
+    include($page . '.php');
+?>
+```
