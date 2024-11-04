@@ -10,6 +10,8 @@
 
 (4) 2024-11-04 https://hackmyvm.eu/machines/machine.php?vm=Quick
 
+(5) 2024-11-04 https://hackmyvm.eu/machines/machine.php?vm=Gift
+
 ## Medium
 
 ## Hard
