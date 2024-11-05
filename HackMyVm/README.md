@@ -22,6 +22,8 @@
 
 (10) 2024-11-04 https://hackmyvm.eu/machines/machine.php?vm=Alzheimer
 
+(11) 2024-11-05 https://hackmyvm.eu/machines/machine.php?vm=Twisted
+
 ## Medium
 
 ## Hard
