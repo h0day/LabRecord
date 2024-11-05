@@ -26,6 +26,8 @@
 
 (12) 2024-11-05 https://hackmyvm.eu/machines/machine.php?vm=Helium
 
+(13) 2024-11-05 https://hackmyvm.eu/machines/machine.php?vm=Vulny
+
 ## Medium
 
 ## Hard
