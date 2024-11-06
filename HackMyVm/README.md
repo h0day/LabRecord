@@ -32,6 +32,8 @@
 
 (15) 2024-11-06 https://hackmyvm.eu/machines/machine.php?vm=Webmaster
 
+(16) 2024-11-06 https://hackmyvm.eu/machines/machine.php?vm=Driftingblues3
+
 ## Medium
 
 ## Hard
