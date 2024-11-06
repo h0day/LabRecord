@@ -28,6 +28,10 @@
 
 (13) 2024-11-05 https://hackmyvm.eu/machines/machine.php?vm=Vulny
 
+(14) 2024-11-06 https://hackmyvm.eu/machines/machine.php?vm=Flower
+
+(15) 2024-11-06 https://hackmyvm.eu/machines/machine.php?vm=Webmaster
+
 ## Medium
 
 ## Hard
