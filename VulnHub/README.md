@@ -476,6 +476,10 @@
 
 2024-8-11 https://www.vulnhub.com/entry/moria-11,187/
 
+### TopHatSec: Freshly
+
+2024-11-6 https://www.vulnhub.com/entry/tophatsec-freshly,118/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
