@@ -480,6 +480,10 @@
 
 2024-11-6 https://www.vulnhub.com/entry/tophatsec-freshly,118/
 
+### Born2Root: 2
+
+2024-11-6 https://www.vulnhub.com/entry/born2root-2,291/
+
 ## Little Hard
 
 ### Glasgow Smile: 1.1
