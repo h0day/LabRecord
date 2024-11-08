@@ -38,6 +38,8 @@
 
 (18) 2024-11-08 https://hackmyvm.eu/machines/machine.php?vm=Locker
 
+(19) 2024-11-08 https://hackmyvm.eu/machines/machine.php?vm=Pwned
+
 ## Medium
 
 ## Hard
