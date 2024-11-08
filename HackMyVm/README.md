@@ -34,6 +34,8 @@
 
 (16) 2024-11-06 https://hackmyvm.eu/machines/machine.php?vm=Driftingblues3
 
+(17) 2024-11-08 https://hackmyvm.eu/machines/machine.php?vm=Gigachad
+
 ## Medium
 
 ## Hard
