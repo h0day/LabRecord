@@ -36,6 +36,8 @@
 
 (17) 2024-11-08 https://hackmyvm.eu/machines/machine.php?vm=Gigachad
 
+(18) 2024-11-08 https://hackmyvm.eu/machines/machine.php?vm=Locker
+
 ## Medium
 
 ## Hard
