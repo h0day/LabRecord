@@ -40,6 +40,8 @@
 
 (19) 2024-11-08 https://hackmyvm.eu/machines/machine.php?vm=Pwned
 
+(20) 2024-11-08 https://hackmyvm.eu/machines/machine.php?vm=Insomnia
+
 ## Medium
 
 ## Hard
