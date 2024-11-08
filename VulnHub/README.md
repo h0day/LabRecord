@@ -482,7 +482,7 @@
 
 ### Born2Root: 2
 
-2024-11-6 https://www.vulnhub.com/entry/born2root-2,291/
+2024-11-7 https://www.vulnhub.com/entry/born2root-2,291/
 
 ## Little Hard
 
