@@ -42,6 +42,8 @@
 
 (20) 2024-11-08 https://hackmyvm.eu/machines/machine.php?vm=Insomnia
 
+(21) 2024-11-09 https://hackmyvm.eu/machines/machine.php?vm=Talk
+
 ## Medium
 
 ## Hard
