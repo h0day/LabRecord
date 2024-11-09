@@ -44,6 +44,10 @@
 
 (21) 2024-11-09 https://hackmyvm.eu/machines/machine.php?vm=Talk
 
+(22) 2024-11-09 https://hackmyvm.eu/machines/machine.php?vm=Driftingblues5
+
+(23) 2024-11-09 https://hackmyvm.eu/machines/machine.php?vm=Crossroads
+
 ## Medium
 
 ## Hard
