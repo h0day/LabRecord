@@ -52,6 +52,8 @@
 
 (25) 2024-11-10 https://hackmyvm.eu/machines/machine.php?vm=Superhuman
 
+(26) 2024-11-10 https://hackmyvm.eu/machines/machine.php?vm=T800
+
 ## Medium
 
 ## Hard
