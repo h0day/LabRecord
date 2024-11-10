@@ -54,6 +54,8 @@
 
 (26) 2024-11-10 https://hackmyvm.eu/machines/machine.php?vm=T800
 
+(27) 2024-11-10 https://hackmyvm.eu/machines/machine.php?vm=Driftingblues6
+
 ## Medium
 
 ## Hard
