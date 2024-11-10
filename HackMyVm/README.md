@@ -50,6 +50,8 @@
 
 (24) 2024-11-10 https://hackmyvm.eu/machines/machine.php?vm=Faust
 
+(25) 2024-11-10 https://hackmyvm.eu/machines/machine.php?vm=Superhuman
+
 ## Medium
 
 ## Hard
