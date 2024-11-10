@@ -48,6 +48,8 @@
 
 (23) 2024-11-09 https://hackmyvm.eu/machines/machine.php?vm=Crossroads
 
+(24) 2024-11-10 https://hackmyvm.eu/machines/machine.php?vm=Faust
+
 ## Medium
 
 ## Hard
