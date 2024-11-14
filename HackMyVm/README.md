@@ -60,6 +60,8 @@
 
 (29) 2024-11-12 https://hackmyvm.eu/machines/machine.php?vm=Hidden
 
+(30) 2024-11-14 https://hackmyvm.eu/machines/machine.php?vm=Tron
+
 ## Medium
 
 ## Hard
