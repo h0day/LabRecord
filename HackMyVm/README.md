@@ -58,6 +58,8 @@
 
 (28) 2024-11-12 https://hackmyvm.eu/machines/machine.php?vm=Visions
 
+(29) 2024-11-12 https://hackmyvm.eu/machines/machine.php?vm=Hidden
+
 ## Medium
 
 ## Hard
