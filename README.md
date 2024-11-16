@@ -1,4 +1,4 @@
-# PentestLab-AllHere
+# PentestLab List
 
 ## [Wargames](./Wargames/)
 
