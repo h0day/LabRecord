@@ -62,6 +62,8 @@
 
 (30) 2024-11-14 https://hackmyvm.eu/machines/machine.php?vm=Tron
 
+(31) 2024-11-16 https://hackmyvm.eu/machines/machine.php?vm=Ripper
+
 ## Medium
 
 ## Hard
