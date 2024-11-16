@@ -1,4 +1,4 @@
-# Index
+# VulnHub List
 
 ## Easy
 
