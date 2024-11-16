@@ -64,7 +64,9 @@
 
 (31) 2024-11-16 [Ripper](./Ripper.md) --> https://hackmyvm.eu/machines/machine.php?vm=Ripper
 
-(32) 2024-11-16 [Driftingblues7](./Driftingblues7.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues7
+(32) 2024-11-16 [Beloved](./Beloved.md) --> https://hackmyvm.eu/machines/machine.php?vm=Beloved
+
+(33) 2024-11-16 [Driftingblues7](./Driftingblues7.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues7
 
 ## Medium
 
