@@ -1,15 +1,15 @@
 # PentestLab-AllHere
 
+## [Wargames](./Wargames/)
+
+## [Root-Me](./Root-Me/)
+
+## [TryHackMe](./Root-Me/)
+
+## [HackTheBox](./HackTheBox/)
+
 ## [VulnHub](./VulnHub/)
 
-## HackMyVm
+## [HackMyVm](./HackMyVm/)
 
-## VulNyx
-
-## Root-Me
-
-## TryHackMe
-
-## HackTheBox
-
-## Wargames
+## [VulNyx](./VulNyx/)
