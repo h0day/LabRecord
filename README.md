@@ -4,7 +4,7 @@
 
 ## [Root-Me](./Root-Me/)
 
-## [TryHackMe](./Root-Me/)
+## [TryHackMe](./TryHackMe/)
 
 ## [HackTheBox](./HackTheBox/)
 
