@@ -19,3 +19,5 @@ PORT     STATE SERVICE
 3306/tcp open  mysql
 8086/tcp open  d-s-n
 ```
+
+先看 80
