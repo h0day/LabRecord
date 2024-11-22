@@ -68,6 +68,18 @@
 
 (33) 2024-11-16 [Driftingblues7](./Driftingblues7.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues7
 
+(34) 2024-11-22 [Noob](./Noob.md) --> https://hackmyvm.eu/machines/machine.php?vm=Noob
+
+(35) 2024-11-22 [Doc](./Doc.md) --> https://hackmyvm.eu/machines/machine.php?vm=Doc
+
+(36) 2024-11-22 [Bah](./Bah.md) --> https://hackmyvm.eu/machines/machine.php?vm=Bah
+
+(3x) 2024-11-22 [Hundred](./Hundred.md) --> https://hackmyvm.eu/machines/machine.php?vm=Hundred
+
+(3x) 2024-11-22 [Driftingblues8](./Driftingblues8.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues8
+
+(3x) 2024-11-22 [Driftingblues9](./Driftingblues9.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues9
+
 ## Medium
 
 ## Hard
