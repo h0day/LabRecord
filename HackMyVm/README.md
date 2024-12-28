@@ -76,7 +76,7 @@
 
 (3x) 2024-12-x [Hundred](./Hundred.md) --> https://hackmyvm.eu/machines/machine.php?vm=Hundred
 
-(3x) 2024-12-x [Driftingblues8](./Driftingblues8.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues8
+(3x) 2024-12-28 [Driftingblues8](./Driftingblues8.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues8
 
 (3x) 2024-12-28 [Driftingblues9](./Driftingblues9.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues9
 
