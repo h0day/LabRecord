@@ -74,11 +74,11 @@
 
 (36) 2024-11-22 [Bah](./Bah.md) --> https://hackmyvm.eu/machines/machine.php?vm=Bah
 
-(3x) 2024-11-22 [Hundred](./Hundred.md) --> https://hackmyvm.eu/machines/machine.php?vm=Hundred
+(3x) 2024-12-x [Hundred](./Hundred.md) --> https://hackmyvm.eu/machines/machine.php?vm=Hundred
 
-(3x) 2024-11-22 [Driftingblues8](./Driftingblues8.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues8
+(3x) 2024-12-x [Driftingblues8](./Driftingblues8.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues8
 
-(3x) 2024-11-22 [Driftingblues9](./Driftingblues9.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues9
+(3x) 2024-12-x [Driftingblues9](./Driftingblues9.md) --> https://hackmyvm.eu/machines/machine.php?vm=Driftingblues9
 
 ## Medium
 
