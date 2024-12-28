@@ -1,6 +1,6 @@
 # Driftingblues8
 
-2024-11-22 https://hackmyvm.eu/machines/machine.php?vm=Driftingblues8
+2024-12-28 https://hackmyvm.eu/machines/machine.php?vm=Driftingblues8
 
 ## IP
 

