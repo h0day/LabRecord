@@ -84,6 +84,8 @@
 
 (41) 2024.12.29 [Stars](./Stars.md) --> https://hackmyvm.eu/machines/machine.php?vm=Stars
 
+(42) 2024.12.29 [Breakout](./Breakout.md) --> https://hackmyvm.eu/machines/machine.php?vm=Breakout
+
 ## Medium
 
 ## Hard
