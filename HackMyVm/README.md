@@ -82,6 +82,8 @@
 
 ->(40) 2024.12.28 [Convert](./Convert.md) --> https://hackmyvm.eu/machines/machine.php?vm=Convert
 
+(41) 2024.12.29 [Stars](./Stars.md) --> https://hackmyvm.eu/machines/machine.php?vm=Stars
+
 ## Medium
 
 ## Hard
