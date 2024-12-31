@@ -90,6 +90,8 @@
 
 (44) 2024.12.31 [Warez](./Warez.md) --> 2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Warez
 
+(45) 2024.12.31 [Method](./Method.md) --> 2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Method
+
 ## Medium
 
 ## Hard
