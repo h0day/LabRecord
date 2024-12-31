@@ -86,6 +86,8 @@
 
 (42) 2024.12.29 [Breakout](./Breakout.md) --> https://hackmyvm.eu/machines/machine.php?vm=Breakout
 
+(43) 2024.12.31 [Doubletrouble](./Doubletrouble.md) --> 2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Doubletrouble
+
 ## Medium
 
 ## Hard
