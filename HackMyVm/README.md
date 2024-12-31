@@ -88,6 +88,8 @@
 
 (43) 2024.12.31 [Doubletrouble](./Doubletrouble.md) --> 2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Doubletrouble
 
+(44) 2024.12.31 [Warez](./Warez.md) --> 2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Warez
+
 ## Medium
 
 ## Hard

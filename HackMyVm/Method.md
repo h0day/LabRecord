@@ -1,6 +1,6 @@
 # Method
 
-2024.12.29 https://hackmyvm.eu/machines/machine.php?vm=Method
+2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Method
 
 ## Ip
 

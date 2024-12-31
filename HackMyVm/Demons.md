@@ -1,6 +1,6 @@
 # Demons
 
-2024.12.29 https://hackmyvm.eu/machines/machine.php?vm=Demons
+2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Ip
 
@@ -17,4 +17,4 @@ PORT   STATE SERVICE
 
 ftp 可以匿名登陆，下载了一个 mdb 文件，先看看它里面有什么内容。
 
-80web 首页的源码中提示一个路径 /uryy
+80 web 首页的源码中提示一个路径 /uryy
