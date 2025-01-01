@@ -92,6 +92,8 @@
 
 (45) 2024.12.31 [Method](./Method.md) --> 2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Method
 
+(46) 2025.01.01 [Drippingblues](./Drippingblues.md) --> 2025.01.01 https://hackmyvm.eu/machines/machine.php?vm=Drippingblues
+
 ## Medium
 
 ## Hard
