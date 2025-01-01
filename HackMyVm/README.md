@@ -86,15 +86,17 @@
 
 (42) 2024.12.29 [Breakout](./Breakout.md) --> https://hackmyvm.eu/machines/machine.php?vm=Breakout
 
-(43) 2024.12.31 [Doubletrouble](./Doubletrouble.md) --> 2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Doubletrouble
+(43) 2024.12.31 [Doubletrouble](./Doubletrouble.md) --> https://hackmyvm.eu/machines/machine.php?vm=Doubletrouble
 
-(44) 2024.12.31 [Warez](./Warez.md) --> 2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Warez
+(44) 2024.12.31 [Warez](./Warez.md) --> https://hackmyvm.eu/machines/machine.php?vm=Warez
 
-(45) 2024.12.31 [Method](./Method.md) --> 2024.12.31 https://hackmyvm.eu/machines/machine.php?vm=Method
+(45) 2024.12.31 [Method](./Method.md) --> https://hackmyvm.eu/machines/machine.php?vm=Method
 
-(46) 2025.01.01 [Drippingblues](./Drippingblues.md) --> 2025.01.01 https://hackmyvm.eu/machines/machine.php?vm=Drippingblues
+(46) 2025.01.01 [Drippingblues](./Drippingblues.md) --> https://hackmyvm.eu/machines/machine.php?vm=Drippingblues
 
-(47) 2025.01.01 [Isengard](./Isengard.md) --> 2025.01.01 https://hackmyvm.eu/machines/machine.php?vm=Isengard
+(47) 2025.01.01 [Isengard](./Isengard.md) --> https://hackmyvm.eu/machines/machine.php?vm=Isengard
+
+(48) 2025.01.01 [Preload](./Preload.md) --> https://hackmyvm.eu/machines/machine.php?vm=Preload
 
 ## Medium
 
