@@ -94,6 +94,8 @@
 
 (46) 2025.01.01 [Drippingblues](./Drippingblues.md) --> 2025.01.01 https://hackmyvm.eu/machines/machine.php?vm=Drippingblues
 
+(47) 2025.01.01 [Isengard](./Isengard.md) --> 2025.01.01 https://hackmyvm.eu/machines/machine.php?vm=Isengard
+
 ## Medium
 
 ## Hard
