@@ -100,6 +100,8 @@
 
 (49) 2025.01.02 [Comingsoon](./Comingsoon.md) --> https://hackmyvm.eu/machines/machine.php?vm=Comingsoon
 
+(50) 2025.01.02 [Warrior](./Warrior.md) --> https://hackmyvm.eu/machines/machine.php?vm=Warrior
+
 ## Medium
 
 ## Hard
