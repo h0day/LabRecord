@@ -98,6 +98,8 @@
 
 (48) 2025.01.01 [Preload](./Preload.md) --> https://hackmyvm.eu/machines/machine.php?vm=Preload
 
+(49) 2025.01.02 [Comingsoon](./Comingsoon.md) --> https://hackmyvm.eu/machines/machine.php?vm=Comingsoon
+
 ## Medium
 
 ## Hard
