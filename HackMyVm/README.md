@@ -102,6 +102,8 @@
 
 (50) 2025.01.02 [Warrior](./Warrior.md) --> https://hackmyvm.eu/machines/machine.php?vm=Warrior
 
+(51) 2025.01.03 [University](./University.md) --> https://hackmyvm.eu/machines/machine.php?vm=University
+
 ## Medium
 
 ## Hard
