@@ -104,6 +104,8 @@
 
 (51) 2025.01.03 [University](./University.md) --> https://hackmyvm.eu/machines/machine.php?vm=University
 
+(52) 2025.01.03 [System](./System.md) --> https://hackmyvm.eu/machines/machine.php?vm=System
+
 ## Medium
 
 ## Hard
