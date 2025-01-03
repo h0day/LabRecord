@@ -106,6 +106,8 @@
 
 (52) 2025.01.03 [System](./System.md) --> https://hackmyvm.eu/machines/machine.php?vm=System
 
+(53) 2025.01.03 [Hostname](./Hostname.md) --> https://hackmyvm.eu/machines/machine.php?vm=Hostname
+
 ## Medium
 
 ## Hard
