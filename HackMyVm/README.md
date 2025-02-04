@@ -110,6 +110,8 @@
 
 (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.php?vm=Find
 
+(55) 2025.02.05 [Translator](./Translator.md) --> https://hackmyvm.eu/machines/machine.php?vm=Translator
+
 ## Medium
 
 ## Hard
