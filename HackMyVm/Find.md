@@ -16,7 +16,7 @@ PORT   STATE SERVICE
 
 直接看 80 web 服务，一般 22 ssh 不会出现直接问题。web 首页是 apache 的服务页面，gobuster 扫描一下隐藏目录。
 
-http://192.168.5.40/robots.txt 提示: find user :) 同时发现一个图片: http://192.168.5.40/cat.jpg 可能有隐写，exiftool 发现 https://commons.wikimedia.org/wiki/File:Cat03.jpg，原图中也有一个cat.jpg，但是这两个cat图片的内容不一样，对比后发现在cat.jpg的末尾中多出来了一串字符串：
+http://192.168.5.40/robots.txt 提示: find user :) 同时发现一个图片: http://192.168.5.40/cat.jpg 。可能有隐写，exiftool 发现 https://commons.wikimedia.org/wiki/File:Cat03.jpg，原图中也有一个cat.jpg，但是这两个cat图片的内容不一样，对比后发现在cat.jpg的末尾中多出来了一串字符串：
 
 ```
 >C<;_"!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\[ZYXWVUTSRQPONMLKJ`_dcba`_^]\Uy<XW
