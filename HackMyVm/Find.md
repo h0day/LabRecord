@@ -2,6 +2,8 @@
 
 2025.02.04 https://hackmyvm.eu/machines/machine.php?vm=Find
 
+[video](https://www.bilibili.com/video/BV1jiPBeqEo5?spm_id_from=333.788.recommend_more_video.-1&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.40
