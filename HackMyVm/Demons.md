@@ -1,6 +1,6 @@
 # Demons
 
-2025.01.03 https://hackmyvm.eu/machines/machine.php?vm=Demons
+2025.02.06 https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Ip
 

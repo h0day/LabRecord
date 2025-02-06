@@ -112,6 +112,8 @@
 
 (55) 2025.02.05 [Translator](./Translator.md) --> https://hackmyvm.eu/machines/machine.php?vm=Translator
 
+(56) 2025.02.06 [Decode](./Decode.md) --> https://hackmyvm.eu/machines/machine.php?vm=Decode
+
 ## Medium
 
 ## Hard
