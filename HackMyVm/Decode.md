@@ -2,6 +2,8 @@
 
 2025.02.06 https://hackmyvm.eu/machines/machine.php?vm=Decode
 
+[video](https://www.bilibili.com/video/BV1AYNNesEBi/?vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.40
