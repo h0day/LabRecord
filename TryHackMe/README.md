@@ -31,3 +31,5 @@
 (14) 2025.02.06 [Video : TheHive Project](https://www.bilibili.com/video/BV1ZbNJepEmx/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/thehiveproject)
 
 (15) 2025.02.06 [Video : Tempest](https://www.bilibili.com/video/BV1ZbNJepEmx/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/tempestincident)
+
+(16) 2025.02.07 [Video : Aurora EDR](https://www.bilibili.com/video/BV1Q5NNeiEB4/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/auroraedr)
