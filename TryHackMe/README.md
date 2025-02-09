@@ -35,3 +35,7 @@
 (16) 2025.02.07 [Video : Aurora EDR](https://www.bilibili.com/video/BV1Q5NNeiEB4/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/auroraedr)
 
 (17) 2025.02.09 [Video : Linux Agency](https://www.bilibili.com/video/BV1LCN2eZEPw/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/linuxagency)
+
+(18) 2025.02.09 [Video : Introduction To Honeypots](https://www.bilibili.com/video/BV1DLNUeRE4Y/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/introductiontohoneypots)
+
+(19) 2025.02.09 [Video : CVE-2023-38408](https://www.bilibili.com/video/BV1HXNmerER4/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/cve202338408)
