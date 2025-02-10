@@ -30,7 +30,7 @@
 
 (14) 2025.02.06 [Video : TheHive Project](https://www.bilibili.com/video/BV1ZbNJepEmx/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/thehiveproject)
 
-(15) 2025.02.06 [Video : Tempest](https://www.bilibili.com/video/BV1ZbNJepEmx/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/tempestincident)
+(15) 2025.02.06 [Video : Tempest](https://www.bilibili.com/video/BV1BVNpecEuA/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/tempestincident)
 
 (16) 2025.02.07 [Video : Aurora EDR](https://www.bilibili.com/video/BV1Q5NNeiEB4/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/auroraedr)
 
@@ -47,3 +47,7 @@
 (22) 2025.02.10 [Video : Advanced ELK Queries_1](https://www.bilibili.com/video/BV1mdNde6Ex9/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/advancedelkqueries)
 
 (23) 2025.02.10 [Video : Advanced ELK Queries_2](https://www.bilibili.com/video/BV1TdNderEDg/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/advancedelkqueries)
+
+(24) 2025.02.10 [Video : Hunt Me I: Payment Collectors](https://www.bilibili.com/video/BV1JUNRe4Efg/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/paymentcollectors)
+
+(25) 2025.02.10 [Video : Hunt Me II: Typo Squatters](https://www.bilibili.com/video/BV1baNReMEKt/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/typosquatters)
