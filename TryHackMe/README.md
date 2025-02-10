@@ -43,3 +43,7 @@
 (20) 2025.02.10 [Video : Tactical Detection](https://www.bilibili.com/video/BV129N9ePEzp/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/tacticaldetection)
 
 (21) 2025.02.10 [Video : Sigma](https://www.bilibili.com/video/BV1fbN9enEp7/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/sigma)
+
+(22) 2025.02.10 [Video : Advanced ELK Queries_1](https://www.bilibili.com/video/BV1mdNde6Ex9/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/advancedelkqueries)
+
+(23) 2025.02.10 [Video : Advanced ELK Queries_2](https://www.bilibili.com/video/BV1TdNderEDg/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/advancedelkqueries)
