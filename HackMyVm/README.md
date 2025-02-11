@@ -116,6 +116,8 @@
 
 (57) 2025.02.11 [Dejavu](./Dejavu.md) --> https://hackmyvm.eu/machines/machine.php?vm=Dejavu
 
+(58) 2025.02.11 [Ephemeral3](./Ephemeral3.md) --> https://hackmyvm.eu/machines/machine.php?vm=Ephemeral3
+
 ## Medium
 
 ## Hard
