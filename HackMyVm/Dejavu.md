@@ -94,7 +94,7 @@ ss -tnlp 发现本地启用了 21 ftp，看看里面有什么，匿名无法登�
 cd /tmp
 tcpdump -i lo port ftp
 
-几秒后显示：
+1分钟后显示：
 FTP: USER robert
 FTP: PASS 9737bo0hFx4
 ```
