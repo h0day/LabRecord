@@ -114,6 +114,8 @@
 
 (56) 2025.02.06 [Decode](./Decode.md) --> https://hackmyvm.eu/machines/machine.php?vm=Decode
 
+(57) 2025.02.11 [Dejavu](./Dejavu.md) --> https://hackmyvm.eu/machines/machine.php?vm=Dejavu
+
 ## Medium
 
 ## Hard
