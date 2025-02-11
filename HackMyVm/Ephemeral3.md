@@ -25,7 +25,7 @@ If you have any questions just email me at henry@ephemeral.com
 
 发现另外一个目录: http://192.168.5.40/agency 但是是个静态网页，其他没发现什么有用信息。
 
-还是关注一下 note 中的提示吧，提示生成了私钥，可以用私钥进行登陆，看看 openssl 有没有可以利用的漏洞，之前有一个 Predictable PRNG Brute Force SSH 进行尝试。
+还是关注一下 note 中的提示吧，提示生成了私钥，可以用私钥进行登陆，看看 openssl 有没有可以利用的漏洞，之前有一个 Predictable PRNG Brute Force SSH 进行尝试。https://www.exploit-db.com/exploits/5720
 
 ```
 searchsploit -m linux/remote/5720.py
