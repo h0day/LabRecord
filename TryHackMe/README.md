@@ -1,7 +1,5 @@
 # TryHackMe List
 
-## SOC1 Path
-
 (1) 2025.02.04 [Video : Threat Intelligence for SOC_1](https://www.bilibili.com/video/BV1rbNce6EW8/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/threatintelligenceforsoc)
 
 (2) 2025.02.04 [Video : Threat Intelligence for SOC_2](https://www.bilibili.com/video/BV1haNwetEhG/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/threatintelligenceforsoc)
