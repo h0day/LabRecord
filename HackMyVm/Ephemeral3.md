@@ -2,6 +2,8 @@
 
 2025.02.11 https://hackmyvm.eu/machines/machine.php?vm=Ephemeral3
 
+[video](https://www.bilibili.com/video/BV1yBNCeeEUQ/?spm_id_from=333.1387.0.0&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.40
