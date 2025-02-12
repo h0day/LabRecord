@@ -278,6 +278,8 @@
 
 (69) 2024-8-11 https://www.vulnhub.com/entry/defcon-toronto-galahad,194/
 
+(70) 2025.02.11 [BULLDOG: 1](./BULLDOG_1.md) --> https://www.vulnhub.com/entry/bulldog-1,211/
+
 ## Medium
 
 ### GoldenEye: 1
