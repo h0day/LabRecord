@@ -2,6 +2,8 @@
 
 2025.02.13 https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/
 
+[video](https://www.bilibili.com/video/BV12NKHerEAD/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.40
