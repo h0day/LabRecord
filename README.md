@@ -14,8 +14,8 @@
 
 ## [07 VulNyx](./VulNyx/README.md)
 
-## [08 dockerlabs](./dockerlabs/README.md)
+## [08 DockerLabs](./DockerLabs/README.md)
 
-## [09 cyberdefenders](./cyberdefenders/README.md)
+## [09 CyberDefenders](./CyberDefenders/README.md)
 
 ## [10 dfir](./dfir/README.md)
