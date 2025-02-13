@@ -18,4 +18,4 @@
 
 ## [09 CyberDefenders](./CyberDefenders/README.md)
 
-## [10 dfir](./dfir/README.md)
+## [10 DFIR](./dfir/README.md)
