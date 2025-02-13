@@ -278,7 +278,9 @@
 
 (69) 2024-8-11 https://www.vulnhub.com/entry/defcon-toronto-galahad,194/
 
-(70) 2025.02.12 [BULLDOG: 1](./BULLDOG_1.md) --> https://www.vulnhub.com/entry/bulldog-1,211/
+(70) 2025.02.12 [BULLDOG: 1](./BULLDOG%201.md) --> https://www.vulnhub.com/entry/bulldog-1,211/
+
+(71) 2025.02.13 [ME AND MY GIRLFRIEND: 1](./ME%20AND%20MY%20GIRLFRIEND_1.md) --> https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/
 
 ## Medium
 
