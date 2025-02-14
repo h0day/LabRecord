@@ -118,6 +118,8 @@
 
 (58) 2025.02.11 [Ephemeral3](./Ephemeral3.md) --> https://hackmyvm.eu/machines/machine.php?vm=Ephemeral3
 
+(59) 2025.02.14 [TheWall](./TheWall.md) --> https://hackmyvm.eu/machines/machine.php?vm=TheWall
+
 ## Medium
 
 ## Hard
