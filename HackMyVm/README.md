@@ -120,6 +120,8 @@
 
 (59) 2025.02.14 [TheWall](./TheWall.md) --> https://hackmyvm.eu/machines/machine.php?vm=TheWall
 
+(60) 2025.02.14 [Crazymed](./Crazymed.md) --> https://hackmyvm.eu/machines/machine.php?vm=Crazymed
+
 ## Medium
 
 ## Hard
