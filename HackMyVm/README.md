@@ -122,6 +122,8 @@
 
 (60) 2025.02.14 [Crazymed](./Crazymed.md) --> https://hackmyvm.eu/machines/machine.php?vm=Crazymed
 
+(61) 2025.02.14 [Hotel](./Hotel.md) --> https://hackmyvm.eu/machines/machine.php?vm=Hotel
+
 ## Medium
 
 ## Hard
