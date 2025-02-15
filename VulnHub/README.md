@@ -282,6 +282,8 @@
 
 (71) 2025.02.13 [ME AND MY GIRLFRIEND: 1](./ME%20AND%20MY%20GIRLFRIEND_1.md) --> https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/
 
+(72) 2025.02.15 [BULLDOG: 2](./BULLDOG%202.md) --> https://www.vulnhub.com/entry/bulldog-2,246/
+
 ## Medium
 
 ### GoldenEye: 1
