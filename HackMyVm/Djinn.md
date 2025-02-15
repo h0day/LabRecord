@@ -197,3 +197,5 @@ lago  root.txt
 # cat root.txt
 HMV{eWVzIHlvdSBhcmUgY29vbA==}
 ```
+
+最后提权到 root，也可以利用 pwnkit 这个版本的漏洞 https://github.com/arthepsy/CVE-2021-4034
