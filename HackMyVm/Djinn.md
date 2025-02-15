@@ -177,7 +177,7 @@ sudo -l 发现 (root) NOPASSWD: /root/lago ，先尝试执行：
 sudo -u root /root/lago
 ```
 
-发现程序显示的内容和上面的 pyc 代码反编译出来的一致，找到执行逻辑，发现 guessit() 可以执行命令，输入 2 直接得到了 root 权限：
+发现程序显示的内容和上面的 pyc 代码反编译出来的一致，找到执行逻辑，发现 guessit() 可以执行命令，输入 2 和 num 直接得到了 root 权限：
 
 ```
 sam@djinn:/home/sam$ sudo -u root /root/lago
