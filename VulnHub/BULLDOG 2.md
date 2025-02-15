@@ -2,7 +2,7 @@
 
 2025.02.15 https://www.vulnhub.com/entry/bulldog-2,246/
 
-[video](https://www.bilibili.com/video/BV1qXKLe5Eu1/?vd_source=aed2f374c732513d2e535afafb1fd2ec)
+[video](https://www.bilibili.com/video/BV1FWATeHE2D/?spm_id_from=333.1387.0.0&vd_source=aed2f374c732513d2e535afafb1fd2ec)
 
 ## Ip
 
