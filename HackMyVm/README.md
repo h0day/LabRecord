@@ -124,6 +124,8 @@
 
 (61) 2025.02.14 [Hotel](./Hotel.md) --> https://hackmyvm.eu/machines/machine.php?vm=Hotel
 
+(62) 2025.02.15 [Djinn](./Djinn.md) --> https://hackmyvm.eu/machines/machine.php?vm=Djinn
+
 ## Medium
 
 ## Hard
