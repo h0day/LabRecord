@@ -49,3 +49,5 @@
 (24) 2025.02.10 [Video : Hunt Me I: Payment Collectors](https://www.bilibili.com/video/BV1JUNRe4Efg/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/paymentcollectors)
 
 (25) 2025.02.10 [Video : Hunt Me II: Typo Squatters](https://www.bilibili.com/video/BV1baNReMEKt/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/typosquatters)
+
+(26) 2025.02.16 [Video : Solar, exploiting log4j](https://www.bilibili.com/video/BV1baNReMEKt/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/solar)
