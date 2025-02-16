@@ -494,7 +494,7 @@
 
 (53) 2025.02.15 [BULLDOG: 2](./BULLDOG%202.md) --> https://www.vulnhub.com/entry/bulldog-2,246/
 
-(54) 2025.02.15 [HACKNOS：OS-HACKNOS](./HACKNOS%20OS-HACKNOS.md) --> https://www.vulnhub.com/entry/hacknos-os-hacknos,401/
+(54) 2025.02.16 [HACKNOS：OS-HACKNOS](./HACKNOS%20OS-HACKNOS.md) --> https://www.vulnhub.com/entry/hacknos-os-hacknos,401/
 
 ## Little Hard
 
