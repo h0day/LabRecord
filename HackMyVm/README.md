@@ -126,6 +126,8 @@
 
 (62) 2025.02.15 [Djinn](./Djinn.md) --> https://hackmyvm.eu/machines/machine.php?vm=Djinn
 
+(63) 2025.02.16 [Blackhat](./Blackhat.md) --> https://hackmyvm.eu/machines/machine.php?vm=Blackhat
+
 ## Medium
 
 ## Hard
