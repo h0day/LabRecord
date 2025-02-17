@@ -2,17 +2,11 @@
 
 ## Easy
 
-### DriftingBlues: 1
+(1) 2024-2-25 [DriftingBlues: 1](DriftingBlues%201.md) --> https://www.vulnhub.com/entry/driftingblues-1,625/#release
 
-(1) 2024-2-25 https://www.vulnhub.com/entry/driftingblues-1,625/#release
+(2) 2024-4-7 [Lampiao: 1](Lampiao%201.md) --> https://www.vulnhub.com/entry/lampiao-1,249/#release
 
-### Lampiao: 1
-
-(2) 2024-4-7 https://www.vulnhub.com/entry/lampiao-1,249/#release
-
-### Tr0ll: 1
-
-(3) 2024-4-9 https://www.vulnhub.com/entry/tr0ll-1,100/
+(3) 2024-4-9 [Tr0ll: 1](Tr0ll%201.md) --> https://www.vulnhub.com/entry/tr0ll-1,100/
 
 ### Lord Of The Root: 1.0.1
 
