@@ -500,11 +500,11 @@
 
 ## Little Hard
 
-(1) 2024-5-30 [Glasgow Smile: 1.1](Glasgow%20Smile%201.1.md) https://www.vulnhub.com/entry/glasgow-smile-11,491/
+(1) 2024-5-30 [Glasgow Smile: 1.1](Glasgow%20Smile%201.1.md) --> https://www.vulnhub.com/entry/glasgow-smile-11,491/
 
 ### Insanity: 1
 
-(2) 2024-5-30 [Insanity: 1](Insanity%201.md) https://www.vulnhub.com/entry/insanity-1,536/
+(2) 2024-5-30 [Insanity: 1](Insanity%201.md) --> https://www.vulnhub.com/entry/insanity-1,536/
 
 ### Insanity: 1 <-- pwn not finish
 
