@@ -452,21 +452,19 @@
 
 (45) 2024-7-31 https://www.vulnhub.com/entry/tommy-boy-1,157/
 
-### Vulnerable Docker: 1
+(46) 2024-7-31 [Vulnerable Docker: 1](./Vulnerable%20Docker%201.md) --> https://www.vulnhub.com/entry/vulnerable-docker-1,208/
 
-(46) 2024-7-31 [Vulnerable Docker: 1](Vulnerable%20Docker%201.md) --> https://www.vulnhub.com/entry/vulnerable-docker-1,208/
-
-(47) 2024-8-10 [SolidState: 1](SolidState%201.md) --> https://www.vulnhub.com/entry/solidstate-1,261/
+(47) 2024-8-10 [SolidState: 1](./SolidState%201.md) --> https://www.vulnhub.com/entry/solidstate-1,261/
 
 (48) 2024-8-10 [Wallaby's: Nightmare (v1.0.2)](<Wallaby's%20Nightmare%20(v1.0.2).md>) --> https://www.vulnhub.com/entry/wallabys-nightmare-v102,176/
 
-(49) 2024-8-11 [Moria: 1.1](Moria%201.1.md) --> https://www.vulnhub.com/entry/moria-11,187/
+(49) 2024-8-11 [Moria: 1.1](./Moria%201.1.md) --> https://www.vulnhub.com/entry/moria-11,187/
 
-(50) 2024-11-6 [TopHatSec: Freshly](TopHatSec%20Freshly.md) --> https://www.vulnhub.com/entry/tophatsec-freshly,118/
+(50) 2024-11-6 [TopHatSec: Freshly](./TopHatSec%20Freshly.md) --> https://www.vulnhub.com/entry/tophatsec-freshly,118/
 
-(51) 2024-11-7 [Born2Root: 2](Born2Root%202.md) --> https://www.vulnhub.com/entry/born2root-2,291/
+(51) 2024-11-7 [Born2Root: 2](./Born2Root%202.md) --> https://www.vulnhub.com/entry/born2root-2,291/
 
-(52) 2024-12-28 [Pegasus: 1](Pegasus%201.md) --> https://www.vulnhub.com/entry/pegasus-1,109/
+(52) 2024-12-28 [Pegasus: 1](./Pegasus%201.md) --> https://www.vulnhub.com/entry/pegasus-1,109/
 
 (53) 2025.02.15 [BULLDOG: 2](./BULLDOG%202.md) --> https://www.vulnhub.com/entry/bulldog-2,246/
 
@@ -478,12 +476,12 @@
 
 ## Little Hard
 
-(1) 2024-5-30 [Glasgow Smile: 1.1](Glasgow%20Smile%201.1.md) --> https://www.vulnhub.com/entry/glasgow-smile-11,491/
+(1) 2024-5-30 [Glasgow Smile: 1.1](./Glasgow%20Smile%201.1.md) --> https://www.vulnhub.com/entry/glasgow-smile-11,491/
 
 ### Insanity: 1
 
-(2) 2024-5-30 [Insanity: 1](Insanity%201.md) --> https://www.vulnhub.com/entry/insanity-1,536/
+(2) 2024-5-30 [Insanity: 1](./Insanity%201.md) --> https://www.vulnhub.com/entry/insanity-1,536/
 
-### Insanity: 1 <-- pwn not finish
+### djinn: 3
 
-(3) 2024-5-31 https://www.vulnhub.com/entry/insanity-1,536/
+(3) 2024-5-31 [djinn: 3](./djinn%203.md) --> https://www.vulnhub.com/entry/djinn-3,492/
