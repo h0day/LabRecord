@@ -1,6 +1,6 @@
 # HACKNOS: OS-HACKNOS-2.1
 
-2025.02.17 https://www.vulnhub.com/entry/hacknos-os-hacknos-21,403/
+2025.02.18 https://www.vulnhub.com/entry/hacknos-os-hacknos-21,403/
 
 [video]()
 

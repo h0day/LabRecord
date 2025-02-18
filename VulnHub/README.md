@@ -474,6 +474,8 @@
 
 (55) 2025.02.17 [HACKNOS: OS-BYTESEC](./HACKNOS%20OS-BYTESEC.md) --> https://www.vulnhub.com/entry/hacknos-os-bytesec,393/
 
+(56) 2025.02.18 [HACKNOS: OS-HACKNOS-2.1](./HACKNOS%20OS-HACKNOS-2.1.md) --> https://www.vulnhub.com/entry/hacknos-os-hacknos-21,403/
+
 ## Little Hard
 
 (1) 2024-5-30 [Glasgow Smile: 1.1](Glasgow%20Smile%201.1.md) --> https://www.vulnhub.com/entry/glasgow-smile-11,491/
