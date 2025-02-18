@@ -442,7 +442,7 @@
 
 ### Pinky's Palace: v3 <-- pwn not finish
 
-(43) 2024-7-10 https://www.vulnhub.com/entry/pinkys-palace-v3,237/
+--> (43) 2024-7-10 https://www.vulnhub.com/entry/pinkys-palace-v3,237/
 
 ### BILLY MADISON: 1.1
 
