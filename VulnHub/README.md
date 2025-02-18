@@ -42,7 +42,7 @@
 
 ### Brainpan: 1 <-- pwn not finish
 
-(12) 2024-4-19 https://www.vulnhub.com/entry/brainpan-1,51/
+--> (12) 2024-4-19 https://www.vulnhub.com/entry/brainpan-1,51/
 
 ### PwnLab: init
 
