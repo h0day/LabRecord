@@ -2,6 +2,8 @@
 
 2025.02.19 https://hackmyvm.eu/machines/machine.php?vm=WMessage
 
+[video]()
+
 ## Ip
 
 192.168.5.40
@@ -54,7 +56,26 @@ sudo /bin/md5sum  /var/www/ROOTPASS
 85c73111b30f9ede8504bb4a4b682f48
 ```
 
-对其 hashcat 后得到密码 Message5687 直接 su 切换到 root，得到了 root flag:
+hashcat 和 john 解密不出来，写了一个简单的 py 脚本进行解密：
+
+```
+import hashlib
+
+def md5_encrypt(data):
+    md5 = hashlib.md5()
+    md5.update(data.encode('utf-8'))
+    return md5.hexdigest()
+
+hashStr = '85c73111b30f9ede8504bb4a4b682f48'
+
+for line in open('/usr/share/wordlists/rockyou.txt', encoding="utf-8", errors="ignore"):
+    encrypted_data = md5_encrypt(line)
+    if hashStr == encrypted_data:
+        print("找到PASS", line)
+        break
+```
+
+得到密码 Message5687 直接 su 切换到 root，得到了 root flag:
 
 ```
 root@MSG:~# cat Root.txt
