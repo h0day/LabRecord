@@ -80,7 +80,7 @@
 
 (39) 2024-12-28 [Hundred](./Hundred.md) --> https://hackmyvm.eu/machines/machine.php?vm=Hundred
 
---> (40) 2024.12.28 [Convert](./Convert.md) --> https://hackmyvm.eu/machines/machine.php?vm=Convert
+----> (40) 2024.12.28 [Convert](./Convert.md) --> https://hackmyvm.eu/machines/machine.php?vm=Convert
 
 (41) 2024.12.29 [Stars](./Stars.md) --> https://hackmyvm.eu/machines/machine.php?vm=Stars
 
@@ -130,7 +130,7 @@
 
 (64) 2025.02.19 [WMessage](./WMessage.md) --> https://hackmyvm.eu/machines/machine.php?vm=WMessage
 
---> (6x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
+----> (6x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Medium
 
