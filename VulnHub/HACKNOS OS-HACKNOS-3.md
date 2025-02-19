@@ -2,6 +2,8 @@
 
 2025.02.19 https://www.vulnhub.com/entry/hacknos-os-hacknos-3,410/
 
+[video](https://www.bilibili.com/video/BV1gJABexE6o/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.40
@@ -63,3 +65,5 @@ Linkedin: https://in.linkedin.com/in/rahulgehlaut
 ```
 
 同时也可以利用 CVE-2021-4034 PwnKit 直接提权到 root。
+
+最后看了一下其他的解决方式，发现 /var/local/database 文件,是一个利用 https://www.spammimic.com/spreadsheet.php?action=decode 编码的文件，可以将其内容进行解码，得到了密码 Security@x@，此密码为用户 blackdevil 的，切换成功后，sudo -l 有 ALL 权限，同样可以提权到 root。
