@@ -14,6 +14,6 @@ PORT   STATE SERVICE
 80/tcp open  http
 ```
 
-扫描发现http://192.168.5.40/upload.php ffuf 探测一下参数，没找到。看到 80 首页底部提示：find the Bug You need extra WebSec
+扫描发现http://192.168.5.40/upload.php ffuf 探测一下参数，没找到。
 
-在访问 http://192.168.5.40/websec/ 目录得到新的页面，gobuster 再次扫描，发现了一个文件包含的 url http://192.168.5.40/websec/log/?url=about
+看到 80 首页底部提示：find the Bug You need extra WebSec , 访问 http://192.168.5.40/websec/ 目录得到新的页面，gobuster 再次扫描，发现了一个文件包含的 url http://192.168.5.40/websec/log/?url=about
