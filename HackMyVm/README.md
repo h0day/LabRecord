@@ -134,6 +134,8 @@
 
 (66) 2025.02.20 [Arroutada](./Arroutada.md) --> https://hackmyvm.eu/machines/machine.php?vm=Arroutada
 
+(67) 2025.02.20 [Medusa](./Medusa.md) --> https://hackmyvm.eu/machines/machine.php?vm=Medusa
+
 ----> (6x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Medium
