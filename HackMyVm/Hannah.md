@@ -28,6 +28,12 @@ PORT    STATE SERVICE VERSION
 
 80 web robots.txt 显示 /enlightenment 访问后是 404，扫描后也没其他路径。
 
+看看 ident 的功能定义：
+
+```
+此包是一个简单的 PERL 脚本，用于查询 ident 服务 (113/TCP)，以确定监听目标系统每个 TCP 端口的进程的所有者。这有助于在渗透测试期间确定目标服务的优先级（您可能希望首先攻击以 root 身份运行的服务）。或者，收集的用户名列表可用于对其他网络服务进行密码猜测攻击。
+```
+
 再看 ident 113 端口枚举出来的服务运行用户信息，moksha 和 root，现在有一个用户名，尝试 rockyou 爆破，得到登陆密码: hannah ， ssh 登陆该用户。
 
 得到 user flag：
