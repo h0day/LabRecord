@@ -105,3 +105,15 @@ congrats hacker :)
 
 34b1e6fc5e7fe0bfd56ed4b8776c9f5b
 ```
+
+看看配置的 vhost 信息：
+
+```
+<VirtualHost *:80>
+ ServerName dev.medusa.hmv
+ DocumentRoot /var/www/dev
+ <Directory /var/www/dev>
+   AllowOverride All
+ </Directory>
+</VirtualHost>
+```
