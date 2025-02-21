@@ -136,6 +136,8 @@
 
 (67) 2025.02.20 [Medusa](./Medusa.md) --> https://hackmyvm.eu/machines/machine.php?vm=Medusa
 
+(68) 2025.02.21 [Uvalde](./Uvalde.md) --> https://hackmyvm.eu/machines/machine.php?vm=Uvalde
+
 ----> (6x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Medium
