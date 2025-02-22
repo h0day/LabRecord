@@ -142,6 +142,8 @@
 
 (70) 2025.02.22 [Friendly2](./Friendly2.md) --> https://hackmyvm.eu/machines/machine.php?vm=Friendly2
 
+(71) 2025.02.22 [Darkside](./Darkside.md) --> https://hackmyvm.eu/machines/machine.php?vm=Darkside
+
 ----> (6x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Medium
