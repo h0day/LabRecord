@@ -145,7 +145,7 @@ which nc
 /bin/nc
 ```
 
-用 wget 将后门 php 代码下载到/var/www/html 根目录中 ,kali 上监听 8888 端口，curl 访问这个上传的 php 页面，进行反弹。
+用 wget 将后门 php 代码下载到/var/www/html 根目录中 , kali 上监听 8888 端口，curl 访问这个上传的 php 页面，进行反弹。
 
 os-shell 上执行：
 

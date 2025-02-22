@@ -144,6 +144,8 @@
 
 (71) 2025.02.13 [ME AND MY GIRLFRIEND: 1](./ME%20AND%20MY%20GIRLFRIEND_1.md) --> https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/
 
+(72) 2025.02.22 [DC: 3.2](./DC%203.2.md) --> https://www.vulnhub.com/entry/dc-32,312/
+
 ## Medium
 
 (1) 2024-4-7 [GoldenEye: 1](GoldenEye%201.md) --> https://www.vulnhub.com/entry/goldeneye-1,240/#release
