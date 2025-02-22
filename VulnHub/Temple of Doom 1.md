@@ -27,7 +27,7 @@ PORT    STATE SERVICE VERSION
 
 访问 http://192.168.10.176:666/ 页面上提示：Under Construction, Come Back Later!
 
-对 666web 端口扫描下目录，没有扫描到其他目录信息。
+对 666 web 端口扫描下目录，没有扫描到其他目录信息。
 
 看样子我们的攻击路径，就是在这个 nodejs 服务上了。再次访问后出现了错误提示：
 

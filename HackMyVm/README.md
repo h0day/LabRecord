@@ -138,6 +138,8 @@
 
 (68) 2025.02.21 [Uvalde](./Uvalde.md) --> https://hackmyvm.eu/machines/machine.php?vm=Uvalde
 
+(69) 2025.02.22 [Friendly](./Friendly.md) --> https://hackmyvm.eu/machines/machine.php?vm=Friendly
+
 ----> (6x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Medium
