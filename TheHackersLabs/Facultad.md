@@ -2,7 +2,7 @@
 
 2025.02.24 https://thehackerslabs.com/facultad/
 
-[video]()
+[video](https://www.bilibili.com/video/BV1gHPWeDERV/?spm_id_from=333.1387.0.0&vd_source=aed2f374c732513d2e535afafb1fd2ec)
 
 ## Ip
 
