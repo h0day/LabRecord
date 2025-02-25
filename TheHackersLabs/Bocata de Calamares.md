@@ -56,7 +56,7 @@ sqlmap -u http://192.168.5.40/login.php --data='alias=admin&password=1*' --batch
 我创建了一个新页面，以便能够读取内部服务器文件，每天我都是更好的程序员。我也已经编码了基于名称的64，因此没人能找到它（Lee_archivos）。
 ```
 
-对后面的单词进行 base64，要带换行符，否则 base64 后是 bGVlX2FyY2hpdm9z 爆 404：
+对后面的单词进行 base64，要带换行符，否则 base64 后是 bGVlX2FyY2hpdm9z 页面爆 404：
 
 ```
 echo lee_archivos|base64
