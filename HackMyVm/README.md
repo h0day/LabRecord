@@ -144,6 +144,8 @@
 
 (71) 2025.02.22 [Darkside](./Darkside.md) --> https://hackmyvm.eu/machines/machine.php?vm=Darkside
 
+(72) 2025.02.25 [W140](./W140.md) --> https://hackmyvm.eu/machines/machine.php?vm=W140
+
 ----> (7x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Medium
