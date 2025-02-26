@@ -73,3 +73,13 @@ root.txt  webmin-1.920	webmin-1.920.tar.gz
 root@debian:~# cat root.txt
 u5T7vCnO1pQ2zRwX8gLdN6bJyK3mVxY
 ```
+
+最后在执行命令的时候也可以读取到 webmin 的配置文件从而获得 webmin 的登陆凭据：
+
+```
+root@debian:/opt# cat 'CMS Webmin.txt'
+url: https://IP:10000
+login: santaclaus / FelizNavidad2024
+```
+
+然后在左侧 Tools -> CommandShell 中也可以执行命令，不过这里估计想不到有这么个用户凭据文件。
