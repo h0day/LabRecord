@@ -7,3 +7,5 @@
 (3) 2025-2-25 [Bocata de Calamares](./Bocata%20de%20Calamares.md) --> https://thehackerslabs.com/bocata-de-calamares/
 
 (4) 2025-2-25 [Binary Trail](./Binary%20Trail.md) --> https://thehackerslabs.com/binary-trail/
+
+(6) 2025-2-26 [Campana feliz](./Campana%20feliz.md) --> https://thehackerslabs.com/campana-feliz/
