@@ -9,3 +9,5 @@
 (4) 2025-2-25 [Binary Trail](./Binary%20Trail.md) --> https://thehackerslabs.com/binary-trail/
 
 (5) 2025-2-26 [Campana feliz](./Campana%20feliz.md) --> https://thehackerslabs.com/campana-feliz/
+
+(6) 2025-2-26 [TheFirstAvenger](./TheFirstAvenger.md) --> https://thehackerslabs.com/thefirstavenger/
