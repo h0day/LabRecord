@@ -146,6 +146,8 @@
 
 (72) 2025.02.25 [W140](./W140.md) --> https://hackmyvm.eu/machines/machine.php?vm=W140
 
+(73) 2025.02.26 [Crack](./Crack.md) --> https://hackmyvm.eu/machines/machine.php?vm=Crack
+
 ----> (7x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Medium
