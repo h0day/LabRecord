@@ -97,3 +97,5 @@ cat tmp|awk -F '192.168.5.3/' '{print $2}'|awk -F ' ' '{print $1}' > root_rsa
 root@crack:~# cat root_fl4g.txt
 wRt2xlFjcYqXXo4HMV
 ```
+
+当 /etc/vsftpd.conf 配置文件中允许匿名用户登陆时 anonymous_enable=YES ，默认的匿名登陆文件目录就在 /srv/ftp/
