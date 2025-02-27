@@ -108,7 +108,7 @@
 
 (53) 2025.01.03 [Hostname](./Hostname.md) --> https://hackmyvm.eu/machines/machine.php?vm=Hostname
 
-(54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.php?vm=Find
+v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.php?vm=Find
 
 (55) 2025.02.05 [Translator](./Translator.md) --> https://hackmyvm.eu/machines/machine.php?vm=Translator
 

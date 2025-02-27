@@ -140,7 +140,7 @@
 
 (69) 2024-8-11 [DEFCON Toronto: Galahad](./DEFCON%20TORONTO%20GALAHAD.md) --> https://www.vulnhub.com/entry/defcon-toronto-galahad,194/
 
-(70) 2025.02.12 [BULLDOG: 1](./BULLDOG%201.md) --> https://www.vulnhub.com/entry/bulldog-1,211/
+v-> (70) 2025.02.12 [BULLDOG: 1](./BULLDOG%201.md) --> https://www.vulnhub.com/entry/bulldog-1,211/
 
 (71) 2025.02.13 [ME AND MY GIRLFRIEND: 1](./ME%20AND%20MY%20GIRLFRIEND_1.md) --> https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/
 
@@ -254,7 +254,7 @@
 
 (52) 2024-12-28 [Pegasus: 1](./Pegasus%201.md) --> https://www.vulnhub.com/entry/pegasus-1,109/
 
-(53) 2025.02.15 [BULLDOG: 2](./BULLDOG%202.md) --> https://www.vulnhub.com/entry/bulldog-2,246/
+v-> (53) 2025.02.15 [BULLDOG: 2](./BULLDOG%202.md) --> https://www.vulnhub.com/entry/bulldog-2,246/
 
 (54) 2025.02.16 [HACKNOS：OS-HACKNOS](./HACKNOS%20OS-HACKNOS.md) --> https://www.vulnhub.com/entry/hacknos-os-hacknos,401/
 
