@@ -2,6 +2,8 @@
 
 2025.02.27 https://thehackerslabs.com/la-corporacion/
 
+[video](https://www.bilibili.com/video/BV1Kb9AYFEdT/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## DFIR 分析抓包数据
 
 依次分析这 3 个数据包 viernes.pcap, sabado.pcap, domingo.pcap
