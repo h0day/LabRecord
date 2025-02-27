@@ -17,7 +17,7 @@ PORT     STATE SERVICE
 
 web 扫描发现 http://192.168.5.40/info.php 是 phpinfo 页面，mysql 版本 mysqlnd 5.0.12-dev ，仔细看一下 info.php 中 mysql 的配置信息，发现 mysqli.allow_local_infile = on 这里就可以加载客户端所在系统的文件到数据库，同时 open_basedir 没有设置。
 
-发现另外一个页面 http://192.168.5.40/adminer.php 是个数据库管理页面，同时发现版本是 4.4.0 。这里就可以结合上面的配置，读取运行 adminer 网页的系统上的文件，前提是只要这个 adminer 能够连接远程的 mysql 服务就可以，adminer 默认开启远程连接。在 adminer 的后续高版本上已经修复了这个本地读取的漏洞。
+发现另外一个页面 http://192.168.5.40/adminer.php 是个数据库管理页面，同时发现版本是 4.4.0 。这里就可以结合上面的配置，读取运行 adminer 网页的系统上的文件，前提是只要这个 adminer 能够连接远程的 mysql 服务就可以，adminer 默认开启远程连接。在 adminer 的后续高版本 4.6.3 上已经修复了这个本地读取的漏洞。
 
 发现 http://192.168.5.40/reminder.php 里面说密码在 txt 文件中，然后下面是一个搜索 username 的搜索框，输入单引号报错，存在 sql 注入，直接使用 sqlmap 跑，但是没发现信息，查看源码，发现图片的路径有提示：
 
@@ -112,6 +112,8 @@ P: I_mean...WhoThoughtLettingTheMySQLClientTransmitFilesWasAGoodIdea?Sheesh
 ```
 
 这里有这个漏洞的详细解析：https://wiki.96.mk/Web%E5%AE%89%E5%85%A8/Adminer/Adminer%20%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%E6%BC%8F%E6%B4%9E/
+
+也可以直接使用这个 https://github.com/p0dalirius/CVE-2021-43008-AdminerRead exp 的利用。
 
 登陆后拿到了 user flag：
 
