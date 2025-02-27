@@ -65,3 +65,19 @@ define('DB_NAME', 'webapphacking');
 同时发现 1 个用户 hackme，但是上面这个数据库的连接密码不是这个用户的。
 
 发现 suid 程序 /home/legacy/touchmenot，运行后直接得到了 root 权限。
+
+对这个程序进行逆向看到了大概的源码信息：
+
+```
+int32_t main (void) {
+    edi = 0;
+    setuid ();
+    edx = 0;
+    rsi = "bash";
+    rdi = "/bin/bash";
+    eax = 0;
+    execl ();
+    eax = 0;
+    return eax;
+}
+```
