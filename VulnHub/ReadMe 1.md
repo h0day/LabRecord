@@ -122,7 +122,7 @@ julian@readme:~$ cat  user.txt
 
 julian 没有 sudo 权限，同时其他 suid 和 crontab 等都没有利用路径。
 
-这里在另外一个用户 /home/tatham 中发现了 payload.bin 和 poc.c ，根据文件命名，像是提权提示。需要得到 payload.bin 中的 shellcode 信息，将 payload 中的二进制代码复制到 poc.c 中进行编译，并且做了一些汇编代码修复。
+这里在另外一个用户 /home/tatham 中发现了 payload.bin 和 poc.c ，根据文件命名，像是提权提示。需要得到 payload.bin 中的 shellcode 信息，将 payload 中的二进制代码复制到 poc.c 中进行编译，并且用 gdb 做了一些汇编代码修复。
 
 最终得到了该用户的登陆密码：
 
