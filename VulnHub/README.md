@@ -262,7 +262,7 @@
 
 (57) 2025.02.19 [hackNos: Os-hackNos-3](./hackNos%20Os-hackNos-3.md) --> https://www.vulnhub.com/entry/hacknos-os-hacknos-3,410/
 
-(58) 2025.02.27 [ReadMe: 1](./ReadMe%201.md) --> https://www.vulnhub.com/entry/readme-1,336/
+(58) 2025.02.27 [ReadMe: 1](./ReadMe%201.md) --> https://www.vulnhub.com/entry/readme-1,336/ 有 rev
 
 ## Little Hard
 
