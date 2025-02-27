@@ -4,7 +4,7 @@
 
 这个靶机使用 virtualbox 导入有问题，使用 vmware 可以导入。
 
-[video]()
+[video](https://www.bilibili.com/video/BV13B9wYPEQ8/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
 
 ## Ip
 
