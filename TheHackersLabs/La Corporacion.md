@@ -33,7 +33,7 @@ CVE-2021-41773.sh
 (5) What day was the attempted intrusion recorded?
 
 ```
-2024-11-28 12:54:28
+2024-11-28
 ```
 
 (6) What is the IP address from which the attack came?
