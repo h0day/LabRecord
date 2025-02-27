@@ -11,3 +11,5 @@
 (5) 2025-2-26 [Campana feliz](./Campana%20feliz.md) --> https://thehackerslabs.com/campana-feliz/
 
 (6) 2025-2-26 [TheFirstAvenger](./TheFirstAvenger.md) --> https://thehackerslabs.com/thefirstavenger/
+
+(7) 2025-2-27 [La Corporación](./La%20Corporacion.md) --> https://thehackerslabs.com/la-corporacion/
