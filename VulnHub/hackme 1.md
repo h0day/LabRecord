@@ -1,8 +1,10 @@
 # hackme: 1
 
-2025.02.22 https://www.vulnhub.com/entry/hackme-1,330/
+2025.02.27 https://www.vulnhub.com/entry/hackme-1,330/
 
 这个靶机使用 virtualbox 导入有问题，使用 vmware 可以导入。
+
+[video]()
 
 ## Ip
 
