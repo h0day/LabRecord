@@ -15,3 +15,5 @@
 (7) 2025-2-27 [La Corporación](./La%20Corporacion.md) --> https://thehackerslabs.com/la-corporacion/
 
 (8) 2025-2-27 [TickTackRoot](./TickTackRoot.md) --> https://thehackerslabs.com/ticktackroot/
+
+(9) 2025-2-28 [CanYouHackMe](./CanYouHackMe.md) --> https://thehackerslabs.com/canyouhackme/
