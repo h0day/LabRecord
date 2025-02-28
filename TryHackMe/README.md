@@ -61,3 +61,5 @@
 (30) 2025.02.23 [Video : Custom Alert Rules in Wazuh](https://www.bilibili.com/video/BV1JZA2ehEab/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/customalertrulesinwazuh)
 
 (31) 2025.02.23 [Video : Mouse Trap](https://www.bilibili.com/video/BV1yTA2evEjN/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/mousetrap)
+
+(32) 2025.02.28 [Video : KaffeeSec - SoMeSINT](https://www.bilibili.com/video/BV1kU9uYzEqZ/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/somesint)
