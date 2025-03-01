@@ -268,6 +268,8 @@ v-> (53) 2025.02.15 [BULLDOG: 2](./BULLDOG%202.md) --> https://www.vulnhub.com/e
 
 (58) 2025.02.27 [ReadMe: 1](./ReadMe%201.md) --> https://www.vulnhub.com/entry/readme-1,336/ 有 rev
 
+(59) 2025.03.01 [GitRoot：1](./GitRoot%201.md) --> https://www.vulnhub.com/entry/gitroot-1,488/
+
 ## Little Hard
 
 (1) 2024-5-30 [Glasgow Smile: 1.1](./Glasgow%20Smile%201.1.md) --> https://www.vulnhub.com/entry/glasgow-smile-11,491/
