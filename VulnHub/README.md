@@ -148,6 +148,8 @@ v-> (70) 2025.02.12 [BULLDOG: 1](./BULLDOG%201.md) --> https://www.vulnhub.com/e
 
 (73) 2025.02.27 [hackme: 1](./hackme%201.md) --> https://www.vulnhub.com/entry/hackme-1,330/
 
+(74) 2025.03.01 [Bob: 1.0.1](./Bob%201.0.1.md) --> https://www.vulnhub.com/entry/bob-101,226/
+
 ## Medium
 
 (1) 2024-4-7 [GoldenEye: 1](GoldenEye%201.md) --> https://www.vulnhub.com/entry/goldeneye-1,240/#release
