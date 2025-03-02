@@ -2,6 +2,8 @@
 
 2025.03.02 https://www.vulnhub.com/entry/healthcare-1,522/
 
+[video](https://www.bilibili.com/video/BV1ZBXfYiEzR/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.39
