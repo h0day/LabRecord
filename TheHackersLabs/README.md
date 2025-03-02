@@ -17,3 +17,5 @@
 (8) 2025-2-27 [TickTackRoot](./TickTackRoot.md) --> https://thehackerslabs.com/ticktackroot/
 
 (9) 2025-2-28 [CanYouHackMe](./CanYouHackMe.md) --> https://thehackerslabs.com/canyouhackme/
+
+(10) 2025-3-2 [Avengers](./Avengers.md) --> https://thehackerslabs.com/avengers/
