@@ -2,7 +2,7 @@
 
 2025.03.03 https://thehackerslabs.com/statue/
 
-[video](https://www.bilibili.com/video/BV1ub9tYKEZB/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+[video](https://www.bilibili.com/video/BV1UE9YY7Exh/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
 
 ## Ip
 
