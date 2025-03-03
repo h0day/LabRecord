@@ -150,6 +150,8 @@ v-> (70) 2025.02.12 [BULLDOG: 1](./BULLDOG%201.md) --> https://www.vulnhub.com/e
 
 (74) 2025.03.01 [Bob: 1.0.1](./Bob%201.0.1.md) --> https://www.vulnhub.com/entry/bob-101,226/
 
+(75) 2025.03.03 [EVM: 1](./EVM%201.md) --> https://www.vulnhub.com/entry/evm-1,391/
+
 ## Medium
 
 (1) 2024-4-7 [GoldenEye: 1](GoldenEye%201.md) --> https://www.vulnhub.com/entry/goldeneye-1,240/#release
