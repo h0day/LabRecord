@@ -18,7 +18,7 @@ PORT      STATE SERVICE
 
 10000 端口对应的是 webmin，版本 MiniServ 1.920 (Webmin httpd) ，存在 unauthenticated RCE，使用常用用户名和密码尝试登陆没成功。
 
-使用 msf 中的这个利用 exploit/linux/http/webmin_backdoor
+使用 msf 中的这个利用 exploit/linux/http/webmin_backdoor (This module exploits a backdoor in Webmin versions 1.890 through 1.920.)
 
 先拿到了 user flag：
 
