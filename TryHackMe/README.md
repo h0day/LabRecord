@@ -64,4 +64,4 @@
 
 (32) 2025.02.28 [Video : KaffeeSec - SoMeSINT](https://www.bilibili.com/video/BV1kU9uYzEqZ/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/somesint)
 
-(33) 2025.03.05 [Video : Intro to Threat Emulation]() --> [OfficalSite](https://tryhackme.com/room/threatemulationintro)
+(33) 2025.03.05 [Video : Intro to Threat Emulation](https://www.bilibili.com/video/BV1qx9sY6EQa/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/threatemulationintro)
