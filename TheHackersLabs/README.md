@@ -30,4 +30,4 @@
 
 (15) 2025-03-05 [FindMe](./FindMe.md) --> https://thehackerslabs.com/find-me/
 
-(15) 2025-03-06 [PizzaHot](./PizzaHot.md) --> https://thehackerslabs.com/pizzahot/
+(16) 2025-03-06 [PizzaHot](./PizzaHot.md) --> https://thehackerslabs.com/pizzahot/
