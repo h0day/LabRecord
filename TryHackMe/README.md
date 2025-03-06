@@ -69,3 +69,5 @@
 (34) 2025.03.05 [Video : Looney Tunables](https://www.bilibili.com/video/BV1Dr9sY8EhJ/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/looneytunes)
 
 (35) 2025.03.06 [Video : PrintNightmare](https://www.bilibili.com/video/BV1gbRwYPErw/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/printnightmarehpzqlp8)
+
+(36) 2025.03.06 [Video : PrintNightmare, again!](https://www.bilibili.com/video/BV1HMRPYxE1X/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/printnightmarec2bn7l)
