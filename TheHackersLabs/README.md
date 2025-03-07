@@ -33,3 +33,5 @@
 (16) 2025-03-06 [PizzaHot](./PizzaHot.md) --> https://thehackerslabs.com/pizzahot/
 
 (17) 2025-03-06 [Decryptor](./Decryptor.md) --> https://thehackerslabs.com/decryptor/
+
+(18) 2025-03-07 [Fruits](./Fruits.md) --> https://thehackerslabs.com/fruits/
