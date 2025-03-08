@@ -45,3 +45,5 @@
 (22) 2025-03-08 [Zapas Guapas](./Zapas%20Guapas.md) --> https://thehackerslabs.com/zapas-guapas/
 
 (23) 2025-03-08 [Academy](./Academy.md) --> https://thehackerslabs.com/academy/
+
+(24) 2025-03-08 [Papafrita](./Papafrita.md) --> https://thehackerslabs.com/papafrita/
