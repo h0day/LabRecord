@@ -41,3 +41,5 @@
 (20) 2025-03-08 [Grillo](./Grillo.md) --> https://thehackerslabs.com/grillo/
 
 (21) 2025-03-08 [Cyberpunk](./Cyberpunk.md) --> https://thehackerslabs.com/cyberpunk/
+
+(22) 2025-03-08 [Zapas Guapas](./Zapas%20Guapas.md) --> https://thehackerslabs.com/zapas-guapas/
