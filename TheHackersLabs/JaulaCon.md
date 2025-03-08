@@ -82,7 +82,9 @@ env x='() { :;}; echo Vulnerable' bash -c "echo This is a test"
 
 登陆后，可以输入 url 下载文件，这里可能存在 SSRF。输入一个 http 请求，提示不是管理员，需要寻找提升到管理员的方法。
 
-3333 对应的 web 服务是 Node.js 搭建的，可能存在 Prototype Pollution。利用过程如下：
+3333 对应的 web 服务是 Node.js 搭建的，可能存在 Prototype Pollution，当创建新对象时，会传入原型“对象”的属性和方法，其中包含 toString、constructor 和 hasOwnProperty 等基本功能，一旦对`__proto__`属性进行更改，它就会应用于正在运行的应用程序中的所有 JavaScript 对象，包括在操作后创建的对象。
+
+利用过程如下：
 
 1. 先使用上面的用户凭据登陆，然后获得 cookie 中的 admin_session 值:
 
