@@ -39,3 +39,5 @@
 (19) 2025-03-07 [Mortadela](./Mortadela.md) --> https://thehackerslabs.com/mortadela/
 
 (20) 2025-03-08 [Grillo](./Grillo.md) --> https://thehackerslabs.com/grillo/
+
+(21) 2025-03-08 [Cyberpunk](./Cyberpunk.md) --> https://thehackerslabs.com/cyberpunk/
