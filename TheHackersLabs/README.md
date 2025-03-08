@@ -47,3 +47,5 @@
 (23) 2025-03-08 [Academy](./Academy.md) --> https://thehackerslabs.com/academy/
 
 (24) 2025-03-08 [Papafrita](./Papafrita.md) --> https://thehackerslabs.com/papafrita/
+
+(25) 2025-03-08 [JaulaCon](./JaulaCon.md) --> https://thehackerslabs.com/jaulacon/
