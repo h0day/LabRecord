@@ -75,3 +75,7 @@
 (37) 2025.03.09 [Video : Prototype Pollution](https://www.bilibili.com/video/BV18YR4YqEQq/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/prototypepollution)
 
 (38) 2025.03.09 [Video : Request Smuggling: WebSockets](https://www.bilibili.com/video/BV1y1R4YbEww/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/wsrequestsmuggling)
+
+(39) 2025.03.09 [Video : Atomic Bird Goes Purple #1](https://www.bilibili.com/video/BV1uER8YyES6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/atomicbirdone)
+
+(40) 2025.03.09 [Video : Atomic Bird Goes Purple #2](https://www.bilibili.com/video/BV17AR8YREez/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/atomicbirdtwo)
