@@ -79,3 +79,5 @@
 (39) 2025.03.09 [Video : Atomic Bird Goes Purple #1](https://www.bilibili.com/video/BV1uER8YyES6/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/atomicbirdone)
 
 (40) 2025.03.09 [Video : Atomic Bird Goes Purple #2](https://www.bilibili.com/video/BV17AR8YREez/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/atomicbirdtwo)
+
+(41) 2025.03.09 [Video : Length Extension Attacks](https://www.bilibili.com/video/BV13LR8Y2EQb/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/lengthextensionattacks)
