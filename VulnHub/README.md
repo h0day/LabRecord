@@ -278,6 +278,8 @@ v-> (53) 2025.02.15 [BULLDOG: 2](./BULLDOG%202.md) --> https://www.vulnhub.com/e
 
 pwn---> (61) 2025.03.03 [sunset: dawn2](./sunset%20dawn2.md) --> https://www.vulnhub.com/entry/sunset-dawn2,424/
 
+(62) 2025.03.11 [/dev/random: Pipe](./Pipe.md) --> https://www.vulnhub.com/entry/devrandom-pipe,124/
+
 ## Little Hard
 
 (1) 2024-5-30 [Glasgow Smile: 1.1](./Glasgow%20Smile%201.1.md) --> https://www.vulnhub.com/entry/glasgow-smile-11,491/
