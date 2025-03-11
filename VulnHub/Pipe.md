@@ -2,6 +2,8 @@
 
 2025.03.11 https://www.vulnhub.com/entry/devrandom-pipe,124/
 
+[video](https://www.bilibili.com/video/BV1YqQGYoEG7/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.39
