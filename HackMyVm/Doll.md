@@ -2,6 +2,8 @@
 
 2025.03.12 https://hackmyvm.eu/machines/machine.php?vm=Doll
 
+[video]()
+
 ## Ip
 
 192.168.5.39
@@ -117,7 +119,7 @@ juHDnnGMYNIkVgfnMV
 
 sudo -l 显示 `(ALL) NOPASSWD: /usr/bin/fzf --listen\=1337` man 查看帮助 fzf - a command-line fuzzy finder 是一个内容模糊查找提示软件。
 
-尝试执行: `sudo -u root /usr/bin/fzf --listen=1337` 在 127.0.0.1 上会创建一个在 web 上可以执行搜索的服务，在目标机器上使用 curl 发送需要执行的命令：
+尝试执行: `sudo -u root /usr/bin/fzf --listen=1337` 在 127.0.0.1 上会创建一个在 web 上可以执行搜索的服务，在目标机器上使用 curl 发送 execute 命令(fzf --bind "enter:execute(less {})")：
 
 ```
 curl http://127.0.0.1:1337/ -d 'execute(echo 1 > /tmp/test.txt)'
