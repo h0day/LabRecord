@@ -148,6 +148,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (73) 2025.02.26 [Crack](./Crack.md) --> https://hackmyvm.eu/machines/machine.php?vm=Crack
 
+(74) 2025.03.12 [Doll](./Doll.md) --> https://hackmyvm.eu/machines/machine.php?vm=Doll
+
 ----> (7x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Medium
