@@ -152,6 +152,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (75) 2025.03.12 [Deeper](./Deeper.md) --> https://hackmyvm.eu/machines/machine.php?vm=Deeper
 
+(76) 2025.03.12 [Aurora](./Aurora.md) --> https://hackmyvm.eu/machines/machine.php?vm=Aurora
+
 ----> (7x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Medium
