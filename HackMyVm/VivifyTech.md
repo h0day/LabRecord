@@ -2,6 +2,8 @@
 
 2025.03.13 https://hackmyvm.eu/machines/machine.php?vm=VivifyTech
 
+[video](https://www.bilibili.com/video/BV1ZYQNYjEdy/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
+
 ## Ip
 
 192.168.5.39
