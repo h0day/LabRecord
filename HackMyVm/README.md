@@ -156,7 +156,7 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (77) 2025.03.13 [VivifyTech](./VivifyTech.md) --> https://hackmyvm.eu/machines/machine.php?vm=VivifyTech
 
-----> (7x) 2025.02.x [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
+(78) 2025.03.14 [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
 ## Medium
 
