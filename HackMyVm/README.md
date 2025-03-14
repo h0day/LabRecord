@@ -158,6 +158,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (78) 2025.03.14 [Demons](./Demons.md) --> https://hackmyvm.eu/machines/machine.php?vm=Demons
 
+(79) 2025.03.14 [Friendly3](./Friendly3.md) --> https://hackmyvm.eu/machines/machine.php?vm=Friendly3
+
 ## Medium
 
 ## Hard
