@@ -19,7 +19,7 @@ ftp 可匿名登陆，下载了一个 mdb 文件，打开时有密码。经过�
 
 其中可以看到宏定义的脚本文件，去除额外的字符串，得到了 ssh 私钥的信息：
 
-```
+```vb
 Option Compare Database
 
 Function KeyGood() As Boolean
