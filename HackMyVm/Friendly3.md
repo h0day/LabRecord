@@ -2,7 +2,7 @@
 
 2025.03.14 https://hackmyvm.eu/machines/machine.php?vm=Friendly3
 
-[video]()
+[video](https://www.bilibili.com/video/BV1fYQzY5EeU/?spm_id_from=333.1387.upload.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
 
 ## Ip
 
