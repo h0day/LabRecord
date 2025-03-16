@@ -51,3 +51,5 @@
 (25) 2025-03-08 [JaulaCon](./JaulaCon.md) --> https://thehackerslabs.com/jaulacon/
 
 (26) 2025-03-16 [Quokka](./Quokka.md) --> https://thehackerslabs.com/quokka/ (win)
+
+(27) 2025-03-16 [Microchoft](./Microchoft.md) --> https://thehackerslabs.com/microchoft/ (win)
