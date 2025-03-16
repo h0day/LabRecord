@@ -53,3 +53,5 @@
 (26) 2025-03-16 [Quokka](./Quokka.md) --> https://thehackerslabs.com/quokka/ (win)
 
 (27) 2025-03-16 [Microchoft](./Microchoft.md) --> https://thehackerslabs.com/microchoft/ (win)
+
+(28) 2025-03-16 [Cocido Andaluz](./Cocido%20Andaluz.md) --> https://thehackerslabs.com/cocido-andaluz/ (win)
