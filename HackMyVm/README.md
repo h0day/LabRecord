@@ -162,6 +162,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (80) 2025.03.17 [Whitedoor](./Whitedoor.md) --> https://hackmyvm.eu/machines/machine.php?vm=Whitedoor
 
+(81) 2025.03.17 [Jabita](./Jabita.md) --> https://hackmyvm.eu/machines/machine.php?vm=Jabita
+
 ## Medium
 
 ## Hard
