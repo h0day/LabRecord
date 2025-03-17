@@ -168,6 +168,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (83) 2025.03.17 [RoosterRun](./RoosterRun.md) --> https://hackmyvm.eu/machines/machine.php?vm=RoosterRun
 
+(84) 2025.03.17 [Economists](./Economists.md) --> https://hackmyvm.eu/machines/machine.php?vm=Economists
+
 ## Medium
 
 ## Hard
