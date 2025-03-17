@@ -170,6 +170,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (84) 2025.03.17 [Economists](./Economists.md) --> https://hackmyvm.eu/machines/machine.php?vm=Economists
 
+(85) 2025.03.17 [p4l4nc4](./p4l4nc4.md) --> https://hackmyvm.eu/machines/machine.php?vm=p4l4nc4
+
 ## Medium
 
 ## Hard
