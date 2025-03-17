@@ -113,3 +113,10 @@ su 切换到 root，拿到 root flag:
 root@oliva:~# cat rutflag.txt
 HMVnuTkm4MwFQNPmMJHRyW7
 ```
+
+最后记得 umount 磁盘，并且关闭 luks 加密磁盘:
+
+```
+sudo umount m
+sudo cryptsetup close m
+```
