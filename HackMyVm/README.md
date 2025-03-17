@@ -164,6 +164,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (81) 2025.03.17 [Jabita](./Jabita.md) --> https://hackmyvm.eu/machines/machine.php?vm=Jabita
 
+(82) 2025.03.17 [Oliva](./Oliva.md) --> https://hackmyvm.eu/machines/machine.php?vm=Oliva
+
 ## Medium
 
 ## Hard
