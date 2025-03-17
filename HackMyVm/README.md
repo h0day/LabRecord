@@ -166,6 +166,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (82) 2025.03.17 [Oliva](./Oliva.md) --> https://hackmyvm.eu/machines/machine.php?vm=Oliva
 
+(83) 2025.03.17 [RoosterRun](./RoosterRun.md) --> https://hackmyvm.eu/machines/machine.php?vm=RoosterRun
+
 ## Medium
 
 ## Hard
