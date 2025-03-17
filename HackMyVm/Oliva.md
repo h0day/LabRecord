@@ -33,6 +33,7 @@ hashcat -m 14600 -a 0 oliva-drive-cut.dd /usr/share/wordlist/rockyou.txt
 在找一下其他的破解工具，找到了这个可以破解 v2 版本的文件 bruteforce-luks L
 
 ```
+sudo apt install bruteforce-luks
 bruteforce-luks -t 16 -f /usr/share/wordlists/rockyou.txt oliva -v 5
 ```
 
