@@ -172,6 +172,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (85) 2025.03.17 [p4l4nc4](./p4l4nc4.md) --> https://hackmyvm.eu/machines/machine.php?vm=p4l4nc4
 
+(86) 2025.03.18 [Animetronic](./Animetronic.md) --> https://hackmyvm.eu/machines/machine.php?vm=Animetronic
+
 ## Medium
 
 ## Hard
