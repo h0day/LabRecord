@@ -87,3 +87,5 @@
 (43) 2025.03.09 [Video : x86 Assembly Crash Course](https://www.bilibili.com/video/BV1eaRhY9EjG/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/x86assemblycrashcourse)
 
 (44) 2025.03.18 [Video : Tomcat: CVE-2024-50379](https://www.bilibili.com/video/BV1mwXjYcE2J/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec) --> [OfficalSite](https://tryhackme.com/room/tomcatcve202450379)
+
+(45) 2025.03.21 [Hackfinity Battle](./Hackfinity%20Battle.md)
