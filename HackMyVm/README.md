@@ -174,6 +174,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (86) 2025.03.18 [Animetronic](./Animetronic.md) --> https://hackmyvm.eu/machines/machine.php?vm=Animetronic
 
+(87) 2025.03.23 [CoffeeShop](./CoffeeShop.md) --> https://hackmyvm.eu/machines/machine.php?vm=CoffeeShop
+
 ## Medium
 
 ## Hard
