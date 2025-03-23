@@ -10,7 +10,13 @@
 
 ## Scan
 
-tcp 上没开放端口，udp 上开放了 623/udp open asf-rmcp 是一种 IPMI 协议，在 msf 中有这样的扫描模块：auxiliary/scanner/ipmi/ipmi_cipher_zero 确认存在漏洞之后，可以使用这个模块 dump 枚举出的用户的密码 auxiliary/scanner/ipmi/ipmi_dumphashes (参考链接 https://hacktricks.boitatech.com.br/pentesting/623-udp-ipmi)
+tcp 上没开放端口，udp 上开放了 623/udp open asf-rmcp 是一种 IPMI 协议：
+
+```
+sudo nmap -sU --min-rate 10000 --top-ports 2000 192.168.5.40
+```
+
+在 msf 中有这样的扫描模块：auxiliary/scanner/ipmi/ipmi_cipher_zero 确认存在漏洞之后，可以使用这个模块 dump 枚举出的用户的密码 auxiliary/scanner/ipmi/ipmi_dumphashes (参考链接 https://hacktricks.boitatech.com.br/pentesting/623-udp-ipmi)
 
 ```
 Hash for user 'admin' matches password 'cukorborso'
