@@ -178,6 +178,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (88) 2025.03.23 [Za1](./Za1.md) --> https://hackmyvm.eu/machines/machine.php?vm=Za1
 
+(89) 2025.03.23 [Atom](./Atom.md) --> https://hackmyvm.eu/machines/machine.php?vm=Atom
+
 ## Medium
 
 ## Hard
