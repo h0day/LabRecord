@@ -2,7 +2,7 @@
 
 2025.03.23 https://hackmyvm.eu/machines/machine.php?vm=Za1
 
-[video]()
+[video](https://www.bilibili.com/video/BV1MSXaY5EBb/?spm_id_from=333.1387.collection.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
 
 ## Ip
 
