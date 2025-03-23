@@ -176,6 +176,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (87) 2025.03.23 [CoffeeShop](./CoffeeShop.md) --> https://hackmyvm.eu/machines/machine.php?vm=CoffeeShop
 
+(88) 2025.03.23 [Za1](./Za1.md) --> https://hackmyvm.eu/machines/machine.php?vm=Za1
+
 ## Medium
 
 ## Hard
