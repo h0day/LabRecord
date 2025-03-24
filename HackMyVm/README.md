@@ -184,6 +184,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (91) 2025.03.24 [First](./First.md) --> https://hackmyvm.eu/machines/machine.php?vm=First
 
+(92) 2025.03.24 [Teacher](./Teacher.md) --> https://hackmyvm.eu/machines/machine.php?vm=Teacher
+
 ## Medium
 
 ## Hard
