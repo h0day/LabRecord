@@ -180,6 +180,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (89) 2025.03.23 [Atom](./Atom.md) --> https://hackmyvm.eu/machines/machine.php?vm=Atom
 
+(90) 2025.03.24 [Nebula](./Nebula.md) --> https://hackmyvm.eu/machines/machine.php?vm=Nebula
+
 ## Medium
 
 ## Hard
