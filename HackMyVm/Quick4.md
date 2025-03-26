@@ -2,7 +2,7 @@
 
 2025.03.26 https://hackmyvm.eu/machines/machine.php?vm=Quick4
 
-[video]()
+[video](https://www.bilibili.com/video/BV1vEoqYyEAR/?spm_id_from=333.1387.homepage.video_card.click&vd_source=aed2f374c732513d2e535afafb1fd2ec)
 
 ## Ip
 
