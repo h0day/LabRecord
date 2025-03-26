@@ -188,6 +188,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (93) 2025.03.25 [Slowman](./Slowman.md) --> https://hackmyvm.eu/machines/machine.php?vm=Slowman
 
+(94) 2025.03.26 [Vinylizer](./Vinylizer.md) --> https://hackmyvm.eu/machines/machine.php?vm=Vinylizer
+
 ## Medium
 
 ## Hard
