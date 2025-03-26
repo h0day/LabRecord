@@ -194,6 +194,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (96) 2025.03.26 [Quick4](./Quick4.md) --> https://hackmyvm.eu/machines/machine.php?vm=Quick4
 
+(97) 2025.03.26 [Liceo](./Liceo.md) --> https://hackmyvm.eu/machines/machine.php?vm=Liceo
+
 ## Medium
 
 ## Hard
