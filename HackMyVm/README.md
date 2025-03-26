@@ -192,6 +192,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (95) 2025.03.26 [Apaches](./Apaches.md) --> https://hackmyvm.eu/machines/machine.php?vm=Apaches
 
+(96) 2025.03.26 [Quick4](./Quick4.md) --> https://hackmyvm.eu/machines/machine.php?vm=Quick4
+
 ## Medium
 
 ## Hard

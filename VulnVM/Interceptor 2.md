@@ -18,6 +18,6 @@ PORT    STATE SERVICE
 445/tcp open  microsoft-ds
 ```
 
-smb 上不允许匿名登陆。
+smb 上枚举出一个用户 smbuser 但是没爆破出它的用户密码。
 
 发现 wordpress http://192.168.5.40/wordpress/
