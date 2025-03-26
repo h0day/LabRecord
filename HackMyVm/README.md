@@ -190,6 +190,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (94) 2025.03.26 [Vinylizer](./Vinylizer.md) --> https://hackmyvm.eu/machines/machine.php?vm=Vinylizer
 
+(95) 2025.03.26 [Apaches](./Apaches.md) --> https://hackmyvm.eu/machines/machine.php?vm=Apaches
+
 ## Medium
 
 ## Hard
