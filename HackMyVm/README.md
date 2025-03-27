@@ -198,6 +198,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (98) 2025.03.27 [Pipy](./Pipy.md) --> https://hackmyvm.eu/machines/machine.php?vm=Pipy
 
+(99) 2025.03.27 [Quick3](./Quick3.md) --> https://hackmyvm.eu/machines/machine.php?vm=Quick3
+
 ## Medium
 
 ## Hard
