@@ -204,6 +204,10 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (101) 2025.03.28 [XMAS](./XMAS.md) --> https://hackmyvm.eu/machines/machine.php?vm=XMAS
 
+(102) 2025.03.28 [Chromatica](./Chromatica.md) --> https://hackmyvm.eu/machines/machine.php?vm=Chromatica
+
+(103) 2025.03.28 [Quick2](./Quick2.md) --> https://hackmyvm.eu/machines/machine.php?vm=Quick2
+
 ## Medium
 
 ## Hard
