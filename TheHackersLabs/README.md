@@ -61,3 +61,5 @@
 ## ADVANCED
 
 (1) 2025-03-24 [Bridgenton](./Bridgenton.md) --> https://thehackerslabs.com/bridgenton/
+
+(2) 2025-03-28 [Shined](./Shined.md) --> https://thehackerslabs.com/shined/
