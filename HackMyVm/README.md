@@ -202,6 +202,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (100) 2025.03.27 [SaveSanta](./SaveSanta.md) --> https://hackmyvm.eu/machines/machine.php?vm=SaveSanta
 
+(101) 2025.03.28 [XMAS](./XMAS.md) --> https://hackmyvm.eu/machines/machine.php?vm=XMAS
+
 ## Medium
 
 ## Hard
