@@ -35,10 +35,10 @@ fa229046d44eda6a3598c73ad96f4ca5
 
 拿到 think 用户私钥，使用私钥登陆。
 
-suid 发现 run_container 可以执行脚本 /opt/run_container.sh 并且有修改权限，但是提示不能修改，查看 think 的 bash 发现是/usr/sbin/ash
+suid 发现 run_container 可以执行脚本 /opt/run_container.sh 并且有修改权限，但是提示不能修改，系统开启了 apparmor，查看 think 的 bash 发现是/usr/sbin/ash 进行绕过：
 
 ```
-/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 /bin/bash
+/lib64/ld-linux-x86-64.so.2 /bin/bash
 ```
 
 ```
