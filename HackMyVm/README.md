@@ -208,6 +208,8 @@ v-> (54) 2025.02.04 [Find](./Find.md) --> https://hackmyvm.eu/machines/machine.p
 
 (103) 2025.03.28 [Quick2](./Quick2.md) --> https://hackmyvm.eu/machines/machine.php?vm=Quick2
 
+(104) 2025.03.29 [Publisher](./Publisher.md) --> https://hackmyvm.eu/machines/machine.php?vm=Publisher
+
 ## Medium
 
 ## Hard
